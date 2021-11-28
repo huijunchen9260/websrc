@@ -21,6 +21,9 @@ BLOG_SRC ?= articles
 ARTICLES = $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
 TAGFILES = $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
 
+test:
+	echo $(ARTICLES)
+
 help:
 	$(info make init|build|deploy|clean|taglist)
 

@@ -1,6 +1,6 @@
 # Principle of Macroeconomics, Summer 2021
 
-ECON 2002.01, The Ohio State University, Autumn 2021
+ECON 2002.01, The Ohio State University, Summer 2021
 
 [Syllabus](pdf/PrincipleMacroSummer2021/SYLLABUS.pdf)
 
