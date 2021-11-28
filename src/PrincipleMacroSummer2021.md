@@ -24,5 +24,5 @@ ECON 2002.01, The Ohio State University, Autumn 2021
 - [Unit 17](https://youtu.be/tfpdEXwhnyY)
 
 
-;tags: teaching
+;tags: Teaching
 

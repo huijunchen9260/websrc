@@ -45,6 +45,7 @@ init:
 	printf 'blog\n' > .git/info/exclude
 
 build: blog/index.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
+	rsync -r ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
 	rsync -r data/* blog/
 	rsync -r blog/ ../web/
 
@@ -62,7 +63,8 @@ config:
 
 tags/%: $(BLOG_SRC)/%.md
 	mkdir -p tags
-	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@
+	# grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr ',' '\n' | sed 's/^ *//g;s/ *$$//g;/^$$/ d' | sort -u > $@
+	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-zA-Z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@
 
 blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
 	mkdir -p blog
@@ -140,7 +142,7 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	mkdir -p blog
 	TITLE="$(shell head -n1 $< | sed 's/^# \+//')"; \
 	export TITLE; \
-	PAGE_TITLE="$${TITLE} Recipe -- $(BLOG_TITLE)"; \
+	PAGE_TITLE="$${TITLE} -- $(BLOG_TITLE)"; \
 	export PAGE_TITLE; \
 	AUTHOR="$(shell git log --format="%an" -- "$<" | tail -n 1)"; \
 	export AUTHOR; \
