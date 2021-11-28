@@ -27,25 +27,25 @@ test:
 help:
 	$(info make init|build|deploy|clean|taglist)
 
-init:
-	mkdir -p $(BLOG_SRC) data templates
-	printf '<!DOCTYPE html><html><head><title>$$TITLE</title></head><body>' > templates/header.html
-	printf '</body></html>' > templates/footer.html
-	printf '' > templates/index_header.html
-	printf '<p>Tags:' > templates/tag_list_header.html
-	printf '<a href="$$URL">$$NAME</a>' > templates/tag_entry.html
-	printf ', ' > templates/tag_separator.html
-	printf '</p>' > templates/tag_list_footer.html
-	printf '<h2>Articles</h2><ul id=artlist>' > templates/article_list_header.html
-	printf '<li><a href="$$URL">$$DATE $$TITLE</a></li>' > templates/article_entry.html
-	printf '' > templates/article_separator.html
-	printf '</ul>' > templates/article_list_footer.html
-	printf '' > templates/index_footer.html
-	printf '' > templates/tag_index_header.html
-	printf '' > templates/tag_index_footer.html
-	printf '' > templates/article_header.html
-	printf '' > templates/article_footer.html
-	printf 'blog\n' > .git/info/exclude
+# init:
+# 	mkdir -p $(BLOG_SRC) data templates
+# 	printf '<!DOCTYPE html><html><head><title>$$TITLE</title></head><body>' > templates/header.html
+# 	printf '</body></html>' > templates/footer.html
+# 	printf '' > templates/index_header.html
+# 	printf '<p>Tags:' > templates/tag_list_header.html
+# 	printf '<a href="$$URL">$$NAME</a>' > templates/tag_entry.html
+# 	printf ', ' > templates/tag_separator.html
+# 	printf '</p>' > templates/tag_list_footer.html
+# 	printf '<h2>Articles</h2><ul id=artlist>' > templates/article_list_header.html
+# 	printf '<li><a href="$$URL">$$DATE $$TITLE</a></li>' > templates/article_entry.html
+# 	printf '' > templates/article_separator.html
+# 	printf '</ul>' > templates/article_list_footer.html
+# 	printf '' > templates/index_footer.html
+# 	printf '' > templates/tag_index_header.html
+# 	printf '' > templates/tag_index_footer.html
+# 	printf '' > templates/article_header.html
+# 	printf '' > templates/article_footer.html
+# 	printf 'blog\n' > .git/info/exclude
 
 build: blog/index.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
 	rsync -r ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
@@ -66,7 +66,6 @@ config:
 
 tags/%: $(BLOG_SRC)/%.md
 	mkdir -p tags
-	# grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr ',' '\n' | sed 's/^ *//g;s/ *$$//g;/^$$/ d' | sort -u > $@
 	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-zA-Z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@
 
 blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))

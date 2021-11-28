@@ -6,4 +6,4 @@ CSE 5523, The Ohio State University, Autumn 2021
 
 
 
-;tags: Notes
+;tags: Miscellaneous
