@@ -1,4 +1,4 @@
-BLOG_TITLE:=Hui-Jun Chen
+BLOG_TITLE:=Hui-Jun Chen's Webpage
 BLOG_REMOTE:=/var/www/huijunchen9260.github.io/
 BLOG_DATE_FORMAT_INDEX:=%F
 BLOG_DATE_FORMAT:=%F

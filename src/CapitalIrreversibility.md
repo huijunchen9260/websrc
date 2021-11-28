@@ -1,0 +1,4 @@
+# Capital Irreversibility
+
+
+;tags: WorkingPaper
