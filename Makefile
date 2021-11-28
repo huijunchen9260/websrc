@@ -72,8 +72,10 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
+	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
+	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/index_header.html >> $@; \
 	envsubst < templates/tag_list_header.html >> $@; \
