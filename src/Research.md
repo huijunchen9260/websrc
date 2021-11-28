@@ -1,7 +1,6 @@
 # Research
 
-This is a research page
+My research interests are mainly lies in Macroeconomics.
 
-[Referee Report](pdf/ECON8871RefereeReport.pdf)
 
 ;tags: research

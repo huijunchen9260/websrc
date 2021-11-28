@@ -46,6 +46,8 @@ init:
 
 build: blog/index.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
 	rsync -r data/* blog/
+	rsync -r blog/ ../web/
+
 
 deploy: build
 	rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
