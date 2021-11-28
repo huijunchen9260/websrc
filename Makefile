@@ -77,6 +77,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
+	markdown < index.md >> $@; \
 	envsubst < templates/index_header.html >> $@; \
 	envsubst < templates/tag_list_header.html >> $@; \
 	first=true; \
@@ -88,7 +89,6 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 		first=false; \
 	done >> $@; \
 	envsubst < templates/tag_list_footer.html >> $@; \
-	markdown < index.md >> $@; \
 	envsubst < templates/article_list_header.html >> $@; \
 	first=true; \
 	echo $(ARTICLES); \
