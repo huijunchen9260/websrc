@@ -13,7 +13,7 @@
       307 Arps Hall, 1945 N High St <br>
       Columbus, Ohio, USA 43210
   <p><a href="pdf/HJChen-CV.pdf">CV</a></p>
-  <p><a href="@Research.html">Research</a></p>
+  <p><a href="research.html">Research</a></p>
   <p><a href="@Teaching.html">Teaching</a></p>
   <p>
   <p>

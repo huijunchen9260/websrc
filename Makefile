@@ -21,8 +21,20 @@ BLOG_SRC ?= articles
 ARTICLES = $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
 TAGFILES = $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
 
+.ONESHELL:
 test:
-	echo $(ARTICLES)
+	f1=true; f2=true;
+	for f in $(ARTICLES); do
+		grep -qE "; *tags: .*WorkingPaper.*" "$$f" && {
+			"$$f1" && WP="$$f" || WP="$$WP,$$f"
+			f1=false
+		}
+		grep -qE "; *tags: .*PublishedPaper.*" "$$f" && {
+			"$$f2" && PUB="$$f" || PUB="$$PUB,$$f"
+			f2=false
+		}
+	done
+	echo $$WP $$PUB
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -47,7 +59,7 @@ help:
 # 	printf '' > templates/article_footer.html
 # 	printf 'blog\n' > .git/info/exclude
 
-build: blog/index.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
+build: blog/index.html blog/research.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
 	rsync -r ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
 	rsync -r data/* blog/
 	rsync -r blog/ ../web/
@@ -107,44 +119,69 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	envsubst < templates/index_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
-blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
+.ONESHELL:
+blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header research_list_header research_entry research_separator research_list_footer article_list_header article_entry article_separator article_list_footer research_footer footer))
 	mkdir -p blog
-	TITLE="$(BLOG_TITLE)"; \
-	PAGE_TITLE="$(BLOG_TITLE) -- Research"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
-	export TITLE; \
-	export PAGE_TITLE; \
-	export DATE_EDITED; \
-	envsubst < templates/header.html > $@; \
-	envsubst < templates/index_header.html >> $@; \
-	markdown < research.md >> $@; \
-	envsubst < templates/tag_list_header.html >> $@; \
-	first=true; \
-	for t in WorkingPaper PublishedPaper; do \
-		"$$first" || envsubst < templates/tag_separator.html; \
-		NAME="$$t" \
-		URL="@$$t.html" \
-		envsubst < templates/tag_entry.html; \
-		first=false; \
-	done >> $@; \
-	envsubst < templates/tag_list_footer.html >> $@; \
-	envsubst < templates/article_list_header.html >> $@; \
-	first=true; \
-	echo $(ARTICLES); \
-	for f in $(ARTICLES); do \
-		printf '%s ' "$$f"; \
-		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-	done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
-		"$$first" || envsubst < templates/article_separator.html; \
-		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
-		DATE="$$DATE" \
-		TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-		envsubst < templates/article_entry.html; \
-		first=false; \
-	done >> $@; \
-	envsubst < templates/article_list_footer.html >> $@; \
-	envsubst < templates/index_footer.html >> $@; \
-	envsubst < templates/footer.html >> $@; \
+	TITLE="$(BLOG_TITLE)"
+	PAGE_TITLE="$(BLOG_TITLE) -- Research"
+	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"
+	export TITLE
+	export PAGE_TITLE
+	export DATE_EDITED
+	envsubst < templates/header.html > $@
+	envsubst < templates/research_header.html >> $@
+	f1=true; f2=true;
+	for f in $(ARTICLES); do
+		grep -qE "; *tags: .*WorkingPaper.*" "$$f" && {
+			"$$f1" && WP="$$f" || WP="$$WP,$$f"
+			f1=false
+		}
+		grep -qE "; *tags: .*PublishedPaper.*" "$$f" && {
+			"$$f2" && PUB="$$f" || PUB="$$PUB,$$f"
+			f2=false
+		}
+	done
+	[ $$WP == "" ] && [ $$PUB == "" ] && echo "<h1>Under Construction</h1>" && exit
+	[ $$WP != "" ] && {
+		echo "<h2>Working Papers</h2>" >> $@
+		envsubst < templates/research_list_header.html >> $@
+		first=true
+		IFS=","
+		for f in $$WP; do
+			printf '%s ' "$$f"
+			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"
+		done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do
+			"$$first" || envsubst < templates/article_separator.html
+			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html"
+			DATE="$$DATE"
+			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`"
+			envsubst < templates/article_entry.html
+			first=false
+		done >> $@
+		unset IFS
+		envsubst < templates/research_list_footer.html >> $@
+	}
+	[ $$PUB != "" ] && {
+		echo "<h2>Publications</h2>" >> $@
+		envsubst < templates/research_list_header.html >> $@
+		first=true
+		IFS=","
+		for f in $$PUB; do
+			printf '%s ' "$$f"
+			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"
+		done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do
+			"$$first" || envsubst < templates/article_separator.html
+			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html"
+			DATE="$$DATE"
+			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`"
+			envsubst < templates/article_entry.html
+			first=false
+		done >> $@
+		unset IFS
+		envsubst < templates/research_list_footer.html >> $@
+	}
+	envsubst < templates/research_footer.html >> $@
+	envsubst < templates/footer.html >> $@
 
 
 blog/tag/%.html: $(ARTICLES) $(addprefix templates/,$(addsuffix .html,header tag_header index_entry tag_footer footer))
