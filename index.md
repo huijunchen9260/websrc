@@ -14,7 +14,7 @@
       Columbus, Ohio, USA 43210
   <p><a href="pdf/HJChen-CV.pdf">CV</a></p>
   <p><a href="research.html">Research</a></p>
-  <p><a href="@Teaching.html">Teaching</a></p>
+  <p><a href="teaching.html">Teaching</a></p>
   <p>
   <p>
   </td>

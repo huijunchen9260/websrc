@@ -9,7 +9,7 @@ ECON 2002.01, The Ohio State University, Summer 2021
 - [Unit 1](https://youtu.be/j2xNxtsa2Uk)
 - [Unit 2](https://youtu.be/bmlgp_Pqecw)
 - [Unit 3]()
-- [Unit 6 Part 1]()
+- [Unit 6 Part 1](https://youtu.be/WnCUIAaRwrQ)
 - [Unit 6 Part 2](https://youtu.be/41vHVk0yL-4)
 - [Unit 7](https://youtu.be/UgF-HO1If3w)
 - [Unit 9](https://youtu.be/tdM3XLQt76A)
