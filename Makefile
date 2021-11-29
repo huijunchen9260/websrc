@@ -60,9 +60,9 @@ help:
 # 	printf 'blog\n' > .git/info/exclude
 
 build: blog/index.html blog/research.html blog/teaching.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
-	rsync -r ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
-	rsync -r data/* blog/
-	rsync -r blog/ ../web/
+	rsync -urtvzP ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
+	rsync -urtvzP data/* blog/
+	rsync -urtvzP blog/ ../web/
 
 
 deploy: build
