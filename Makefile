@@ -132,18 +132,23 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 	envsubst < templates/research_header.html >> $@
 	f1=true; f2=true;
 	for f in $(ARTICLES); do
-		grep -qE "; *tags: .*WorkingPaper.*" "$$f" && {
+		grep -qE "; *tags: .*Working.*" "$$f" && {
 			"$$f1" && WP="$$f" || WP="$$WP,$$f"
 			f1=false
 		}
-		grep -qE "; *tags: .*PublishedPaper.*" "$$f" && {
+		grep -qE "; *tags: .*Published.*" "$$f" && {
 			"$$f2" && PUB="$$f" || PUB="$$PUB,$$f"
 			f2=false
 		}
 	done
-	[ $$WP == "" ] && [ $$PUB == "" ] && echo "<h1>Under Construction</h1>" && exit
-	[ $$WP != "" ] && {
-		echo "<h2>Working Papers</h2>" >> $@
+	[ -z "$$WP" ] && [ -z "$$PUB" ] && {
+		echo "<h1>Under Construction</h1>" >> $@
+		envsubst < templates/research_footer.html >> $@
+		envsubst < templates/footer.html >> $@
+		exit
+	}
+	[ -n "$$WP" ] && {
+		echo "<h2>Working</h2>" >> $@
 		envsubst < templates/research_list_header.html >> $@
 		first=true
 		IFS=","
@@ -161,8 +166,8 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 		unset IFS
 		envsubst < templates/research_list_footer.html >> $@
 	}
-	[ $$PUB != "" ] && {
-		echo "<h2>Publications</h2>" >> $@
+	[ -n "$$PUB" ] && {
+		echo "<h2>Published</h2>" >> $@
 		envsubst < templates/research_list_header.html >> $@
 		first=true
 		IFS=","
