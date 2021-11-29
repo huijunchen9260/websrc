@@ -1,0 +1,6 @@
+# Capital Irreversibility
+
+
+
+;tags: Working
+

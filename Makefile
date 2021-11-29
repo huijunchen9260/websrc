@@ -107,7 +107,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	for f in $(ARTICLES); do \
 		printf '%s ' "$$f"; \
 		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-	done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+	done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 		"$$first" || envsubst < templates/article_separator.html; \
 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 		DATE="$$DATE" \
@@ -119,7 +119,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	envsubst < templates/index_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
-blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header article_list_header article_entry article_separator article_list_footer research_footer footer))
+blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header article_list_header article_entry article_separator article_list_footer research_footer footer))
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
@@ -129,6 +129,7 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/research_header.html >> $@; \
+	markdown < research.md >> $@; \
 	f1=true; f2=true; \
 	for f in $(ARTICLES); do \
 		grep -qE "; *tags: .*Working.*" "$$f" && { "$$f1" && WP="$$f" || WP="$$WP $$f"; f1=false; }; \
@@ -147,7 +148,7 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 		for f in $$WP; do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
@@ -164,7 +165,7 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 		for f in $$PUB; do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
@@ -177,7 +178,7 @@ blog/research.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 	envsubst < templates/research_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@
 
-blog/teaching.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header teaching_header article_list_header article_entry article_separator article_list_footer teaching_footer footer))
+blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header teaching_header article_list_header article_entry article_separator article_list_footer teaching_footer footer))
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Teaching -- $(BLOG_TITLE)"; \
@@ -187,6 +188,7 @@ blog/teaching.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/teaching_header.html >> $@; \
+	markdown < teaching.md >> $@; \
 	f1=true; \
 	for f in $(ARTICLES); do \
 		grep -qE "; *tags: .*Teaching.*" "$$f" && { "$$f1" && ="$$f" || WP="$$WP $$f"; f1=false; }; \
@@ -204,7 +206,7 @@ blog/teaching.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .
 		for f in $$WP; do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
@@ -238,7 +240,7 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 	for f in $(shell awk '$$0 == "$*" { gsub("tags", "$(BLOG_SRC)", FILENAME); print FILENAME  ".md"; nextfile; }' $(TAGFILES)); do \
 		printf '%s ' "$$f"; \
 		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-	done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+	done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 		"$$first" || envsubst < templates/article_separator.html; \
 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 		DATE="$$DATE" \
