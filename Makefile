@@ -107,6 +107,45 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	envsubst < templates/index_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
+blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
+	mkdir -p blog
+	TITLE="$(BLOG_TITLE)"; \
+	PAGE_TITLE="$(BLOG_TITLE) -- Research"; \
+	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	export TITLE; \
+	export PAGE_TITLE; \
+	export DATE_EDITED; \
+	envsubst < templates/header.html > $@; \
+	envsubst < templates/index_header.html >> $@; \
+	markdown < research.md >> $@; \
+	envsubst < templates/tag_list_header.html >> $@; \
+	first=true; \
+	for t in WorkingPaper PublishedPaper; do \
+		"$$first" || envsubst < templates/tag_separator.html; \
+		NAME="$$t" \
+		URL="@$$t.html" \
+		envsubst < templates/tag_entry.html; \
+		first=false; \
+	done >> $@; \
+	envsubst < templates/tag_list_footer.html >> $@; \
+	envsubst < templates/article_list_header.html >> $@; \
+	first=true; \
+	echo $(ARTICLES); \
+	for f in $(ARTICLES); do \
+		printf '%s ' "$$f"; \
+		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+	done | sort | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+		"$$first" || envsubst < templates/article_separator.html; \
+		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+		DATE="$$DATE" \
+		TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+		envsubst < templates/article_entry.html; \
+		first=false; \
+	done >> $@; \
+	envsubst < templates/article_list_footer.html >> $@; \
+	envsubst < templates/index_footer.html >> $@; \
+	envsubst < templates/footer.html >> $@; \
+
 
 blog/tag/%.html: $(ARTICLES) $(addprefix templates/,$(addsuffix .html,header tag_header index_entry tag_footer footer))
 
