@@ -59,14 +59,19 @@ help:
 # 	printf '' > templates/article_footer.html
 # 	printf 'blog\n' > .git/info/exclude
 
-build: blog/index.html blog/research.html blog/teaching.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
+build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
 	rsync -urtvzP ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
 	rsync -urtvzP data/* blog/
 	rsync -urtvzP blog/ ../web/
 
 
+.ONESHELL:
 deploy: build
-	rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
+	cd ../web
+	git add .
+	git commit -m "updateweb"
+	git push https://$(GIT_AUTH)@github.com/huijunchen9260/huijunchen9260.github.io
+	# rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
 
 clean:
 	rm -rf blog tags
@@ -80,6 +85,46 @@ tags/%: $(BLOG_SRC)/%.md
 	mkdir -p tags
 	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-zA-Z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@
 
+### Original index.html generation: save as record
+# blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
+# 	mkdir -p blog
+# 	TITLE="$(BLOG_TITLE)"; \
+# 	PAGE_TITLE="$(BLOG_TITLE)"; \
+# 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+# 	export TITLE; \
+# 	export PAGE_TITLE; \
+# 	export DATE_EDITED; \
+# 	envsubst < templates/header.html > $@; \
+# 	envsubst < templates/index_header.html >> $@; \
+# 	markdown < index.md >> $@; \
+# 	envsubst < templates/tag_list_header.html >> $@; \
+# 	first=true; \
+# 	for t in $(shell cat $(TAGFILES) | sort -u); do \
+# 		"$$first" || envsubst < templates/tag_separator.html; \
+# 		NAME="$$t" \
+# 		URL="@$$t.html" \
+# 		envsubst < templates/tag_entry.html; \
+# 		first=false; \
+# 	done >> $@; \
+# 	envsubst < templates/tag_list_footer.html >> $@; \
+# 	echo "<h2>Articles</h2>" >> $@; \
+# 	envsubst < templates/article_list_header.html >> $@; \
+# 	first=true; \
+# 	for f in $(ARTICLES); do \
+# 		printf '%s ' "$$f"; \
+# 		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+# 	done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+# 		"$$first" || envsubst < templates/article_separator.html; \
+# 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+# 		DATE="$$DATE" \
+# 		TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+# 		envsubst < templates/article_entry.html; \
+# 		first=false; \
+# 	done >> $@; \
+# 	envsubst < templates/article_list_footer.html >> $@; \
+# 	envsubst < templates/index_footer.html >> $@; \
+# 	envsubst < templates/footer.html >> $@; \
+
 blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
@@ -91,6 +136,21 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/index_header.html >> $@; \
 	markdown < index.md >> $@; \
+	envsubst < templates/index_footer.html >> $@; \
+	envsubst < templates/footer.html >> $@; \
+
+
+blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header blog_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer blog_footer footer))
+	mkdir -p blog
+	TITLE="$(BLOG_TITLE)"; \
+	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
+	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	export TITLE; \
+	export PAGE_TITLE; \
+	export DATE_EDITED; \
+	envsubst < templates/header.html > $@; \
+	envsubst < templates/blog_header.html >> $@; \
+	markdown < blog.md >> $@; \
 	envsubst < templates/tag_list_header.html >> $@; \
 	first=true; \
 	for t in $(shell cat $(TAGFILES) | sort -u); do \
@@ -116,7 +176,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 		first=false; \
 	done >> $@; \
 	envsubst < templates/article_list_footer.html >> $@; \
-	envsubst < templates/index_footer.html >> $@; \
+	envsubst < templates/blog_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
 blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header article_list_header article_entry article_separator article_list_footer research_footer footer))

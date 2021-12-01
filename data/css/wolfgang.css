@@ -6,20 +6,13 @@ html {
 }
 
 :root {
-	--bg: #222;
-	--fg: #fefefe;
-	--link: #4d7dcb;
-	--link_v: #99a5d3;
-	--link_h: #4c7ecf;
-	--bg_grey: #333;
-	--dark_grey: #333;
-	/* --bg: #fefefe; */
-	/* --fg: #444; */
-	/* --link: #0645ad; */
-	/* --link_v: #0b0080; */
-	/* --link_h: #06e; */
-	/* --bg_grey: #eee; */
-	/* --dark_grey: #999; */
+	--bg: #fefefe;
+	--fg: #444;
+	--link: #0645ad;
+	--link_v: #0b0080;
+	--link_h: #06e;
+	--bg_grey: #eee;
+	--dark_grey: #999;
 }
 [data-theme="dark"] {
 	--bg: #222;
@@ -347,16 +340,16 @@ article img {
 }
 
 img[alt="thefool"] {
-	max-width: 1.5em ;
-	max-height: 1.5em ;
+	max-width: 1em ;
+	max-height: 1em ;
     vertical-align: middle;
 	display: inline ;
     filter: invert(1) ;
 }
 
 img[alt="thefoolflip"] {
-	max-width: 1.5em ;
-	max-height: 1.5em ;
+	max-width: 1em ;
+	max-height: 1em ;
     vertical-align: middle;
 	display: inline ;
     filter: invert(1) ;

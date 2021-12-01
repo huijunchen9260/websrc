@@ -23,6 +23,22 @@ ECON 2002.01, The Ohio State University, Summer 2021
 - [Unit 16](https://youtu.be/auswkrj7OOM)
 - [Unit 17](https://youtu.be/tfpdEXwhnyY)
 
+## Lecture Notes
+
+- [Math Supplement](pdf/PrincipleMacroSummer2021/math.pdf)
+- [Unit 1](pdf/PrincipleMacroSummer2021/Unit 1 - The capitalist revolution - 1.0.pdf)
+- [Unit 2](pdf/PrincipleMacroSummer2021/Unit 2 - Technological change, population, and growth - 1.0.pdf)
+- [Unit 3](pdf/PrincipleMacroSummer2021/Unit 3 - Scarcity, work, and choice - 1.0.pdf)
+- [Unit 6](pdf/PrincipleMacroSummer2021/Unit 6 - The firm - 1.0.pdf)
+- [Unit 7](pdf/PrincipleMacroSummer2021/Unit 7 - The firm and its customers - 1.0.pdf)
+- [Unit 9](pdf/PrincipleMacroSummer2021/Unit 9 - The labour market - 1.0.pdf)
+- [Unit 10](pdf/PrincipleMacroSummer2021/Unit 10 - The credit market - 1.0.pdf)
+- [Unit 11](pdf/PrincipleMacroSummer2021/Unit 11 - Market disequilibrium - 1.0.pdf)
+- [Unit 13](pdf/PrincipleMacroSummer2021/Unit 13 - Economic fluctuations and unemployment - 1.0.pdf)
+- [Unit 14](pdf/PrincipleMacroSummer2021/Unit 14 - Unemployment and fiscal policy - 1.0.pdf)
+- [Unit 15](pdf/PrincipleMacroSummer2021/Unit 15 - Inflation and monetary policy - 1.0.pdf)
+- [Unit 16](pdf/PrincipleMacroSummer2021/Unit 16 - Technological progress, unemployment, and living standards in the long run - 1.0.pdf)
+- [Unit 17](pdf/PrincipleMacroSummer2021/Unit 17 - The Great Depression - 1.0.pdf)
 
 ;tags: Teaching
 
