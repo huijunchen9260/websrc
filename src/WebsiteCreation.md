@@ -5,6 +5,8 @@ I have two goals to share with you in this blog post:
 1. How to use a [blogit](https://pedantic.software/git/blogit) to systematically build your website, and
 2. How to modify the Makefile in [blog it](https://pedantic.software/git/blogit).
 
+If you want to see the source code for this website, it is stored in [huijunchen9260/websrc](https://github.com/huijunchen9260/websrc) repository.
+
 <!-- vim-markdown-toc GFM -->
 
 * [The Reason](#the-reason)
