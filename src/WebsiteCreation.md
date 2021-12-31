@@ -7,14 +7,6 @@ I have two goals to share with you in this blog post:
 
 If you want to see the source code for this website, it is stored in [huijunchen9260/websrc](https://github.com/huijunchen9260/websrc) repository.
 
-<!-- vim-markdown-toc GFM -->
-
-* [The Reason](#the-reason)
-* [Why blogit?](#why-blogit)
-* [But...blogit is only for blogs!](#butblogit-is-only-for-blogs)
-
-<!-- vim-markdown-toc -->
-
 ## The Reason
 
 First, let me briefly talk about *WHY* I find [blogit](https://pedantic.software/git/blogit) is static site generator for me despite there are tones of great and modern static site generators in the web.

@@ -23,18 +23,7 @@ TAGFILES = $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
 
 .ONESHELL:
 test:
-	f1=true; f2=true;
-	for f in $(ARTICLES); do
-		grep -qE "; *tags: .*WorkingPaper.*" "$$f" && {
-			"$$f1" && WP="$$f" || WP="$$WP,$$f"
-			f1=false
-		}
-		grep -qE "; *tags: .*PublishedPaper.*" "$$f" && {
-			"$$f2" && PUB="$$f" || PUB="$$PUB,$$f"
-			f2=false
-		}
-	done
-	echo $$WP $$PUB
+	echo $(ARTICLES)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
