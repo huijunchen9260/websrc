@@ -56,6 +56,9 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 
 .ONESHELL:
 deploy: build
+	git add .
+	git commit -m "updatewebsrc"
+	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc
 	cd ../web
 	git add .
 	git commit -m "updateweb"
