@@ -158,7 +158,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	first=true; \
 	for f in $(ARTICLES); do \
 		printf '%s ' "$$f"; \
-		git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+		git log -n 1 --diff-filter=M --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 	done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 		"$$first" || envsubst < templates/article_separator.html; \
 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
@@ -199,7 +199,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/article_list_header.html >> $@; \
 		for f in $$WP; do \
 			printf '%s ' "$$f"; \
-			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+			git log -n 1 --diff-filter=M --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
@@ -216,7 +216,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/article_list_header.html >> $@; \
 		for f in $$PUB; do \
 			printf '%s ' "$$f"; \
-			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+			git log -n 1 --diff-filter=M --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
