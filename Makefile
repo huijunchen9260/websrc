@@ -136,7 +136,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -175,7 +175,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -234,7 +234,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Teaching -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -315,7 +315,7 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	export AUTHOR; \
 	DATE_POSTED="$(shell git log -n 1 --diff-filter=A --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export DATE_POSTED; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export DATE_EDITED; \
 	TAGS="$(shell grep -i '^; *tags:' "$<" | cut -d: -f2- | paste -sd ',')"; \
 	export TAGS; \
