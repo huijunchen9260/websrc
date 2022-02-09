@@ -278,7 +278,7 @@ tagpages: $(TAGFILES)
 	+$(BLOG) $(patsubst %,blog/@%.html,$(shell cat $(TAGFILES) | sort -u))
 
 blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer tag_index_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	PAGE_TITLE="Articles tagged $* -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	TAGS="$*"; \
@@ -296,6 +296,7 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 		git log -1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 	done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 		"$$first" || envsubst < templates/article_separator.html; \
+		"$$first" && DATE_EDITED="$$DATE"
 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 		DATE="$$DATE" \
 		TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
