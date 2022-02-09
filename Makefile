@@ -322,6 +322,16 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/tag_index_header.html >> $@; \
+	envsubst < templates/tag_list_header.html >> $@; \
+	first=true; \
+	for t in $(shell cat $(TAGFILES) | sort -u); do \
+		"$$first" || envsubst < templates/tag_separator.html; \
+		NAME="$$t" \
+		URL="@$$t.html" \
+		envsubst < templates/tag_entry.html; \
+		first=false; \
+	done >> $@; \
+	envsubst < templates/tag_list_footer.html >> $@; \
 	envsubst < templates/article_list_header.html >> $@; \
 	first=true; \
 	for f in $(shell awk '$$0 == "$*" { gsub("tags", "$(BLOG_SRC)", FILENAME); print FILENAME  ".md"; nextfile; }' $(TAGFILES)); do \
