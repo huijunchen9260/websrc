@@ -309,7 +309,7 @@ tagpages: $(TAGFILES)
 
 blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer tag_index_footer footer))
 	mkdir -p blog; \
-	PAGE_TITLE="Articles tagged $* -- $(BLOG_TITLE)"; \
+	PAGE_TITLE="Articles tagged: $* -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$$(for f in $(shell awk '$$0 == "$*" { gsub("tags", "$(BLOG_SRC)", FILENAME); print FILENAME  ".md"; nextfile; }' $(TAGFILES)); do \
 		git log -1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 	done | sort -rk2 | head -n 1)"; \
