@@ -122,6 +122,12 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	articleNewestDate="$$(for f in $(ARTICLES); do \
+		git log -1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+	done | sort -rk2 | head -n 1)"; \
+	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
+	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
+	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
