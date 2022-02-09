@@ -193,6 +193,15 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
+	[ -n "$$WP" ] || [ -n "$$PUB" ] && { \
+		articleNewestDate="$$(for f in $$WP $$PUB; do \
+			git log -1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+		done | sort -rk2 | head -n 1)"; \
+		tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
+		tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
+		[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
+		export DATE_EDITED; \
+	};  \
 	[ -n "$$WP" ] && { \
 		first=true; \
  		echo "<h2>Working</h2>" >> $@ ; \
