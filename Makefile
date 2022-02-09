@@ -280,11 +280,13 @@ tagpages: $(TAGFILES)
 blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer tag_index_footer footer))
 	mkdir -p blog
 	PAGE_TITLE="Articles tagged $* -- $(BLOG_TITLE)"; \
+	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	TAGS="$*"; \
 	TITLE="$(BLOG_TITLE)"; \
 	export PAGE_TITLE; \
 	export TAGS; \
 	export TITLE; \
+	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/tag_index_header.html >> $@; \
 	envsubst < templates/article_list_header.html >> $@; \
