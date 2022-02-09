@@ -121,7 +121,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -136,7 +136,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -175,7 +175,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -234,7 +234,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Teaching -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -280,7 +280,7 @@ tagpages: $(TAGFILES)
 blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer tag_index_footer footer))
 	mkdir -p blog
 	PAGE_TITLE="Articles tagged $* -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	TAGS="$*"; \
 	TITLE="$(BLOG_TITLE)"; \
 	export PAGE_TITLE; \
@@ -317,7 +317,7 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	export AUTHOR; \
 	DATE_POSTED="$(shell git log -n 1 --diff-filter=A --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export DATE_POSTED; \
-	DATE_EDITED="$(shell git log -n 1 --diff-filter=M --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export DATE_EDITED; \
 	TAGS="$(shell grep -i '^; *tags:' "$<" | cut -d: -f2- | paste -sd ',')"; \
 	export TAGS; \
