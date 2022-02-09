@@ -252,10 +252,12 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		exit ; \
 	} ; \
 	[ -n "$$WP" ] && { \
-		DATE_EDITED="$$(for f in $$WP; do \
-			printf '%s ' "$$f"; \
-			git log -1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+		articleNewestDate="$$(for f in $$WP; do \
+			git log -1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -rk2 | head -n 1)"; \
+		tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
+		tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
+		[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
 		export DATE_EDITED; \
 	};  \
 	[ -n "$$WP" ] && { \
