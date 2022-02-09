@@ -257,6 +257,11 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/article_list_header.html >> $@; \
 		for f in $$WP; do \
 			printf '%s ' "$$f"; \
+			prevDate=$$DATE_EDITED
+			prevDateComp="$(shell echo $(DATE_EDITED) | tr -d -)"; \
+			DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$$f")"; \
+			thisDateComp="$(shell echo $(DATE_EDITED) | tr -d -)"; \
+			[ $$thisDateComp -lt $$prevDateComp ] && DATE_EDITED=$$prevDate;  \
 			git log -n 1 --diff-filter=A --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -k2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
@@ -304,7 +309,7 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 	done >> $@; \
 	envsubst < templates/article_list_footer.html >> $@; \
 	envsubst < templates/tag_index_footer.html >> $@; \
-	envsubst < templates/footer.html >> $@; \
+	envsubst < templates/footer.html >> $@;
 
 
 blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header article_header tag_link_header tag_link tag_link_footer article_footer footer))
