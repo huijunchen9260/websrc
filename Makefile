@@ -252,6 +252,13 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		exit ; \
 	} ; \
 	[ -n "$$WP" ] && { \
+		DATE_EDITED="$$(for f in $$WP; do \
+			printf '%s ' "$$f"; \
+			git log -1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+		done | sort -rk2 | head -n 1)"; \
+		export DATE_EDITED; \
+	};  \
+	[ -n "$$WP" ] && { \
 		first=true; \
  		echo "<h2>Teaching</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
@@ -296,7 +303,6 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 		git log -1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 	done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 		"$$first" || envsubst < templates/article_separator.html; \
-		"$$first" && DATE_EDITED="$$DATE"; \
 		URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 		DATE="$$DATE" \
 		TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
