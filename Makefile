@@ -137,9 +137,15 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	articleNewestDate="$$(for f in $(ARTICLES); do \
+		git log -1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+	done | sort -rk2 | head -n 1)"; \
+	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
+	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
+	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
+	export DATE_EDITED; \
 	export TITLE; \
 	export PAGE_TITLE; \
-	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/blog_header.html >> $@; \
 	markdown < blog.md >> $@; \
