@@ -59,6 +59,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
     - [Exponential Discounting](https://en.wikipedia.org/wiki/Exponential_discounting)
     - [Hyperbolic Discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting)
     - [Prudence: Why You Spend So Much Money At Trader Joe's](https://youtu.be/Q_QPClXo5MU)
+    - [Gini Coefficient](https://en.wikipedia.org/wiki/Gini_coefficient#Definition)
 - [Unit 11](pdf/PrincipleMacroSpring2022/Unit 11 - Market disequilibrium - 1.0.pdf)
 - [Unit 13](pdf/PrincipleMacroSpring2022/Unit 13 - Economic fluctuations and unemployment - 1.0.pdf)
 - [Unit 14](pdf/PrincipleMacroSpring2022/Unit 14 - Unemployment and fiscal policy - 1.0.pdf)
