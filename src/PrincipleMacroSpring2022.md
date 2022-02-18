@@ -4,6 +4,8 @@ ECON 2002.01, The Ohio State University, Spring 2022
 
 [Syllabus](pdf/PrincipleMacroSpring2022/build/syllabus.pdf)
 
+- Update Feb. 18, 2022: Revise course schedule due to my presentation in MEA annual meeting.
+
 ## Lecture Videos
 
 - [Unit 1](https://youtu.be/j2xNxtsa2Uk)
@@ -39,6 +41,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 10 Part 2](https://youtu.be/OdSrcRpextI)
 - [Quiz review and Unit 10 Part 3](https://youtu.be/nVMfm60p8As)
 - [Unit 10 Part 4 and Unit 13 Part 1](https://youtu.be/JU4L3JxUg3w)
+- [Unit 13 Part 2](https://youtu.be/qTP4Iov0N7s)
 
 ## Lecture Notes
 
