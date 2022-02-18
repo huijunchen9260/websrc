@@ -49,6 +49,9 @@ help:
 # 	printf 'blog\n' > .git/info/exclude
 
 build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
+	git add .
+	git commit -m "updatewebsrc"
+	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc
 	rsync -urtvzP ../LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
 	rsync -urtvzP data/* blog/
 	rsync -urtvzP blog/ ../web/
@@ -56,9 +59,6 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 
 .ONESHELL:
 deploy: clean build
-	git add .
-	git commit -m "updatewebsrc"
-	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc
 	cd ../web
 	git add .
 	git commit -m "updateweb"
