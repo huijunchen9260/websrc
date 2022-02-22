@@ -68,6 +68,8 @@ deploy: build
 clean:
 	rm -rf blog tags
 
+cleantag:
+
 config:
 	printf 'BLOG_REMOTE:=%s\n' \
 		'$(shell printf "Blog remote (eg: host:/var/www/html): ">/dev/tty; head -n1)' \
