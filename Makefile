@@ -58,7 +58,7 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 
 
 .ONESHELL:
-deploy: build
+deploy: clean build
 	cd ../web
 	git add .
 	git commit -m "updateweb"
