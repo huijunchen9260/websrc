@@ -69,6 +69,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 13](pdf/PrincipleMacroSpring2022/Unit 13 - Economic fluctuations and unemployment - 1.0.pdf)
     - [Unit 13 Quiz Solution](pdf/PrincipleMacroSpring2022/build/Unit13QuizSolution.pdf)
 - [Unit 14](pdf/PrincipleMacroSpring2022/Unit 14 - Unemployment and fiscal policy - 1.0.pdf)
+    - [Unit 14 Supplement](pdf/PrincipleMacroSpring2022/build/Unit14Supplement.pdf)
 - [Unit 15](pdf/PrincipleMacroSpring2022/Unit 15 - Inflation and monetary policy - 1.0.pdf)
 - [Unit 16](pdf/PrincipleMacroSpring2022/Unit 16 - Technological progress, unemployment, and living standards in the long run - 1.0.pdf)
 - [Unit 17](pdf/PrincipleMacroSpring2022/Unit 17 - The Great Depression - 1.0.pdf)
