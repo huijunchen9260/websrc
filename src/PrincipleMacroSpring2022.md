@@ -75,6 +75,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 16](pdf/PrincipleMacroSpring2022/Unit 16 - Technological progress, unemployment, and living standards in the long run - 1.0.pdf)
 - [Unit 17](pdf/PrincipleMacroSpring2022/Unit 17 - The Great Depression - 1.0.pdf)
 - [Midterm Review](pdf/PrincipleMacroSpring2022/build/midterm_review.pdf)
+- [Why is Ukraine the West's Fault? Featuring John Mearsheimer](https://youtu.be/JrMiSQAGOS4?t=2618)
 
 ;tags: Teaching
 
