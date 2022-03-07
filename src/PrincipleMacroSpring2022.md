@@ -73,6 +73,8 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 14](pdf/PrincipleMacroSpring2022/Unit 14 - Unemployment and fiscal policy - 1.0.pdf)
     - [Unit 14 Supplement](pdf/PrincipleMacroSpring2022/build/Unit14Supplement.pdf)
 - [Unit 15](pdf/PrincipleMacroSpring2022/Unit 15 - Inflation and monetary policy - 1.0.pdf)
+    - [Swift Sanctions on Russia: How Cutting Off Banks Applies Pressure | WSJ](https://www.youtube.com/watch?v=iG1U-Qb38z0)
+    - [Explaining the stock market in Russia right now](https://www.reddit.com/r/Unexpected/comments/t5vu5s/explaining_the_stock_market_in_russia_right_now/?utm_medium=android_app&utm_source=share)
 - [Unit 16](pdf/PrincipleMacroSpring2022/Unit 16 - Technological progress, unemployment, and living standards in the long run - 1.0.pdf)
 - [Unit 17](pdf/PrincipleMacroSpring2022/Unit 17 - The Great Depression - 1.0.pdf)
 - [Midterm Review](pdf/PrincipleMacroSpring2022/build/midterm_review.pdf)
