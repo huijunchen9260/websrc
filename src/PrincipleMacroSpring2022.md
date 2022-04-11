@@ -49,6 +49,9 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 15 Part 2](https://youtu.be/xoqSSaLWt2k)
 - [Unit 15 Part 3](https://youtu.be/CMa_NlcOuRs)
 - [Quiz review and Unit 16 Part 2](https://youtu.be/jVM1LXJkjP4)
+- [Unit 16 Part 3](https://youtu.be/kD36fI4tUwo)
+- [Unit 16 Part 4](https://youtu.be/ZVlrsp3V7EI)
+- [Unit 11 Part 1](https://youtu.be/ewLoNMcfmEg)
 
 ## Lecture Notes
 
@@ -72,6 +75,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
     - [Prudence: Why You Spend So Much Money At Trader Joe's](https://youtu.be/Q_QPClXo5MU)
     - [Gini Coefficient](https://en.wikipedia.org/wiki/Gini_coefficient#Definition)
 - [Unit 11](pdf/PrincipleMacroSpring2022/Unit 11 - Market disequilibrium - 1.0.pdf)
+    - [Alan Greenspan: the market value of global long-term securities is approaching \$100 trillion](https://en.wikipedia.org/wiki/Alan_Greenspan#Housing_bubble)
 - [Unit 13](pdf/PrincipleMacroSpring2022/Unit 13 - Economic fluctuations and unemployment - 1.0.pdf)
     - [Unit 13 Quiz Solution](pdf/PrincipleMacroSpring2022/build/Unit13QuizSolution.pdf)
 - [Unit 14](pdf/PrincipleMacroSpring2022/Unit 14 - Unemployment and fiscal policy - 1.0.pdf)
