@@ -51,7 +51,8 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Quiz review and Unit 16 Part 2](https://youtu.be/jVM1LXJkjP4)
 - [Unit 16 Part 3](https://youtu.be/kD36fI4tUwo)
 - [Unit 16 Part 4](https://youtu.be/ZVlrsp3V7EI)
-- [Unit 11 Part 1](https://youtu.be/ewLoNMcfmEg)
+- [Quiz review and Unit 11 Part 1](https://youtu.be/ewLoNMcfmEg)
+- [Unit 11 Part 2](https://youtu.be/nt4vrotLyTg)
 
 ## Lecture Notes
 
