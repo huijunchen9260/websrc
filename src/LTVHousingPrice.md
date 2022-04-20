@@ -1,4 +1,6 @@
-# The Effects of Loan-to-value Ratio Ceilings on House Prices
+# The Effects of Loan-to-value Ratio Ceilings on House Prices (with [Sungmin Park](https://www.sungminparkecon.com/))
+
+
 
 [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908);
 [slide: MEA annual meeting](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Mar2022.pdf)
