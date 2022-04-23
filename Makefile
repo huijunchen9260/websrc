@@ -66,7 +66,10 @@ deploy: clean build
 	# rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
 
 clean:
-	rm -rf blog tags
+	rm -rf tags
+	cd ./blog
+	rm *.html
+	# rm -rf blog tags
 
 config:
 	printf 'BLOG_REMOTE:=%s\n' \
