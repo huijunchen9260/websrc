@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.17)  27 APR 2022 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.17)  27 APR 2022 08:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Unit9QuizSupplement.tex
-(./Unit9QuizSupplement.tex
+**math.tex
+(./math.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -620,11 +620,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaLaTeX to use the Fira fonts on input line 95.
 
-)) (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@layerbox@background=\box80
-\pgf@layerboxsaved@background=\box81
-) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+)) (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks49
 \inpenc@posthook=\toks50
@@ -847,7 +843,7 @@ Package: expl3 2022-02-24 L3 programming layer (loader)
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count470
-\l__pdf_internal_box=\box82
+\l__pdf_internal_box=\box80
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-02-24 L3 programming layer (loader) 
@@ -873,39 +869,39 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count471
-\AM@pagebox=\box83
+\AM@pagebox=\box81
 \AM@global@opts=\toks51
 \AM@pagecnt=\count472
 \AM@toc@title=\toks52
 \c@AM@survey=\count473
-\AM@templatesizebox=\box84
+\AM@templatesizebox=\box82
 ) (/usr/share/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty)
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 \@quotelevel=\count474
 \@quotereset=\count475
- (build/Unit9QuizSupplement.aux)
-\openout1 = `Unit9QuizSupplement.aux'.
+ (build/math.aux)
+\openout1 = `math.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -945,7 +941,7 @@ LaTeX Font Info:    ... okay on input line 73.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count476
 \scratchdimen=\dimen312
-\scratchbox=\box85
+\scratchbox=\box83
 \nofMPsegments=\count477
 \nofMParguments=\count478
 \everyMPshowfont=\toks53
@@ -960,7 +956,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 73.
+Package hyperref Info: Link coloring ON on input line 70.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -970,12 +966,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count482
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
- (build/Unit9QuizSupplement.out) (build/Unit9QuizSupplement.out)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+ (build/math.out) (build/math.out)
 \@outlinefile=\write6
-\openout6 = `Unit9QuizSupplement.out'.
+\openout6 = `math.out'.
 
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -998,114 +994,139 @@ File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `Unit9QuizSupplement.bcf'.
+\openout5 = `math.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Unit9QuizSupplement.bbl' found.
- (build/Unit9QuizSupplement.bbl)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+Package biblatex Info: ... file 'math.bbl' found.
+ (build/math.bbl)
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (build/Unit9QuizSupplement.nav)
-Overfull \vbox (15.63992pt too high) detected at line 75
+) (build/math.nav)
+Overfull \vbox (15.63992pt too high) detected at line 72
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 113.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 113.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \vbox (13.02615pt too high) detected at line 113
- []
-
-[2
+) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 127.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [3
+<./figures/triArea2.jpg, id=59, 332.24126pt x 188.705pt>
+File: ./figures/triArea2.jpg Graphic file (type jpg)
+<use ./figures/triArea2.jpg>
+Package pdftex.def Info: ./figures/triArea2.jpg  used on input line 83.
+(pdftex.def)             Requested size: 153.64493pt x 87.26605pt.
+ [3
 
-]
-Overfull \hbox (18.00409pt too wide) in paragraph at lines 149--149
-[][]  
- []
+ <./figures/triArea2.jpg>]
+<./figures/qwe.jpg, id=106, 331.2375pt x 165.61874pt>
+File: ./figures/qwe.jpg Graphic file (type jpg)
+<use ./figures/qwe.jpg>
+Package pdftex.def Info: ./figures/qwe.jpg  used on input line 92.
+(pdftex.def)             Requested size: 215.10196pt x 107.5498pt.
+ [4
 
+ <./figures/qwe.jpg>]
+<./figures/trapezoid.png, id=130, 664.4825pt x 589.20125pt>
+File: ./figures/trapezoid.png Graphic file (type png)
+<use ./figures/trapezoid.png>
+Package pdftex.def Info: ./figures/trapezoid.png  used on input line 101.
+(pdftex.def)             Requested size: 122.91406pt x 108.98253pt.
+ [5
 
-Overfull \vbox (3.87099pt too high) detected at line 149
- []
-
-[4
-
-] [5
-
-]
-Overfull \hbox (18.00409pt too wide) in paragraph at lines 182--182
-[][]  
- []
-
-
-Overfull \vbox (1.84128pt too high) detected at line 182
- []
-
-[6
+ <./figures/trapezoid.png>] [6
 
 ] [7
 
-]
-Overfull \hbox (18.00409pt too wide) in paragraph at lines 218--218
-[][]  
- []
-
-
-Overfull \vbox (1.84128pt too high) detected at line 218
- []
-
-[8
+] [8
 
 ] [9
 
+] [10
+
+]
+Overfull \vbox (14.86328pt too high) detected at line 181
+ []
+
+[11
+
+]
+Overfull \vbox (17.98929pt too high) detected at line 206
+ []
+
+[12
+
+]
+<./figures/production-1.png, id=298, 1184.46727pt x 645.81702pt>
+File: ./figures/production-1.png Graphic file (type png)
+<use ./figures/production-1.png>
+Package pdftex.def Info: ./figures/production-1.png  used on input line 212.
+(pdftex.def)             Requested size: 245.83282pt x 134.02916pt.
+ [13
+
+ <./figures/production-1.png (PNG copy)>]
+<./figures/production-2.png, id=323, 1177.62064pt x 677.33904pt>
+File: ./figures/production-2.png Graphic file (type png)
+<use ./figures/production-2.png>
+Package pdftex.def Info: ./figures/production-2.png  used on input line 219.
+(pdftex.def)             Requested size: 245.83282pt x 141.39789pt.
+ [14
+
+ <./figures/production-2.png (PNG copy)>]
+<./figures/production-3.png, id=347, 526.4299pt x 769.59862pt>
+File: ./figures/production-3.png Graphic file (type png)
+<use ./figures/production-3.png>
+Package pdftex.def Info: ./figures/production-3.png  used on input line 237.
+(pdftex.def)             Requested size: 113.69574pt x 166.21204pt.
+ [15
+
+ <./figures/production-3.png (PNG copy)>] [16
+
+] [17
+
 ]
 \tf@nav=\write7
-\openout7 = `Unit9QuizSupplement.nav'.
+\openout7 = `math.nav'.
 
 \tf@toc=\write8
-\openout8 = `Unit9QuizSupplement.toc'.
+\openout8 = `math.toc'.
 
 \tf@snm=\write9
-\openout9 = `Unit9QuizSupplement.snm'.
+\openout9 = `math.snm'.
 
- (build/Unit9QuizSupplement.aux)
-Package rerunfilecheck Info: File `Unit9QuizSupplement.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'Unit9QuizSupplement.run.xml'.
-\openout1 = `Unit9QuizSupplement.run.xml'.
+ (build/math.aux)
+Package rerunfilecheck Info: File `math.out' has not changed.
+(rerunfilecheck)             Checksum: 3053E8D2196DC5FD98BD4259A87D2929;338.
+Package logreq Info: Writing requests to 'math.run.xml'.
+\openout1 = `math.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33453 strings out of 478276
- 675934 string characters out of 5853013
- 1324708 words of memory out of 5000000
- 51010 multiletter control sequences out of 15000+600000
- 483081 words of font info for 59 fonts, out of 8000000 for 9000
+ 33501 strings out of 478276
+ 677467 string characters out of 5853013
+ 1341977 words of memory out of 5000000
+ 51028 multiletter control sequences out of 15000+600000
+ 486728 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,122p,1906b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on build/Unit9QuizSupplement.pdf (9 pages, 162393 bytes).
+ 128i,19n,122p,1891b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on build/math.pdf (17 pages, 1215152 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 532 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
