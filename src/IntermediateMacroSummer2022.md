@@ -6,17 +6,17 @@ ECON 4002.01, The Ohio State University, Summer 2022
 
 ## Lecture Notes
 
-- [Lecture 1](pdf/IntermediateMacroSummer2022/Lecture_01/build/Lecture_01.pdf)
+- [Lecture 1: Introduction](pdf/IntermediateMacroSummer2022/Lecture_01/build/Lecture_01.pdf)
     - Lucas critique:
         - [Wiki: Lucas critique](https://en.wikipedia.org/wiki/Lucas_critique)
     - Friedman critique:
         - [Wiki: the methodology of positive economics](https://en.wikipedia.org/wiki/Essays_in_Positive_Economics#The_Methodology_of_Positive_Economics)
         - [The methodology of positive economics](https://books.google.com/books?hl=en&lr=&id=NqNGaJBahWoC&oi=fnd&pg=PA180&dq=The+Methodology+of+Positive+Economics&ots=gLKnEx_kWX&sig=nWfE1bFegyceirvT_tWEEJzJtoU#v=onepage&q=The%20Methodology%20of%20Positive%20Economics&f=false)
-- [Lecture 2](pdf/IntermediateMacroSummer2022/Lecture_02/build/Lecture_02.pdf)
-- [Lecture 3](pdf/IntermediateMacroSummer2022/Lecture_03/build/Lecture_03.pdf)
-- [Lecture 4](pdf/IntermediateMacroSummer2022/Lecture_04/build/Lecture_04.pdf)
-- [Lecture 5](pdf/IntermediateMacroSummer2022/Lecture_05/build/Lecture_05.pdf)
-- [Lecture 6](pdf/IntermediateMacroSummer2022/Lecture_06/build/Lecture_06.pdf)
+- [Lecture 2: Economic Aggregates](pdf/IntermediateMacroSummer2022/Lecture_02/build/Lecture_02.pdf)
+- [Lecture 3: Business Cycle Measurement](pdf/IntermediateMacroSummer2022/Lecture_03/build/Lecture_03.pdf)
+- [Lecture 4: Representative Consumer, Preference and Constraints](pdf/IntermediateMacroSummer2022/Lecture_04/build/Lecture_04.pdf)
+- [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroSummer2022/Lecture_05/build/Lecture_05.pdf)
+- [Lecture 6: Numerical Example](pdf/IntermediateMacroSummer2022/Lecture_06/build/Lecture_06.pdf)
 - [Lecture 7](pdf/IntermediateMacroSummer2022/Lecture_07/build/Lecture_07.pdf)
 - [Lecture 8](pdf/IntermediateMacroSummer2022/Lecture_08/build/Lecture_08.pdf)
 - [Lecture 9](pdf/IntermediateMacroSummer2022/Lecture_09/build/Lecture_09.pdf)
