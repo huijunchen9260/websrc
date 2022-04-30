@@ -6,6 +6,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 
 ## Lecture Notes
 
+- [Review for Math](pdf/IntermediateMacroSummer2022/math/build/math.pdf)
 - [Lecture 1: Introduction](pdf/IntermediateMacroSummer2022/Lecture_01/build/Lecture_01.pdf)
     - Lucas critique:
         - [Wiki: Lucas critique](https://en.wikipedia.org/wiki/Lucas_critique)
