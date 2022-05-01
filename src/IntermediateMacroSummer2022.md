@@ -20,7 +20,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 6: Numerical Example](pdf/IntermediateMacroSummer2022/Lecture_06/build/Lecture_06.pdf)
 - [Lecture 7: Representative Firm](pdf/IntermediateMacroSummer2022/Lecture_07/build/Lecture_07.pdf)
 - [Lecture 8: Competitive Equilibrium, One-Period Model](pdf/IntermediateMacroSummer2022/Lecture_08/build/Lecture_08.pdf)
-- [Lecture 9](pdf/IntermediateMacroSummer2022/Lecture_09/build/Lecture_09.pdf)
+- [Lecture 9: Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_09/build/Lecture_09.pdf)
 - [Lecture 10](pdf/IntermediateMacroSummer2022/Lecture_010/build/Lecture_010.pdf)
 - [Lecture 11](pdf/IntermediateMacroSummer2022/Lecture_011/build/Lecture_011.pdf)
 - [Lecture 12](pdf/IntermediateMacroSummer2022/Lecture_012/build/Lecture_012.pdf)
