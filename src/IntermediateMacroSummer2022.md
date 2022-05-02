@@ -35,5 +35,9 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 21](pdf/IntermediateMacroSummer2022/Lecture_21/build/Lecture_21.pdf)
 - [Lecture 22](pdf/IntermediateMacroSummer2022/Lecture_22/build/Lecture_22.pdf)
 
+## Problem Sets
+
+- [Problem Set 1](pdf/IntermediateMacroSummer2022/ProblemSet1/ProblemSet_01_v01.pdf)
+- [Problem Set 2](pdf/IntermediateMacroSummer2022/ProblemSet2/build/ProblemSet2.pdf)
 
 ;tags: Teaching
