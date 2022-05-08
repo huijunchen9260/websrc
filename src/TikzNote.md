@@ -72,4 +72,39 @@ Need to add `\usetikzlibrary{decorations.pathreplacing}` in preamble.
 
 Need to modify `xshift` and `yshift` to micro-adjust the brace display.
 
+## Intersection between two curves
+
+[Source](https://tex.stackexchange.com/a/531279)
+
+Need to add `\usetikzlibrary{intersections}` in preamble.
+
+```tex
+\documentclass[tikz, margin = 1mm]{standalone}
+\usetikzlibrary{intersections}
+\begin{document}
+\begin{tikzpicture}
+    \draw[name path=a] (0, 0) to[bend right = 40] (2, 0);
+    \draw[name path=b] (0, -.5) to[bend left = 40] (2, -.5);
+    \path[name intersections={of=a and b, by=e}];
+    \node[draw,fill=red,circle,inner sep=1pt] at (e) {};
+\end{tikzpicture}
+\end{document}
+```
+
+Explanation:
+1. Need to add `name path=name` as argument to call this path.
+2. Use `\path` to define the `name intersections`. `of` is to define the intersections between two paths, and `by` defines the name of the intersection.
+3. Use `\node` to draw the point as `circle`. Can be other type.
+
+## Change the font size of all node/label
+
+Simply use `\tikzstyle` is suffice:
+
+```tex
+\begin{tikzpicture}
+    \tikzstyle{every node}=[font=\scriptsize]
+    ...
+\end{tikzpicture}
+```
+
 ;tags: Miscellaneous
