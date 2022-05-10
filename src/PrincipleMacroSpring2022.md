@@ -6,54 +6,54 @@ ECON 2002.01, The Ohio State University, Spring 2022
 
 - Update Feb. 18, 2022: Revise course schedule due to my presentation in MEA annual meeting.
 
-## Lecture Videos
+<!-- ## Lecture Videos -->
 
-- [Unit 1](https://youtu.be/j2xNxtsa2Uk)
-- [Unit 2](https://youtu.be/bmlgp_Pqecw)
-- [Unit 3](https://youtu.be/CBSHbUHcvY4)
-- [Unit 6 Part 1](https://youtu.be/WnCUIAaRwrQ)
-- [Unit 6 Part 2](https://youtu.be/41vHVk0yL-4)
-- [Unit 7](https://youtu.be/UgF-HO1If3w)
-- [Unit 9](https://youtu.be/tdM3XLQt76A)
-- [Unit 10 Part 1](https://youtu.be/DCH9CUuS93o)
-- [Unit 10 Part 2](https://youtu.be/L_IcpcX372g)
-- [Unit 11](https://youtu.be/VkZXrPe6wG0)
-- [Unit 13](https://youtu.be/rbfoUkP_VCQ)
-- [Unit 14](https://youtu.be/1eEsTPxa5WQ)
-- [Unit 15](https://youtu.be/0HDBVajKozg)
-- [Unit 15 Patch](https://youtu.be/3jX5ZP5AGGI)
-- [Unit 16](https://youtu.be/auswkrj7OOM)
-- [Unit 17](https://youtu.be/tfpdEXwhnyY)
+<!-- - [Unit 1](https://youtu.be/j2xNxtsa2Uk) -->
+<!-- - [Unit 2](https://youtu.be/bmlgp_Pqecw) -->
+<!-- - [Unit 3](https://youtu.be/CBSHbUHcvY4) -->
+<!-- - [Unit 6 Part 1](https://youtu.be/WnCUIAaRwrQ) -->
+<!-- - [Unit 6 Part 2](https://youtu.be/41vHVk0yL-4) -->
+<!-- - [Unit 7](https://youtu.be/UgF-HO1If3w) -->
+<!-- - [Unit 9](https://youtu.be/tdM3XLQt76A) -->
+<!-- - [Unit 10 Part 1](https://youtu.be/DCH9CUuS93o) -->
+<!-- - [Unit 10 Part 2](https://youtu.be/L_IcpcX372g) -->
+<!-- - [Unit 11](https://youtu.be/VkZXrPe6wG0) -->
+<!-- - [Unit 13](https://youtu.be/rbfoUkP_VCQ) -->
+<!-- - [Unit 14](https://youtu.be/1eEsTPxa5WQ) -->
+<!-- - [Unit 15](https://youtu.be/0HDBVajKozg) -->
+<!-- - [Unit 15 Patch](https://youtu.be/3jX5ZP5AGGI) -->
+<!-- - [Unit 16](https://youtu.be/auswkrj7OOM) -->
+<!-- - [Unit 17](https://youtu.be/tfpdEXwhnyY) -->
 
-## Lecture Recording
-- [Math Supplement Part 1](https://youtu.be/4IEQ52Xl6Ig) (No audio)
-- [Math Supplement Part 2](https://youtu.be/CsipriW8zSc)
-- [Unit 1](https://youtu.be/WcO5rbA_U1s)
-- [Unit 2](https://youtu.be/B8GY0Sl4j_M)
-- [Quiz review and Unit 6 Part 1](https://youtu.be/BXI1GbEnpo4)
-- [Unit 6 Part 2](https://youtu.be/2DRAG1mN52I)
-- [Unit 7](https://youtu.be/JDFPuoK0mR0)
-- [Quiz review and Unit 9 Part 1](https://youtu.be/gyQ-JrzCg00)
-- [Unit 9 Part 2](https://youtu.be/gZrecQwyhuc)
-- [Unit 10 Part 1](https://youtu.be/GsNub6cKt90)
-- [Quiz review and Unit 3 Part 1](https://youtu.be/40U9lKCBzGE)
-- [Quiz review and Unit 3 Part 2](https://youtu.be/_v0fmlssKJc)
-- [Unit 10 Part 2](https://youtu.be/OdSrcRpextI)
-- [Quiz review and Unit 10 Part 3](https://youtu.be/nVMfm60p8As)
-- [Unit 10 Part 4 and Unit 13 Part 1](https://youtu.be/JU4L3JxUg3w)
-- [Unit 13 Part 2](https://youtu.be/qTP4Iov0N7s)
-- [Quiz review and Unit 14 Part 1](https://youtu.be/a92slHH9jxY)
-- [Unit 14 Part 2](https://youtu.be/ZCGKeH1eqBo)
-- [Unit 14 Part 3](https://youtu.be/YPs2WiDCdZc)
-- [Unit 15 Part 1](https://youtu.be/k6n3FEKy2q8)
-- [Unit 15 Part 2](https://youtu.be/xoqSSaLWt2k)
-- [Unit 15 Part 3](https://youtu.be/CMa_NlcOuRs)
-- [Quiz review and Unit 16 Part 2](https://youtu.be/jVM1LXJkjP4)
-- [Unit 16 Part 3](https://youtu.be/kD36fI4tUwo)
-- [Unit 16 Part 4](https://youtu.be/ZVlrsp3V7EI)
-- [Quiz review and Unit 11 Part 1](https://youtu.be/ewLoNMcfmEg)
-- [Unit 11 Part 2](https://youtu.be/nt4vrotLyTg)
-- [Unit 11 Part 3](https://youtu.be/tKyDQmF5SE8)
+<!-- ## Lecture Recording -->
+<!-- - [Math Supplement Part 1](https://youtu.be/4IEQ52Xl6Ig) (No audio) -->
+<!-- - [Math Supplement Part 2](https://youtu.be/CsipriW8zSc) -->
+<!-- - [Unit 1](https://youtu.be/WcO5rbA_U1s) -->
+<!-- - [Unit 2](https://youtu.be/B8GY0Sl4j_M) -->
+<!-- - [Quiz review and Unit 6 Part 1](https://youtu.be/BXI1GbEnpo4) -->
+<!-- - [Unit 6 Part 2](https://youtu.be/2DRAG1mN52I) -->
+<!-- - [Unit 7](https://youtu.be/JDFPuoK0mR0) -->
+<!-- - [Quiz review and Unit 9 Part 1](https://youtu.be/gyQ-JrzCg00) -->
+<!-- - [Unit 9 Part 2](https://youtu.be/gZrecQwyhuc) -->
+<!-- - [Unit 10 Part 1](https://youtu.be/GsNub6cKt90) -->
+<!-- - [Quiz review and Unit 3 Part 1](https://youtu.be/40U9lKCBzGE) -->
+<!-- - [Quiz review and Unit 3 Part 2](https://youtu.be/_v0fmlssKJc) -->
+<!-- - [Unit 10 Part 2](https://youtu.be/OdSrcRpextI) -->
+<!-- - [Quiz review and Unit 10 Part 3](https://youtu.be/nVMfm60p8As) -->
+<!-- - [Unit 10 Part 4 and Unit 13 Part 1](https://youtu.be/JU4L3JxUg3w) -->
+<!-- - [Unit 13 Part 2](https://youtu.be/qTP4Iov0N7s) -->
+<!-- - [Quiz review and Unit 14 Part 1](https://youtu.be/a92slHH9jxY) -->
+<!-- - [Unit 14 Part 2](https://youtu.be/ZCGKeH1eqBo) -->
+<!-- - [Unit 14 Part 3](https://youtu.be/YPs2WiDCdZc) -->
+<!-- - [Unit 15 Part 1](https://youtu.be/k6n3FEKy2q8) -->
+<!-- - [Unit 15 Part 2](https://youtu.be/xoqSSaLWt2k) -->
+<!-- - [Unit 15 Part 3](https://youtu.be/CMa_NlcOuRs) -->
+<!-- - [Quiz review and Unit 16 Part 2](https://youtu.be/jVM1LXJkjP4) -->
+<!-- - [Unit 16 Part 3](https://youtu.be/kD36fI4tUwo) -->
+<!-- - [Unit 16 Part 4](https://youtu.be/ZVlrsp3V7EI) -->
+<!-- - [Quiz review and Unit 11 Part 1](https://youtu.be/ewLoNMcfmEg) -->
+<!-- - [Unit 11 Part 2](https://youtu.be/nt4vrotLyTg) -->
+<!-- - [Unit 11 Part 3](https://youtu.be/tKyDQmF5SE8) -->
 <!-- - [Final Exam Review Part 1](https://youtu.be/tD_njPZHALQ) -->
 <!-- - [Final Exam Review Part 2](https://youtu.be/S6PGzhcJkkg) -->
 <!-- - [Final Exam Review Part 3](https://youtu.be/HkVrMEWlW8c) -->
@@ -92,7 +92,7 @@ ECON 2002.01, The Ohio State University, Spring 2022
 - [Unit 16](pdf/PrincipleMacroSpring2022/Unit 16 - Technological progress, unemployment, and living standards in the long run - 1.0.pdf)
 - [Unit 17](pdf/PrincipleMacroSpring2022/Unit 17 - The Great Depression - 1.0.pdf)
 - [Midterm Review](pdf/PrincipleMacroSpring2022/build/midterm_review.pdf)
-- [Why is Ukraine the West's Fault? Featuring John Mearsheimer](https://youtu.be/JrMiSQAGOS4?t=2618)
+<!-- - [Why is Ukraine the West's Fault? Featuring John Mearsheimer](https://youtu.be/JrMiSQAGOS4?t=2618) -->
 
 ;tags: Teaching
 
