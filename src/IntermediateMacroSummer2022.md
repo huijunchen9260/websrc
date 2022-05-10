@@ -29,11 +29,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 15: The Real Business Cycle Model Part 2: Firm](pdf/IntermediateMacroSummer2022/Lecture_15/build/Lecture_15.pdf)
 - [Lecture 16: The Real Business Cycle Model Part 3: Competitive Equilibrium](pdf/IntermediateMacroSummer2022/Lecture_16/build/Lecture_16.pdf)
 - [Lecture 17: The Real Business Cycle Model Part 4: Formal Examples](pdf/IntermediateMacroSummer2022/Lecture_17/build/Lecture_17.pdf)
-- [Lecture 18](pdf/IntermediateMacroSummer2022/Lecture_18/build/Lecture_18.pdf)
-- [Lecture 19](pdf/IntermediateMacroSummer2022/Lecture_19/build/Lecture_19.pdf)
-- [Lecture 20](pdf/IntermediateMacroSummer2022/Lecture_20/build/Lecture_20.pdf)
-- [Lecture 21](pdf/IntermediateMacroSummer2022/Lecture_21/build/Lecture_21.pdf)
-- [Lecture 22](pdf/IntermediateMacroSummer2022/Lecture_22/build/Lecture_22.pdf)
+- [Lecture 18: The Real Business Cycle Model Part 5: Application and Matching Data](pdf/IntermediateMacroSummer2022/Lecture_18/build/Lecture_18.pdf)
 
 ## Problem Sets
 
