@@ -38,6 +38,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 
 ## Lecture Recordings
 
-- [Lecture 1](https://urldefense.com/v3/__https://osu.zoom.us/rec/share/BEP6kfx9xMyke-tIZ58-VOanFmQnFRRAa9nvriGtCB-Md1dgCH4mH4QZhj4cWAjN.2gx4wG3jDn3M2DfI__;!!KGKeukY!1D6Y5RNXV42m730u05_wlMNaaDrfxobNCIRhN_fXNpUsC1thATHpzQJ20m9G3Tk2ab1n8GErXXcMhHcyd0iZ2w$)
+- [Lecture 1](https://osu.zoom.us/rec/share/BEP6kfx9xMyke-tIZ58-VOanFmQnFRRAa9nvriGtCB-Md1dgCH4mH4QZhj4cWAjN.2gx4wG3jDn3M2DfI)
+- [Lecture 2](https://osu.zoom.us/rec/share/ihGSK3P59OAK5wYvrwoFDtD1L5A-qidlR3WDvwtDTuWJjrvZSrpkMXhDHyl98lyB.qttHeFr0eKe9UDcu)
 
 ;tags: Teaching
