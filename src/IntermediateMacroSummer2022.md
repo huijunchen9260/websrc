@@ -4,6 +4,10 @@ ECON 4002.01, The Ohio State University, Summer 2022
 
 [Syllabus](pdf/IntermediateMacroSummer2022/syllabus/Final/syllabus.pdf)
 
+## Announcement
+
+- May 31, 2022: Update [Lecture 7: Representative Firm](pdf/IntermediateMacroSummer2022/Lecture_07/Final/Lecture_07.pdf)
+
 ## Lecture Notes
 
 - [Review for Math](pdf/IntermediateMacroSummer2022/math/Final/math.pdf)
