@@ -8,6 +8,11 @@ ECON 4002.01, The Ohio State University, Summer 2022
 
 - May 31, 2022: Update [Lecture 7: Representative Firm](pdf/IntermediateMacroSummer2022/Lecture_07/Final/Lecture_07.pdf)
 - June 02, 2022: Update [Lecture 8: Competitive Equilibrium, One-Period Model](pdf/IntermediateMacroSummer2022/Lecture_08/Final/Lecture_08.pdf) to fix some typo
+- June 09, 2022: Update
+    [Lecture 9: Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_09/Final/Lecture_09.pdf)
+    and
+    [Lecture 10: Examples on Competitive Equilibrium and Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_10/Final/Lecture_10.pdf)
+    to fix some typo
 
 ## Lecture Notes
 
@@ -52,5 +57,6 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 7](https://osu.zoom.us/rec/share/LULqygZIzSGlzk9fIzjtk9YBVvHpnS9mFVK7l69jjlgKCS6TzSt0lY7XYL8-AxXQ.gdhYyu1yioNObrQD)
 - [Lecture 8](https://osu.zoom.us/rec/share/Hlhd8zaqLCgLoCCzthK7nBIcEvDCE820cJ7DHIPWFGTDQpwsNuE3Nqduyvj2NViJ.-9DGW4xuUWB_suFo)
 - [Lecture 9](https://osu.zoom.us/rec/share/ASBWd3fppB5Zw9uBbEXSHYK8gSae4rZQSuZhYxpTK8YbQNQqIE9aufec3j9atVw.ufgwIFDzzcN123kC)
+- [Lecture 10](https://osu.zoom.us/rec/share/k97SRXU7LB3HYGGkakWjwf9LkuQ54eJSqa5-PdxNgBdWrwTNWY2X2gh9AMoYa4nH.exvULwItuqbqXsky)
 
 ;tags: Teaching
