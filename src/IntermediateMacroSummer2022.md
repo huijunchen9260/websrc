@@ -13,6 +13,9 @@ ECON 4002.01, The Ohio State University, Summer 2022
     and
     [Lecture 10: Examples on Competitive Equilibrium and Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_10/Final/Lecture_10.pdf)
     to fix some typo
+- June 14, 2022: Update
+    [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/IntermediateMacroSummer2022/Lecture_11/Final/Lecture_11.pdf)
+    to fix typo and computational errors.
 
 ## Lecture Notes
 
@@ -58,5 +61,6 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 8](https://osu.zoom.us/rec/share/Hlhd8zaqLCgLoCCzthK7nBIcEvDCE820cJ7DHIPWFGTDQpwsNuE3Nqduyvj2NViJ.-9DGW4xuUWB_suFo)
 - [Lecture 9](https://osu.zoom.us/rec/share/ASBWd3fppB5Zw9uBbEXSHYK8gSae4rZQSuZhYxpTK8YbQNQqIE9aufec3j9atVw.ufgwIFDzzcN123kC)
 - [Lecture 10](https://osu.zoom.us/rec/share/k97SRXU7LB3HYGGkakWjwf9LkuQ54eJSqa5-PdxNgBdWrwTNWY2X2gh9AMoYa4nH.exvULwItuqbqXsky)
+- [Lecture 11](https://osu.zoom.us/rec/share/j8rGNVU_LoQZlLwhxFVMPMIVqrPkgOi5IuEq5ddt295YHcclbBxzEGoagfzC25Hj.V1xBEQ4F3iltaCpf)
 
 ;tags: Teaching
