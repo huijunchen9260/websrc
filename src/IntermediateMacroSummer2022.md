@@ -36,6 +36,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 9: Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_09/Final/Lecture_09.pdf)
 - [Lecture 10: Examples on Competitive Equilibrium and Social Planner's Problem](pdf/IntermediateMacroSummer2022/Lecture_10/Final/Lecture_10.pdf)
 - [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/IntermediateMacroSummer2022/Lecture_11/Final/Lecture_11.pdf)
+- [Midterm Review 1](pdf/IntermediateMacroSummer2022/midtermReview_1.pdf)
 - [Lecture 12: Two-Period Consumer Problem](pdf/IntermediateMacroSummer2022/Lecture_12/Final/Lecture_12.pdf)
 - [Lecture 13: Competitive Equilibrium, Two-Period Model](pdf/IntermediateMacroSummer2022/Lecture_13/Final/Lecture_13.pdf)
 - [Lecture 14: The Real Business Cycle Model Part 1: Consumer](pdf/IntermediateMacroSummer2022/Lecture_14/Final/Lecture_14.pdf)
@@ -62,5 +63,6 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 9](https://osu.zoom.us/rec/share/ASBWd3fppB5Zw9uBbEXSHYK8gSae4rZQSuZhYxpTK8YbQNQqIE9aufec3j9atVw.ufgwIFDzzcN123kC)
 - [Lecture 10](https://osu.zoom.us/rec/share/k97SRXU7LB3HYGGkakWjwf9LkuQ54eJSqa5-PdxNgBdWrwTNWY2X2gh9AMoYa4nH.exvULwItuqbqXsky)
 - [Lecture 11](https://osu.zoom.us/rec/share/j8rGNVU_LoQZlLwhxFVMPMIVqrPkgOi5IuEq5ddt295YHcclbBxzEGoagfzC25Hj.V1xBEQ4F3iltaCpf)
+- [Midterm Review 1 (only the first half)](https://osu.zoom.us/rec/share/RvigZa2Rqro1ppRmrnpbaI-NTjYidMb1O4NKYwlwG6XbS8ktGnxDmwNjz08l47sd.kMMFOVMdSKvhwJ_t)
 
 ;tags: Teaching
