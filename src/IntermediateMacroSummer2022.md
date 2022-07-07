@@ -16,6 +16,7 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - June 14, 2022: Update
     [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/IntermediateMacroSummer2022/Lecture_11/Final/Lecture_11.pdf)
     to fix typo and computational errors.
+- July 07, 2022: Update [Lecture 14: The Real Business Cycle Model Part 1: Consumer](pdf/IntermediateMacroSummer2022/Lecture_14/Final/Lecture_14.pdf) and [Lecture 15: The Real Business Cycle Model Part 2: Firm](pdf/IntermediateMacroSummer2022/Lecture_15/Final/Lecture_15.pdf) to fix typo and expression
 
 ## Lecture Notes
 
