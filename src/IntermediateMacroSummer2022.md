@@ -72,5 +72,6 @@ ECON 4002.01, The Ohio State University, Summer 2022
 - [Lecture 13](https://osu.zoom.us/rec/share/7Z9jYKdolm2-RO3-8LIuWRITXHnyA6oOQP4bYz-VguulVvVNwrFTUQcDvPOzsjs2.Y8IKEn07Aeo3Bz--)
 - [Midterm review and Lecture 14 Part 1](https://osu.zoom.us/rec/share/RN-EQV4qTB8_6F3HmwHU6A5etK1U-8MMdXTqEHEphoI7eq5W58MijEYVO6wEPlqf.o_Zu9jiVJUQV5cKG)
 - [Lecture 14 Part 2 and Lecture 15 Part 1](https://osu.zoom.us/rec/share/fy4x4hifWSTGtKSRT497pkKcvxZlEZCDDSPBDjWFdLSa6ynl40My7BbzDuPCI9CA.HnWrgpPiw5eXC24I)
+- [Lecture 15 Part 2 and Lecture 16 Part 1](https://osu.zoom.us/rec/share/aoRH6BqoZOQFD-PdHWQSpOtZ1lKAAd2wQFzavhtElqN6Tccejp_Pw9a5ejhy-91K.AoqiIivVJfLN1JGt)
 
 ;tags: Teaching
