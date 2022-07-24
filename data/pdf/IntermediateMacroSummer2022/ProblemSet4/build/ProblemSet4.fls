@@ -912,8 +912,13 @@ OUTPUT build/ProblemSet4.out
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT build/ProblemSet4.Answers
+INPUT build/ProblemSet4.Answers
+INPUT build/ProblemSet4.Answers
+OUTPUT build/ProblemSet4.Answers
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -935,6 +940,8 @@ INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf

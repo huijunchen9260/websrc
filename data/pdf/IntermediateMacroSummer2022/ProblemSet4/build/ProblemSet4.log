@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  20 JUL 2022 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  24 JUL 2022 17:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -673,6 +673,10 @@ LaTeX Info: Redefining \nameref on input line 118.
 \@outlinefile=\write4
 \openout4 = `ProblemSet4.out'.
 
+ (build/ProblemSet4.Answers)
+\tf@Answers=\write5
+\openout5 = `ProblemSet4.Answers'.
+
 Package hyperref Info: bookmark level for unknown exercise defaults to 0 on input line 131.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 149.
  (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -682,23 +686,23 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <20.74> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] (build/ProblemSet4.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] (build/ProblemSet4.aux)
 Package rerunfilecheck Info: File `ProblemSet4.out' has not changed.
 (rerunfilecheck)             Checksum: EBAFEFAEB01124AC54735CE7F3873BA6;97.
  ) 
 Here is how much of TeX's memory you used:
- 21993 strings out of 478238
- 411620 string characters out of 5850457
- 744482 words of memory out of 5000000
- 39703 multiletter control sequences out of 15000+600000
- 482075 words of font info for 49 fonts, out of 8000000 for 9000
+ 22002 strings out of 478238
+ 411767 string characters out of 5850457
+ 741482 words of memory out of 5000000
+ 39707 multiletter control sequences out of 15000+600000
+ 483701 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,18n,104p,531b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on build/ProblemSet4.pdf (6 pages, 136475 bytes).
+Output written on build/ProblemSet4.pdf (7 pages, 138061 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 157 named destinations out of 1000 (max. 500000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 158 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
