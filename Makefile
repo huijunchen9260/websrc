@@ -52,9 +52,9 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 	git add .
 	git commit -m "updatewebsrc"
 	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc
-	rsync -urtvzP $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
-	rsync -urtvzP data/* blog/
-	rsync -urtvzP blog/ ../web/
+	rsync -vurtvzP $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
+	rsync -vurtvzP data/* blog/
+	rsync -vurtvzP blog/ ../web/
 
 
 .ONESHELL:
