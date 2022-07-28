@@ -61,7 +61,7 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 deploy: clean build
 	cd ../web
 	git add .
-	git commit -m "updateweb"
+	git commit -m "updateweb $(shell date "+%m/%d/%Y %H:%M:%S")"
 	git push https://$(GIT_AUTH)@github.com/huijunchen9260/huijunchen9260.github.io
 	# rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
 
