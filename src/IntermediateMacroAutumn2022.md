@@ -11,11 +11,34 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 | Categories                      | Points     |
 |---------------------------------|------------|
 | Problem sets on course material | 20 points  |
-| Qizzes on Calculus videos       | 20 points  |
+| Quizzes on Calculus videos      | 20 points  |
 | Midterm Exam                    | 25 points  |
 | Final Exam                      | 25 points  |
 | Attendance                      | 10 points  |
 | Total                           | 100 points |
+
+## Course Schedule
+
+  Wk   Days        Quizzes and Deadlines                                             Topics and Readings
+  ---- ----------- ----------------------------------------------------------------- ------------------------------------------------------------------
+  1    08/24       Essence of Calculus Ch.1 Syllabus Deadline: 08/28 11:59pm         Topic: Introduction
+  2    08/29 /31   Essence of Calculus Ch.2 Deadline: 09/04 11:59pm                  Topic: Measurement I Topic: Measurement II
+  3    09/05 /07   Essence of Calculus Ch.3 Problem Set 1 Deadline: 09/11 11:59pm    Topic: Consumer Preference I Topic: Consumer Preference II
+  4    09/12 /14   Essence of Calculus Ch.4 Deadline: 09/18 11:59pm                  Topic: Examples Topic: Firms
+  5    09/19 /21   Essence of Calculus Ch.5 Deadline: 09/25 11:59pm                  Topic: Competitive Equilibrium Topic: Social Planer's Problem
+  6    09/26 /28   Essence of Calculus Ch.6 Problem Set 2 Deadline: 10/02 11:59pm    Topic: Examples Topic: Distorting Taxes
+  7    10/03 /05   None                                                              TBA
+  8    10/10       None                                                              Midterm Review
+  8    10/12       None                                                              Midterm
+  9    10/17 /19   Essence of Calculus Ch.7 Deadline: 10/23 11:59pm                  Topic: Two Period Consumer Problem Topic: Two Period Equilibrium
+  10   10/24 /26   Essence of Calculus Ch.8 Deadline: 07/10 11:59pm                  Topic: RBC Model Part 1: Consumer Topic: RBC Model Part 2: Firm
+  11   10/31 /02   Essence of Calculus Ch.9 Problem Set 3 Deadline: 11/06 11:59pm    Topic: RBC Model Part 3: Competitive Equilibrium
+  12   11/07 /09   Essence of Calculus Ch.10 Deadline: 11/13 11:59pm                 Topic: RBC Model Part 4: Examples
+  13   11/14 /16   Essence of Calculus Ch.11 Problem Set 4 Deadline: 11/21 11:59pm   Topic: RBC Model Part 5: Applications
+  14   11/21       None                                                              TBA
+  15   11/28 /30   None                                                              TBA
+  16   12/05 /07   None                                                              TBA
+  17   12/12       None                                                              Final Exam
 
 
 ## Lecture Notes
