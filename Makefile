@@ -369,7 +369,7 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	export TAGS; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/article_header.html >> $@; \
-	sed -e '/^;/d' < $< | markdown -f fencedcode,toc >> $@; \
+	sed -e '/^;/d' < $< | markdown -f fencedcode >> $@; \
 	envsubst < templates/tag_link_header.html >> $@; \
 	for i in $${TAGS} ; do \
 		TAG_NAME="$$i" \
