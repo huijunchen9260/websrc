@@ -91,7 +91,7 @@ tags/%: $(BLOG_SRC)/%.md
 # 	export DATE_EDITED; \
 # 	envsubst < templates/header.html > $@; \
 # 	envsubst < templates/index_header.html >> $@; \
-# 	markdown < index.md >> $@; \
+# 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < index.md >> $@; \
 # 	envsubst < templates/tag_list_header.html >> $@; \
 # 	first=true; \
 # 	for t in $(shell cat $(TAGFILES) | sort -u); do \
@@ -136,7 +136,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/index_header.html >> $@; \
-	markdown < index.md >> $@; \
+	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < index.md >> $@; \
 	envsubst < templates/index_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
@@ -157,7 +157,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	export PAGE_TITLE; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/blog_header.html >> $@; \
-	markdown < blog.md >> $@; \
+	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < blog.md >> $@; \
 	envsubst < templates/tag_list_header.html >> $@; \
 	first=true; \
 	for t in $(shell cat $(TAGFILES) | sort -u); do \
@@ -196,7 +196,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/research_header.html >> $@; \
-	markdown < research.md >> $@; \
+	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < research.md >> $@; \
 	f1=true; f2=true; \
 	for f in $(ARTICLES); do \
 		grep -qE "; *tags: .*Working.*" "$$f" && { "$$f1" && WP="$$f" || WP="$$WP $$f"; f1=false; }; \
@@ -264,7 +264,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	export DATE_EDITED; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/teaching_header.html >> $@; \
-	markdown < teaching.md >> $@; \
+	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < teaching.md >> $@; \
 	f1=true; \
 	for f in $(ARTICLES); do \
 		grep -qE "; *tags: .*Teaching.*" "$$f" && { "$$f1" && WP="$$f" || WP="$$WP $$f"; f1=false; }; \
@@ -369,7 +369,7 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	export TAGS; \
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/article_header.html >> $@; \
-	sed -e '/^;/d' < $< | markdown -f fencedcode,urlencodedanchor >> $@; \
+	sed -e '/^;/d' < $< | lowdown -thtml --html-no-skiphtml --html-no-escapehtml >> $@; \
 	envsubst < templates/tag_link_header.html >> $@; \
 	for i in $${TAGS} ; do \
 		TAG_NAME="$$i" \
@@ -392,7 +392,7 @@ blog/rss.xml: $(ARTICLES)
 			"$(BLOG_URL_ROOT)`basename $$FILE | sed 's/\.md/\.html/'`" \
 			"$(BLOG_URL_ROOT)`basename $$FILE | sed 's/\.md/\.html/'`" \
 			"$$DATE" \
-			"`markdown < $$FILE`"; \
+			"`lowdown -thtml --html-no-skiphtml --html-no-escapehtml < $$FILE`"; \
 	done >> $@
 	printf '</channel>\n</rss>\n' >> $@
 
@@ -410,7 +410,7 @@ blog/atom.xml: $(ARTICLES)
 			"$$DATE" \
 			"`git log -n 1 --date="format:%Y-%m-%dT%H:%M:%SZ" --pretty=format:'%ad' -- "$$FILE"`" \
 			"$$AUTHOR" \
-			"`markdown < $$FILE`"; \
+			"`lowdown -thtml --html-no-skiphtml --html-no-escapehtml < $$FILE`"; \
 	done >> $@
 	printf '</feed>\n' >> $@
 
