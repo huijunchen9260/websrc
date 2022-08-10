@@ -49,26 +49,24 @@ help:
 # 	printf 'blog\n' > .git/info/exclude
 
 build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
-	git add .
-	git commit -m "updatewebsrc $(shell date "+%m/%d/%Y %H:%M:%S")"
-	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc
-	rsync -urtvzP $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf
-	rsync -urtvzP data/* blog/
-	rsync -urtvzP blog/ ../web/
+	git add .; \
+	git commit -m "updatewebsrc $(shell date "+%m/%d/%Y %H:%M:%S")"; \
+	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc; \
+	rsync -urtvzP $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf; \
+	rsync -urtvzP data/* blog/; \
+	rsync -urtvzP blog/ ../web/;
 
-
-.ONESHELL:
 deploy: clean build
-	cd ../web
-	git add .
-	git commit -m "updateweb $(shell date "+%m/%d/%Y %H:%M:%S")"
-	git push https://$(GIT_AUTH)@github.com/huijunchen9260/huijunchen9260.github.io
+	cd ../web; \
+	git add .; \
+	git commit -m "updateweb $(shell date "+%m/%d/%Y %H:%M:%S")"; \
+	git push https://$(GIT_AUTH)@github.com/huijunchen9260/huijunchen9260.github.io;
 	# rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
 
 clean:
-	rm -rf tags
-	cd ./blog
-	rm *.html
+	rm -rf tags; \
+	cd ./blog; \
+	rm *.html;
 	# rm -rf blog tags
 
 config:
@@ -77,8 +75,8 @@ config:
 		> $@
 
 tags/%: $(BLOG_SRC)/%.md
-	mkdir -p tags
-	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-zA-Z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@
+	mkdir -p tags; \
+	grep -ih '^; *tags:' "$<" | cut -d: -f2- | tr -c '[^a-zA-Z\-]' ' ' | sed 's/  */\n/g' | sed '/^$$/d' | sort -u > $@;
 
 ### Original index.html generation: save as record
 # blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
@@ -121,7 +119,7 @@ tags/%: $(BLOG_SRC)/%.md
 # 	envsubst < templates/footer.html >> $@; \
 
 blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header index_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer index_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
@@ -130,7 +128,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	done | sort -rk2 | head -n 1)"; \
 	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
 	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
+	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -138,11 +136,11 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	envsubst < templates/index_header.html >> $@; \
 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < index.md >> $@; \
 	envsubst < templates/index_footer.html >> $@; \
-	envsubst < templates/footer.html >> $@; \
+	envsubst < templates/footer.html >> $@;
 
 
 blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header blog_header tag_list_header tag_entry tag_separator tag_list_footer article_list_header article_entry article_separator article_list_footer blog_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
@@ -151,7 +149,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	done | sort -rk2 | head -n 1)"; \
 	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
 	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
+	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"; \
 	export DATE_EDITED; \
 	export TITLE; \
 	export PAGE_TITLE; \
@@ -184,10 +182,10 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	done >> $@; \
 	envsubst < templates/article_list_footer.html >> $@; \
 	envsubst < templates/blog_footer.html >> $@; \
-	envsubst < templates/footer.html >> $@; \
+	envsubst < templates/footer.html >> $@;
 
 blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header article_list_header article_entry article_separator article_list_footer research_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
@@ -255,7 +253,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	envsubst < templates/footer.html >> $@
 
 blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header teaching_header article_list_header article_entry article_separator article_list_footer teaching_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Teaching -- $(BLOG_TITLE)"; \
 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
@@ -354,7 +352,7 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 
 
 blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header article_header tag_link_header tag_link tag_link_footer article_footer footer))
-	mkdir -p blog
+	mkdir -p blog; \
 	TITLE="$(shell head -n1 $< | sed 's/^# \+//')"; \
 	export TITLE; \
 	PAGE_TITLE="$${TITLE} -- $(BLOG_TITLE)"; \
