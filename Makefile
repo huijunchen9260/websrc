@@ -19,27 +19,40 @@ BLOG_SRC ?= articles
 .PHONY: help init build deploy clean taglist
 
 ARTICLES := $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
+WORKING := $(shell grep -E "; *tags: .*Working.*" $(ARTICLES) | cut -d':' -f1)
+PUBLISH := $(shell grep -E "; *tags: .*Published.*" $(ARTICLES) | cut -d':' -f1)
+TEACHING := $(shell grep -E "; *tags: .*Teaching.*" $(ARTICLES) | cut -d':' -f1)
+
 TAGFILES := $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
 ARTICLE_NEWESTDATE := "$(shell git add src 2>&1 1>/dev/null; git commit -m "src update" 2>&1 1>/dev/null; \
 				 for f in $(ARTICLES); do \
 					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 				 done | sort -rk2 | head -n 1)";
+WORKING_NEWESTDATE := "$(shell for f in $(WORKING); do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
+PUBLISH_NEWESTDATE := "$(shell for f in $(PUBLISH); do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
+COURSE_NEWESTDATE := "$(shell for f in $(TEACHING); do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
 INDEX_NEWESTDATE := "$(shell git add index.md 1>/dev/null; git commit -m "index.md update" 1>/dev/null; \
-				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
-RESEARCH_NEWESTDATE := "$(shell git add research.md 1>/dev/null; git commit -m "research.md update" 1>/dev/null; \
-				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
-TEACHING_NEWESTDATE := "$(shell git add teaching.md 1>/dev/null; git commit -m "teaching.md update" 1>/dev/null; \
-				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
-NEWEST_DATE := "$(shell echo $(ARTICLE_NEWESTDATE) $(INDEX_NEWESTDATE) \
-			   $(RESEARCH_NEWESTDATE) $(TEACHING_NEWESTDATE) | sort rk2 | head -n 1)"
+				 for f in $(ARTICLES) index.md research.md teaching.md; do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
+RESEARCH_NEWESTDATE := "$(shell for f in $(WORKING) $(PUBLISH) research.md; do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
+TEACHING_NEWESTDATE := "$(shell for f in $(TEACHING) teaching.md; do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
 
 .ONESHELL:
 test:
-	echo $(ARTICLE_NEWESTDATE)
 	echo $(INDEX_NEWESTDATE)
 	echo $(RESEARCH_NEWESTDATE)
 	echo $(TEACHING_NEWESTDATE)
-	echo $(NEWEST_DATE)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -137,7 +150,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
-	DATE_EDITED="$(NEWEST_DATE)"
+	DATE_EDITED="$(INDEX_NEWESTDATE)"
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -152,13 +165,7 @@ blog/blog.html: blog.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuff
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Blog -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
-	articleNewestDate="$$(for f in $(ARTICLES); do \
-		git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-	done | sort -rk2 | head -n 1)"; \
-	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
-	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"; \
+	DATE_EDITED="$(ARTICLE_NEWESTDATE)"; \
 	export DATE_EDITED; \
 	export TITLE; \
 	export PAGE_TITLE; \
@@ -197,7 +204,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED="$(RESEARCH_NEWESTDATE)"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -205,25 +212,12 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	envsubst < templates/research_header.html >> $@; \
 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < research.md >> $@; \
 	f1=true; f2=true; \
-	for f in $(ARTICLES); do \
-		grep -qE "; *tags: .*Working.*" "$$f" && { "$$f1" && WP="$$f" || WP="$$WP $$f"; f1=false; }; \
-		grep -qE "; *tags: .*Published.*" "$$f" && { "$$f2" && PUB="$$f" || PUB="$$PUB $$f"; f2=false; } ; \
-	done ; \
-	[ -z "$$WP" ] && [ -z "$$PUB" ] && { \
+	[ -z "$(WORKING)" ] && [ -z "$(PUBLISH)" ] && { \
 		echo "<h1>Under Construction</h1>" >> $@ ; \
 		envsubst < templates/research_footer.html >> $@ ; \
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
-	[ -n "$$WP" ] || [ -n "$$PUB" ] && { \
-		articleNewestDate="$$(for f in $$WP $$PUB; do \
-			git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort -rk2 | head -n 1)"; \
-		tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
-		tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-		[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
-		export DATE_EDITED; \
-	};  \
 	[ -n "$$WP" ] && { \
 		first=true; \
  		echo "<h2>Working</h2>" >> $@ ; \
@@ -265,7 +259,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Teaching -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
+	DATE_EDITED=$(TEACHING_NEWESTDATE)
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
@@ -273,24 +267,12 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	envsubst < templates/teaching_header.html >> $@; \
 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < teaching.md >> $@; \
 	f1=true; \
-	for f in $(ARTICLES); do \
-		grep -qE "; *tags: .*Teaching.*" "$$f" && { "$$f1" && WP="$$f" || WP="$$WP $$f"; f1=false; }; \
-	done ; \
-	[ -z "$$WP" ] && { \
+	[ -z "$(TEACHING)" ] && { \
 		echo "<h1>Under Construction</h1>" >> $@ ; \
 		envsubst < templates/teaching_footer.html >> $@ ; \
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
-	[ -n "$$WP" ] && { \
-		articleNewestDate="$$(for f in $$WP; do \
-			git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort -rk2 | head -n 1)"; \
-		tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
-		tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-		[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"
-		export DATE_EDITED; \
-	};  \
 	[ -n "$$WP" ] && { \
 		first=true; \
  		echo "<h2>Teaching</h2>" >> $@ ; \
