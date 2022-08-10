@@ -23,6 +23,7 @@ TAGFILES := $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
 
 .ONESHELL:
 test:
+	echo $(TAGFILES); \
 	echo $(ARTICLES)
 
 help:
