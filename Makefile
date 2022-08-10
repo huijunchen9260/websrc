@@ -20,6 +20,9 @@ BLOG_SRC ?= articles
 
 ARTICLES := $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
 TAGFILES := $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
+articleNewestDate := "$(shell for f in $(ARTICLES); do \
+	git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+done | sort -rk2 | head -n 1)";
 
 .ONESHELL:
 test:
