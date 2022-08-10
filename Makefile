@@ -65,9 +65,9 @@ deploy: clean build
 
 clean:
 	rm -rf tags; \
+	mkdir -p blog; \
 	cd ./blog; \
-	rm *.html;
-	# rm -rf blog tags
+	# rm *.html;
 
 config:
 	printf 'BLOG_REMOTE:=%s\n' \
