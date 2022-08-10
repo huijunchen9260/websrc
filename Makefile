@@ -64,9 +64,8 @@ deploy: clean build
 	# rsync -rLtvz $(BLOG_RSYNC_OPTS) blog/ data/ $(BLOG_REMOTE)
 
 clean:
-	rm -rf tags; \
-	mkdir -p blog; \
-	cd ./blog; \
+	rm -rf blog tags; \
+	mkdir -p blog tags; \
 	# rm *.html;
 
 config:
