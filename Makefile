@@ -222,7 +222,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		first=true; \
  		echo "<h2>Working</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
-		for f in $$WP; do \
+		for f in $(WORKING); do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
@@ -239,7 +239,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		first=true; \
  		echo "<h2>Published</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
-		for f in $$PUB; do \
+		for f in $(PUBLISH); do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
@@ -277,7 +277,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		first=true; \
  		echo "<h2>Teaching</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
-		for f in $$WP; do \
+		for f in $(TEACHING); do \
 			printf '%s ' "$$f"; \
 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
