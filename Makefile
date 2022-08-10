@@ -50,9 +50,9 @@ TEACHING_NEWESTDATE := "$(shell for f in $(TEACHING) teaching.md; do \
 
 .ONESHELL:
 test:
-	echo $(INDEX_NEWESTDATE)
-	echo $(RESEARCH_NEWESTDATE)
-	echo $(TEACHING_NEWESTDATE)
+	echo $(ARTICLES)
+	echo $(TEACHING)
+	echo $(WORKING)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -218,7 +218,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
-	[ -n "$$WP" ] && { \
+	[ -n "$(WORKING)" ] && { \
 		first=true; \
  		echo "<h2>Working</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
@@ -235,7 +235,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
 	};  \
-	[ -n "$$PUB" ] && { \
+	[ -n "$(PUBLISH)" ] && { \
 		first=true; \
  		echo "<h2>Published</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
@@ -273,7 +273,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
-	[ -n "$$WP" ] && { \
+	[ -n "$(TEACHING)" ] && { \
 		first=true; \
  		echo "<h2>Teaching</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
