@@ -15,6 +15,7 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 <!-- vim-markdown-toc -->
 
+
 ## Grade
 
 | Categories                      | Points     |
