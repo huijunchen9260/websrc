@@ -20,13 +20,26 @@ BLOG_SRC ?= articles
 
 ARTICLES := $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
 TAGFILES := $(patsubst $(BLOG_SRC)/%.md,tags/%,$(ARTICLES))
-ARTNEWESTDATE := "$(shell for f in $(ARTICLES); do \
-	git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-done | sort -rk2 | head -n 1)";
+ARTICLE_NEWESTDATE := "$(shell git add src 2>&1 1>/dev/null; git commit -m "src update" 2>&1 1>/dev/null; \
+				 for f in $(ARTICLES); do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)";
+INDEX_NEWESTDATE := "$(shell git add index.md 1>/dev/null; git commit -m "index.md update" 1>/dev/null; \
+				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
+RESEARCH_NEWESTDATE := "$(shell git add research.md 1>/dev/null; git commit -m "research.md update" 1>/dev/null; \
+				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
+TEACHING_NEWESTDATE := "$(shell git add teaching.md 1>/dev/null; git commit -m "teaching.md update" 1>/dev/null; \
+				git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "index.md")"
+NEWEST_DATE := "$(shell echo $(ARTICLE_NEWESTDATE) $(INDEX_NEWESTDATE) \
+			   $(RESEARCH_NEWESTDATE) $(TEACHING_NEWESTDATE) | sort rk2 | head -n 1)"
 
 .ONESHELL:
 test:
-	echo $(ARTNEWESTDATE)
+	echo $(ARTICLE_NEWESTDATE)
+	echo $(INDEX_NEWESTDATE)
+	echo $(RESEARCH_NEWESTDATE)
+	echo $(TEACHING_NEWESTDATE)
+	echo $(NEWEST_DATE)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -124,13 +137,7 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
-	articleNewestDate="$$(for f in $(ARTICLES); do \
-		git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-	done | sort -rk2 | head -n 1)"; \
-	tmpNewest=$$(echo $$articleNewestDate | tr -d '-'); \
-	tmpEdit=$$(echo $$DATE_EDITED | tr -d '-'); \
-	[ "$$tmpNewest" -ge "$$tmpEdit" ] && DATE_EDITED="$$articleNewestDate"; \
+	DATE_EDITED="$(NEWEST_DATE)"
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
