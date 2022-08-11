@@ -21,18 +21,11 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 ## Grade
 
-| Categories                      | Points     |
-|---------------------------------|------------|
-| Problem sets on course material | 20 points  |
-| Quizzes on Calculus videos      | 20 points  |
-| Midterm Exam                    | 25 points  |
-| Final Exam                      | 25 points  |
-| Attendance                      | 10 points  |
-| Total                           | 100 points |
+See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#grade)
 
 ## Course Schedule
 
-See [Syllabus_html](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
+See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#tentative-course-schedule)
 
 ## Lecture Notes
 
