@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.5.7)  11 AUG 2022 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.5.7)  11 AUG 2022 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
 tyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\e
 ndcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\
 documentstyle[tex4ht]}}}\makeatother\HCode xhtml,,charset=utf-8,html5.a.b.c.\in
-put "\detokenize{syllabus.tex}"
-(./syllabus.tex (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+put "\detokenize{../syllabus.tex}"
+(../syllabus.tex (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
 version 2022-04-04-07:06
 Package: tex4ht 
 --------------------------------------
@@ -1324,12 +1324,12 @@ Package logreq Info: Writing requests to 'syllabus.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31349 strings out of 478239
- 569913 string characters out of 5850483
+ 31350 strings out of 478239
+ 569920 string characters out of 5850483
  1324291 words of memory out of 5000000
  48881 multiletter control sequences out of 15000+600000
  480323 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,8n,128p,1948b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 106i,8n,128p,1951b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus.dvi (11 pages, 76204 bytes).
