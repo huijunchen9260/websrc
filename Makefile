@@ -50,9 +50,7 @@ TEACHING_NEWESTDATE := "$(shell for f in $(TEACHING) teaching.md; do \
 
 .ONESHELL:
 test:
-	echo $(ARTICLES)
-	echo $(TEACHING)
-	echo $(WORKING)
+	echo $(TAGFILES)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
