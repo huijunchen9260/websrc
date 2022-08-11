@@ -2,7 +2,8 @@
 
 ECON 4002.02, The Ohio State University, Autumn 2022
 
-[Syllabus](pdf/IntermediateMacroAutumn2022/syllabus/Final/syllabus.pdf)
+[Syllabus-pdf](pdf/IntermediateMacroAutumn2022/syllabus/Final/syllabus.pdf),
+[Syllabus-html](pdf/IntermediateMacroAutumn2022/syllabus/Final/syllabus.html)
 
 <!-- ## Announcement -->
 
