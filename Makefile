@@ -15,6 +15,12 @@ BLOG_FEED_MAX ?= 20
 BLOG_FEEDS ?= rss atom
 BLOG_SRC ?= articles
 
+MKDIR := mkdir -p
+LN := ln -vsf
+LNDIR := ln -vsfn
+RM := rm
+RMDIR := rm -rf
+RSYNC := rsync -urtvzP
 
 .PHONY: help init build deploy clean taglist
 
@@ -50,7 +56,7 @@ TEACHING_NEWESTDATE := "$(shell for f in $(TEACHING) teaching.md; do \
 
 .ONESHELL:
 test:
-	echo $(TAGFILES)
+	echo $(BLOG)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -79,9 +85,9 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 	git add .; \
 	git commit -m "updatewebsrc $(shell date "+%m/%d/%Y %H:%M:%S")"; \
 	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc; \
-	rsync -urtvzP $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf; \
-	rsync -urtvzP data/* blog/; \
-	rsync -urtvzP blog/ ../web/;
+	$(RSYNC) $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf; \
+	$(RSYNC) data/* blog/; \
+	$(RSYNC) blog/ ../web/;
 
 deploy: clean build
 	cd ../web; \
