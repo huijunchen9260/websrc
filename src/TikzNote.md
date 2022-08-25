@@ -3,17 +3,21 @@
 ## Opinionated "Good" Habit when using Tikz
 
 - We can separate the definition of the desired point from the label of the point, e.g.:
+
     ```tex
         \node[draw,fill=red,circle,inner sep=1pt] (x00) at ( $ (0, 0)$ ) {};
         \node[below]  at (x00) {$x_{00}(a_1, a_2)$};
     ```
+
     - Reason: I can have full control on the decoration of the node on `(0, 0)` and where I should put the label on.
         One can also use `\coordinate` to define points, i.e.,
+
     ```tex
         \coordinate[draw,fill=red,circle,inner sep=1pt] (x00) at ( $ (0, 0)$ );
         \node[below]  at (x00) {$x_{00}(a_1, a_2)$};
     ```
-        It seems that `\coordinate` cannot have labels, so there's no need to include empty `{}` at the end of the `\node`.
+
+    It seems that `\coordinate` cannot have labels, so there's no need to include empty `{}` at the end of the `\node`.
 - Define points first and give every point a reasonable name.
     - Reason: You can directly use those named points to create paths.
 
