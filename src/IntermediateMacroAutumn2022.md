@@ -46,6 +46,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
         - [Wiki: the methodology of positive economics](https://en.wikipedia.org/wiki/Essays_in_Positive_Economics#The_Methodology_of_Positive_Economics)
         - [The methodology of positive economics](https://books.google.com/books?hl=en&lr=&id=NqNGaJBahWoC&oi=fnd&pg=PA180&dq=The+Methodology+of+Positive+Economics&ots=gLKnEx_kWX&sig=nWfE1bFegyceirvT_tWEEJzJtoU#v=onepage&q=The%20Methodology%20of%20Positive%20Economics&f=false)
 - [Lecture 2: Economic Aggregates](pdf/IntermediateMacroAutumn2022/Lecture_02/Final/Lecture_02.pdf)
+    - [Chain-weighing: The New Approach to Measuring GDP (Current Issues in Economics and Finance)](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci1-9.pdf)
 - [Lecture 3: Business Cycle Measurement](pdf/IntermediateMacroAutumn2022/Lecture_03/Final/Lecture_03.pdf)
 - [Lecture 4: Representative Consumer, Preference and Constraints](pdf/IntermediateMacroAutumn2022/Lecture_04/Final/Lecture_04.pdf)
 - [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroAutumn2022/Lecture_05/Final/Lecture_05.pdf)
