@@ -12,6 +12,10 @@ ECON 4002.02, The Ohio State University, Autumn 2022
     [Syllabus: pdf version](pdf/IntermediateMacroAutumn2022/syllabus/build/syllabus.pdf) and
     [Syllabus: html version](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
     for changing office hour from (Tuesday, Thursday) to (Monday, Wednesday).
+- Aug 29, 2022: Update
+    [Syllabus: pdf version](pdf/IntermediateMacroAutumn2022/syllabus/build/syllabus.pdf) and
+    [Syllabus: html version](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
+    for changing course schedule (erase labor day)
 
 ## Table of Content
 <!-- vim-markdown-toc GFM -->
