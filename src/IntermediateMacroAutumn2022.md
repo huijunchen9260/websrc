@@ -49,6 +49,9 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
     - [Chain-weighing: The New Approach to Measuring GDP (Current Issues in Economics and Finance)](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci1-9.pdf)
     - Answering Question: [The Long-Run Effects of Federal Budget Deficitson National Saving and Private Domestic Investment](https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/workingpaper/45140-NSPDI_workingPaper_1.pdf)
 - [Lecture 3: Business Cycle Measurement](pdf/IntermediateMacroAutumn2022/Lecture_03/Final/Lecture_03.pdf)
+    - Answering Question: What's the difference between correlation and beta in finance
+        - [Correlation vs Beta: What is the difference and why does it matter?](https://www.mackenzieinvestments.com/content/dam/mackenzie/en/insights/wp-alts-correlation-vs-beta-en.pdf)
+        - The concept of beta comes from the Capital Asset Pricing Model (CAPM), and this is a good review paper about it: [The Capital Asset Pricing Model](https://pubs.aeaweb.org/doi/pdfplus/10.1257/0895330042162340)
 - [Lecture 4: Representative Consumer, Preference and Constraints](pdf/IntermediateMacroAutumn2022/Lecture_04/Final/Lecture_04.pdf)
 - [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroAutumn2022/Lecture_05/Final/Lecture_05.pdf)
 - [Lecture 6: Numerical Example](pdf/IntermediateMacroAutumn2022/Lecture_06/Final/Lecture_06.pdf)
