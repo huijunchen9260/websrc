@@ -78,7 +78,7 @@ h1:first-of-type  {
 /* Article Body */
 
 body {
-	text-align: justify;
+	text-align: left;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	hyphens: auto;
