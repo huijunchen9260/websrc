@@ -4,3 +4,4 @@ BLOG_DATE_FORMAT_INDEX:=%F
 BLOG_DATE_FORMAT:=%F
 BLOG_SRC:=src
 BLOG_URL_ROOT:=https://huijunchen9260.github.io/
+BLOG_AUTHOR:=Hui-Jun Chen

@@ -56,7 +56,7 @@ TEACHING_NEWESTDATE := "$(shell for f in $(TEACHING) teaching.md; do \
 
 .ONESHELL:
 test:
-	echo $(BLOG)
+	echo $(INDEX_NEWESTDATE)
 
 help:
 	$(info make init|build|deploy|clean|taglist)
@@ -154,7 +154,9 @@ blog/index.html: index.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsu
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="$(BLOG_TITLE)"; \
-	DATE_EDITED="$(INDEX_NEWESTDATE)"
+	DATE_EDITED="$(shell for f in $(ARTICLES) index.md research.md teaching.md; do \
+					 git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+				 done | sort -rk2 | head -n 1)"; \
 	export TITLE; \
 	export PAGE_TITLE; \
 	export DATE_EDITED; \
