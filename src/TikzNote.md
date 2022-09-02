@@ -114,9 +114,10 @@ Need to add `\usetikzlibrary{intersections}` in preamble.
 ```
 
 Explanation:
-1. Need to add `name path=name` as argument to call this path.
-2. Use `\path` to define the `name intersections`. `of` is to define the intersections between two paths, and `by` defines the name of the intersection.
-3. Use `\node` to draw the point as `circle`. Can be other type.
+
+- Need to add `name path=name` as argument to call this path.
+- Use `\path` to define the `name intersections`. `of` is to define the intersections between two paths, and `by` defines the name of the intersection.
+- Use `\node` to draw the point as `circle`. Can be other type.
 
 ## Change the font size of all node/label
 
