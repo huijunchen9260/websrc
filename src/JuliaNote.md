@@ -23,3 +23,5 @@
 ## Julia Introduction
 
 - 100 Seconds Intro by Fireship: [video](https://www.youtube.com/watch?v=JYs_94znYy0)
+
+;tags: Miscellaneous
