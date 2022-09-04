@@ -38,6 +38,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
 
 ## Lecture Notes
 
+- [Note on Julia](JuliaNote.html)
 - [Review for Math](pdf/IntermediateMacroAutumn2022/math/Final/math.pdf)
 - [Lecture 1: Introduction](pdf/IntermediateMacroAutumn2022/Lecture_01/Final/Lecture_01.pdf)
     - Lucas critique:

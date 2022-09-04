@@ -14,6 +14,7 @@ BLOG_URL_ROOT ?= http://localhost/blog
 BLOG_FEED_MAX ?= 20
 BLOG_FEEDS ?= rss atom
 BLOG_SRC ?= articles
+BLOG_AUTHOR ?= Hui-Jun Chen
 
 MKDIR := mkdir -p
 LN := ln -vsf
