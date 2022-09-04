@@ -8,14 +8,18 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 ## Announcement
 
-- Aug 24, 2022: Update
-    [Syllabus: pdf version](pdf/IntermediateMacroAutumn2022/syllabus/build/syllabus.pdf) and
-    [Syllabus: html version](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
-    for changing office hour from (Tuesday, Thursday) to (Monday, Wednesday).
+- Sep 04, 2022: Update the Instruction for
+    [Problem Set 1](pdf/IntermediateMacroAutumn2022/ProblemSet1/ProblemSet_01_v01.pdf)
+    on Problem 2.
+- Sep 04, 2022: New Instruction on [Note on Julia](JuliaNote.html), which will also be updated in the future.
 - Aug 29, 2022: Update
     [Syllabus: pdf version](pdf/IntermediateMacroAutumn2022/syllabus/build/syllabus.pdf) and
     [Syllabus: html version](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
     for changing course schedule (erase labor day)
+- Aug 24, 2022: Update
+    [Syllabus: pdf version](pdf/IntermediateMacroAutumn2022/syllabus/build/syllabus.pdf) and
+    [Syllabus: html version](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html)
+    for changing office hour from (Tuesday, Thursday) to (Monday, Wednesday).
 
 ## Table of Content
 <!-- vim-markdown-toc GFM -->
