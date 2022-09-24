@@ -8,6 +8,9 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 ## Announcement
 
+- Add
+    [Problem Set 2 Answer Sheet](pdf/IntermediateMacroAutumn2022/ProblemSet2/PS2AnswerSheet.pdf)
+    for students to upload on Carmen.
 - Fix typo in
     [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroAutumn2022/Lecture_05/Final/Lecture_05.pdf)
 - Sep 04, 2022: Update the Instruction for
