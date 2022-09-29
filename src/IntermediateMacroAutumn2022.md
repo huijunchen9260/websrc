@@ -8,6 +8,8 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 ## Announcement
 
+- Sep, 29, 2022: Add
+    [Julia Syntax and Algorithm](pdf/IntermediateMacroAutumn2022/JuliaSyntax/build/JuliaSyntax.pdf)
 - Add
     [Problem Set 2 Answer Sheet](pdf/IntermediateMacroAutumn2022/ProblemSet2/PS2AnswerSheet.pdf)
     for students to upload on Carmen.
@@ -48,6 +50,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
 ## Lecture Notes
 
 - [Note on Julia](JuliaNote.html)
+- [Julia Syntax and Algorithm](pdf/IntermediateMacroAutumn2022/JuliaSyntax/build/JuliaSyntax.pdf)
 - [Review for Math](pdf/IntermediateMacroAutumn2022/math/Final/math.pdf)
 - [Lecture 1: Introduction](pdf/IntermediateMacroAutumn2022/Lecture_01/Final/Lecture_01.pdf)
     - Lucas critique:
