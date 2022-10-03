@@ -8,7 +8,9 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 ## Announcement
 
-- Sep, 29, 2022: Add
+- Oct 03, 2022: Fix typo in
+    [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/IntermediateMacroAutumn2022/Lecture_11/Final/Lecture_11.pdf)
+- Sep 29, 2022: Add
     [Julia Syntax and Algorithm](pdf/IntermediateMacroAutumn2022/JuliaSyntax/build/JuliaSyntax.pdf)
 - Add
     [Problem Set 2 Answer Sheet](pdf/IntermediateMacroAutumn2022/ProblemSet2/PS2AnswerSheet.pdf)
