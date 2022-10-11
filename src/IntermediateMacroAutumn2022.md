@@ -35,6 +35,7 @@ ECON 4002.02, The Ohio State University, Autumn 2022
 
 * [Grade](#grade)
 * [Course Schedule](#course-schedule)
+* [Exam Reviews](#exam-reviews)
 * [Lecture Notes](#lecture-notes)
 * [Problem Sets](#problem-sets)
 
@@ -48,6 +49,10 @@ See [Grades](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#grades)
 ## Course Schedule
 
 See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#tentative-course-schedule)
+
+## Exam Reviews
+
+- [Midterm Review](pdf/IntermediateMacroAutumn2022/Midterm/midtermReview.pdf)
 
 ## Lecture Notes
 
