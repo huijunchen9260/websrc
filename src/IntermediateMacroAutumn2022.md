@@ -83,6 +83,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
 <!-- - [Midterm Review 1](pdf/IntermediateMacroAutumn2022/midtermReview_1.pdf) -->
 <!-- - [Midterm Review 2](pdf/IntermediateMacroAutumn2022/midtermReview_2.pdf) -->
 - [Lecture 12: Two-Period Consumer Problem](pdf/IntermediateMacroAutumn2022/Lecture_12/Final/Lecture_12.pdf)
+    - [Income taxes in Canada and the United States](https://www150.statcan.gc.ca/n1/en/pub/75-001-x/2000002/article/5071-eng.pdf?st=u5EgyaFN)
 - [Lecture 13: Competitive Equilibrium, Two-Period Model](pdf/IntermediateMacroAutumn2022/Lecture_13/Final/Lecture_13.pdf)
 - [Lecture 14: The Real Business Cycle Model Part 1: Consumer](pdf/IntermediateMacroAutumn2022/Lecture_14/Final/Lecture_14.pdf)
 - [Lecture 15: The Real Business Cycle Model Part 2: Firm](pdf/IntermediateMacroAutumn2022/Lecture_15/Final/Lecture_15.pdf)
