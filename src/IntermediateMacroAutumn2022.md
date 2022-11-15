@@ -91,6 +91,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
 - [Lecture 17: The Real Business Cycle Model Part 4: Formal Examples](pdf/IntermediateMacroAutumn2022/Lecture_17/Final/Lecture_17.pdf)
     - [The Fed Is In the Red. Here's Why. | WSJ](https://www.youtube.com/watch?v=p0z_zKWJTao)
 - [Lecture 18: The Real Business Cycle Model Part 5: Application and Matching Data](pdf/IntermediateMacroAutumn2022/Lecture_18/Final/Lecture_18.pdf)
+- [Introduction to Dynamic Programming](pdf/IntermediateMacroAutumn2022/DynamicProgramming/Final/DynamicProgramming.pdf)
 <!-- - [Final Review 1](pdf/IntermediateMacroAutumn2022/finalreview_1.pdf) -->
 <!-- - [Final Review 2](pdf/IntermediateMacroAutumn2022/finalreview_2.pdf) -->
 
