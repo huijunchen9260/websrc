@@ -93,6 +93,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2022/syllabus/syllabus.html#ten
 - [Lecture 18: The Real Business Cycle Model Part 5: Application and Matching Data](pdf/IntermediateMacroAutumn2022/Lecture_18/Final/Lecture_18.pdf)
 - [Introduction to Dynamic Programming](pdf/IntermediateMacroAutumn2022/DynamicProgramming/Final/DynamicProgramming.pdf)
 - [Asset Pricing in Endowment Economy](pdf/IntermediateMacroAutumn2022/AssetPricingEndowment/build/AssetPricingEndowment.pdf)
+- [Asset Pricing in Production Economy](pdf/IntermediateMacroAutumn2022/AssetPricingProduction/build/AssetPricingProduction.pdf)
 <!-- - [Final Review 1](pdf/IntermediateMacroAutumn2022/finalreview_1.pdf) -->
 <!-- - [Final Review 2](pdf/IntermediateMacroAutumn2022/finalreview_2.pdf) -->
 
