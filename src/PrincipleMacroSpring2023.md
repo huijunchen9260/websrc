@@ -19,3 +19,6 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
 ## Lecture Notes
 
 - [Unit 1: The Capitalist Revolution](pdf/PrincipleMacroSpring2023/Unit1TheCapitalistRevolution/build/Unit1TheCapitalistRevolution.pdf)
+
+
+;tags: Teaching
