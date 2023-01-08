@@ -19,7 +19,9 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
 ## Lecture Notes
 
 - [Unit 1: The Capitalist Revolution](pdf/PrincipleMacroSpring2023/Unit1TheCapitalistRevolution/build/Unit1TheCapitalistRevolution.pdf)
+    - [2022 Finance Rewind - The Crazy Year Behind Us](https://www.youtube.com/watch?v=E32v_bsasS8)
 - [Unit 2: Technology, population, and growth](pdf/PrincipleMacroSpring2023/Unit2TechChangePopulationGrowth/build/Unit2TechChangePopulationGrowth.pdf)
+- [Unit 3: Scarcity, Work and Choice](pdf/PrincipleMacroSpring2023/Unit3Consumer/build/Unit3Consumer.pdf)
 
 
 ;tags: Teaching
