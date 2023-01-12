@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.9)  12 JAN 2023 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.9)  12 JAN 2023 14:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Unit6Firm.tex
-(./Unit6Firm.tex
+**Unit6FirmLaborMarket.tex
+(./Unit6FirmLaborMarket.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -610,10 +610,10 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 ) (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "Unit6Firm.w18")...executed.
+runsystem(uname -s > "Unit6FirmLaborMarket.w18")...executed.
 
- (./Unit6Firm.w18)
-runsystem(rm -- "Unit6Firm.w18")...executed.
+ (./Unit6FirmLaborMarket.w18)
+runsystem(rm -- "Unit6FirmLaborMarket.w18")...executed.
 
 ) (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count357
@@ -1004,9 +1004,9 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 \c@proposition=\count404
 \c@thm=\count405
 \c@corol=\count406
-runsystem(which pygmentize && touch Unit6Firm.aex)...executed.
+runsystem(which pygmentize && touch Unit6FirmLaborMarket.aex)...executed.
 
-runsystem(rm Unit6Firm.aex)...executed.
+runsystem(rm Unit6FirmLaborMarket.aex)...executed.
 
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 104.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -1015,8 +1015,8 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count407
 \l__pdf_internal_box=\box109
-) (build/Unit6Firm.aux)
-\openout1 = `Unit6Firm.aux'.
+) (build/Unit6FirmLaborMarket.aux)
+\openout1 = `Unit6FirmLaborMarket.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
@@ -1103,9 +1103,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
 LaTeX Info: Redefining \nameref on input line 104.
- (build/Unit6Firm.out) (build/Unit6Firm.out)
+ (build/Unit6FirmLaborMarket.out) (build/Unit6FirmLaborMarket.out)
 \@outlinefile=\write7
-\openout7 = `Unit6Firm.out'.
+\openout7 = `Unit6FirmLaborMarket.out'.
 
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1131,7 +1131,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (build/Unit6Firm.nav)
+ (build/Unit6FirmLaborMarket.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 106.
@@ -1307,7 +1307,7 @@ Overfull \vbox (13.37485pt too high) has occurred while \output is active []
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\translate ' on input line 361.
 
-(build/Unit6Firm.bbl
+(build/Unit6FirmLaborMarket.bbl
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\translate ' on input line 11.
@@ -1327,28 +1327,28 @@ Overfull \vbox (13.37485pt too high) has occurred while \output is active []
 
 ]
 \tf@nav=\write8
-\openout8 = `Unit6Firm.nav'.
+\openout8 = `Unit6FirmLaborMarket.nav'.
 
 \tf@toc=\write9
-\openout9 = `Unit6Firm.toc'.
+\openout9 = `Unit6FirmLaborMarket.toc'.
 
 \tf@snm=\write10
-\openout10 = `Unit6Firm.snm'.
+\openout10 = `Unit6FirmLaborMarket.snm'.
 
- (build/Unit6Firm.aux)
-Package rerunfilecheck Info: File `Unit6Firm.out' has not changed.
+ (build/Unit6FirmLaborMarket.aux)
+Package rerunfilecheck Info: File `Unit6FirmLaborMarket.out' has not changed.
 (rerunfilecheck)             Checksum: 142D85F129E2E0EEFE6240B47649B042;979.
  ) 
 Here is how much of TeX's memory you used:
  48236 strings out of 478238
- 1104841 string characters out of 5850456
- 1493447 words of memory out of 5000000
+ 1105226 string characters out of 5850456
+ 1493590 words of memory out of 5000000
  65447 multiletter control sequences out of 15000+600000
  563166 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,122p,738b,2770s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,18n,122p,749b,2770s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on build/Unit6Firm.pdf (19 pages, 645439 bytes).
+Output written on build/Unit6FirmLaborMarket.pdf (19 pages, 645439 bytes).
 PDF statistics:
  403 PDF objects out of 1000 (max. 8388607)
  323 compressed objects within 4 object streams
