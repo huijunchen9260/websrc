@@ -22,7 +22,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [2022 Finance Rewind - The Crazy Year Behind Us](https://www.youtube.com/watch?v=E32v_bsasS8)
 - [Unit 2: Technology, population, and growth](pdf/PrincipleMacroSpring2023/Unit2TechChangePopulationGrowth/build/Unit2TechChangePopulationGrowth.pdf)
 - [Unit 3: Scarcity, Work and Choice](pdf/PrincipleMacroSpring2023/Unit3Consumer/build/Unit3Consumer.pdf)
-- [Unit 6: The Firm: Owner, Manager and Employees](../data/pdf/PrincipleMacroSpring2023/Unit6FirmLaborMarket/build/Unit6FirmLaborMarket.pdf)
+- [Unit 6: The Firm: Owner, Manager and Employees](pdf/PrincipleMacroSpring2023/Unit6FirmLaborMarket/build/Unit6FirmLaborMarket.pdf)
 
 
 ;tags: Teaching
