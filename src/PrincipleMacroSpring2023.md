@@ -24,6 +24,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [How to Read a Topographic Map](https://adventure.howstuffworks.com/outdoor-activities/hiking/how-to-read-a-topographic-map2.htm)
     - [Wolfram Algebra plotting cost function](https://www.wolframalpha.com/input?i=plot+c+%3D+L+%2B+2*R)
 - [Unit 3: Scarcity, Work and Choice](pdf/PrincipleMacroSpring2023/Unit3Consumer/build/Unit3Consumer.pdf)
+    - [How trail designers build good hikes](https://www.youtube.com/watch?v=oFIdIVngeYA)
 - [Unit 6: The Firm: Owner, Manager and Employees](pdf/PrincipleMacroSpring2023/Unit6FirmLaborMarket/build/Unit6FirmLaborMarket.pdf)
 - [Unit 7: The Firm, Demand Elasticity and Market Competition](pdf/PrincipleMacroSpring2023/Unit7FirmGoodMarket/build/Unit7FirmGoodMarket.pdf)
 - [Unit 9: The Labor Market, Wages, Profits, and Unemployment](pdf/PrincipleMacroSpring2023/Unit9LaborMarket/build/Unit9LaborMarket.pdf)
