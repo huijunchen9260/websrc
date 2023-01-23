@@ -29,5 +29,8 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
 - [Unit 7: The Firm, Demand Elasticity and Market Competition](pdf/PrincipleMacroSpring2023/Unit7FirmGoodMarket/build/Unit7FirmGoodMarket.pdf)
 - [Unit 9: The Labor Market, Wages, Profits, and Unemployment](pdf/PrincipleMacroSpring2023/Unit9LaborMarket/build/Unit9LaborMarket.pdf)
 
+## Problem Sets
+
+- [Problem Set 1: Unit 1 and Unit 2](pdf/PrincipleMacroSpring2023/ProblemSets/Unit1Unit2PS/Final/Unit1Unit2PS.pdf)
 
 ;tags: Teaching
