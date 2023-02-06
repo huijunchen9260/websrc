@@ -27,6 +27,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [How trail designers build good hikes](https://www.youtube.com/watch?v=oFIdIVngeYA)
 - [Unit 6: The Firm: Owner, Manager and Employees](pdf/PrincipleMacroSpring2023/Unit6FirmLaborMarket/build/Unit6FirmLaborMarket.pdf)
 - [Unit 7: The Firm, Demand Elasticity and Market Competition](pdf/PrincipleMacroSpring2023/Unit7FirmGoodMarket/build/Unit7FirmGoodMarket.pdf)
+    - [Deck the Halls with Macro Follies](https://www.youtube.com/watch?v=7uKnd6IEiO0)
 - [Unit 9: The Labor Market, Wages, Profits, and Unemployment](pdf/PrincipleMacroSpring2023/Unit9LaborMarket/build/Unit9LaborMarket.pdf)
 
 ## Problem Sets
