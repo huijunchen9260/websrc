@@ -30,6 +30,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [Deck the Halls with Macro Follies](https://www.youtube.com/watch?v=7uKnd6IEiO0)
     - [Price Elasticity: Why Airlines Will Never Improve Economy Class](https://www.youtube.com/watch?v=Ll92ud6Nufw)
 - [Unit 9: The Labor Market, Wages, Profits, and Unemployment](pdf/PrincipleMacroSpring2023/Unit9LaborMarket/build/Unit9LaborMarket.pdf)
+- [Unit 10: Banks, Money and the Credit Market](pdf/PrincipleMacroSpring2023/Unit10CreditMarket/build/Unit10CreditMarket.pdf)
 
 ## Problem Sets
 
