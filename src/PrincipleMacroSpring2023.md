@@ -10,11 +10,11 @@ ECON 2002.01, The Ohio State University, Spring 2023
 
 ## Grades
 
-See [Grades](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#grades)
+See [Grades](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#grades1)
 
 ## Course Schedule
 
-See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentative-course-schedule)
+See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentative-course-schedule1)
 
 ## Lecture Notes
 
