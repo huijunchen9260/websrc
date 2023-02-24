@@ -39,5 +39,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
 - [Problem Set 2: Unit 3](pdf/PrincipleMacroSpring2023/ProblemSets/Unit3PS/Final/Unit3PS.pdf)
 - [Problem Set 3: Unit 6](pdf/PrincipleMacroSpring2023/ProblemSets/Unit6PS/Final/Unit6PS.pdf)
 - [Problem Set 4: Unit 7](pdf/PrincipleMacroSpring2023/ProblemSets/Unit7PS/Final/Unit7PS.pdf)
+- [Problem Set 5: Unit 9](pdf/PrincipleMacroSpring2023/ProblemSets/Unit9PS/Final/Unit9PS.pdf)
+- [Problem Set 6: Unit 10](pdf/PrincipleMacroSpring2023/ProblemSets/Unit10PS/Final/Unit10PS.pdf)
 
 ;tags: Teaching
