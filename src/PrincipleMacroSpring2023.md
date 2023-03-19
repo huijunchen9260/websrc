@@ -36,6 +36,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
 - [Unit 14: Unemployment and Fiscal Policy](pdf/PrincipleMacroSpring2023/Unit14FiscalPolicy/build/Unit14FiscalPolicy.pdf)
 - [Unit 15: Inflation, Unemployment and Monetary Policy](pdf/PrincipleMacroSpring2023/Unit15MonetaryPolicy/build/Unit15MonetaryPolicy.pdf)
     - **[Age of Easy Money (full documentary) | FRONTLINE](https://youtu.be/EpMLAQbSYAw)**
+    - [What’s So Special About 2% Inflation?](https://youtu.be/UN-O6oNes0I)
 
 ## Problem Sets
 
