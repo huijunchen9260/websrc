@@ -34,6 +34,8 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [What is the most equal country on earth?](https://www.youtube.com/watch?v=Zwn6fqbNRLo)
 - [Unit 13: Economics Fluctuation, GDP and Unemployment](pdf/PrincipleMacroSpring2023/Unit13EconomicsFluctuation/build/Unit13EconomicsFluctuation.pdf)
 - [Unit 14: Unemployment and Fiscal Policy](pdf/PrincipleMacroSpring2023/Unit14FiscalPolicy/build/Unit14FiscalPolicy.pdf)
+- [Unit 15: Inflation, Unemployment and Monetary Policy](pdf/PrincipleMacroSpring2023/Unit15MonetaryPolicy/build/Unit15MonetaryPolicy.pdf)
+    - **[Age of Easy Money (full documentary) | FRONTLINE](https://youtu.be/EpMLAQbSYAw)**
 
 ## Problem Sets
 
