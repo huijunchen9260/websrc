@@ -39,6 +39,7 @@ See [Course schedule](pdf/PrincipleMacroSpring2023/syllabus/syllabus.html#tentat
     - [What’s So Special About 2% Inflation?](https://youtu.be/UN-O6oNes0I)
 - [Unit 16: Technological Progress, Unemployment and Living Standards in the Long Run](pdf/PrincipleMacroSpring2023/Unit16LongRunEconomy/build/Unit16LongRunEconomy.pdf)
 - [Unit 17: Great Depression](pdf/PrincipleMacroSpring2023/Unit17GreatDepression/Unit-17-The-Great-Depression-1.0.pdf) (core-econ slide)
+- [Macroeconomics of the COVID-19 Pandemic](pdf/PrincipleMacroSpring2023/MacroCovidPandemic/lecture-slides-macroeconomics-of-covid-19-pandemic-5-february.pdf)
 
 ## Problem Sets
 
