@@ -6,30 +6,6 @@ ECON 4002.01, The Ohio State University, Summer 2023
 
 [Syllabus: html version](pdf/IntermediateMacroSummer2023/syllabus/syllabus.html)
 
-## Announcement
-
-- Oct 03, 2022: Fix typo in
-    [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/IntermediateMacroSummer2023/Lecture_11/Final/Lecture_11.pdf)
-- Sep 29, 2022: Add
-    [Julia Syntax and Algorithm](pdf/IntermediateMacroSummer2023/JuliaSyntax/build/JuliaSyntax.pdf)
-- Add
-    [Problem Set 2 Answer Sheet](pdf/IntermediateMacroSummer2023/ProblemSet2/PS2AnswerSheet.pdf)
-    for students to upload on Carmen.
-- Fix typo in
-    [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroSummer2023/Lecture_05/Final/Lecture_05.pdf)
-- Sep 04, 2022: Update the Instruction for
-    [Problem Set 1](pdf/IntermediateMacroSummer2023/ProblemSet1/ProblemSet_01_v01.pdf)
-    on Problem 2.
-- Sep 04, 2022: New Instruction on [Note on Julia](JuliaNote.html), which will also be updated in the future.
-- Aug 29, 2022: Update
-    [Syllabus: pdf version](pdf/IntermediateMacroSummer2023/syllabus/build/syllabus.pdf) and
-    [Syllabus: html version](pdf/IntermediateMacroSummer2023/syllabus/syllabus.html)
-    for changing course schedule (erase labor day)
-- Aug 24, 2022: Update
-    [Syllabus: pdf version](pdf/IntermediateMacroSummer2023/syllabus/build/syllabus.pdf) and
-    [Syllabus: html version](pdf/IntermediateMacroSummer2023/syllabus/syllabus.html)
-    for changing office hour from (Tuesday, Thursday) to (Monday, Wednesday).
-
 ## Table of Content
 <!-- vim-markdown-toc GFM -->
 
