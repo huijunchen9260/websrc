@@ -11,7 +11,6 @@ ECON 4002.01, The Ohio State University, Summer 2023
 
 * [Grade](#grade)
 * [Course Schedule](#course-schedule)
-* [Exam Reviews](#exam-reviews)
 * [Lecture Notes](#lecture-notes)
 * [Problem Sets](#problem-sets)
 
@@ -26,9 +25,9 @@ See [Grades](pdf/IntermediateMacroSummer2023/syllabus/syllabus.html#grades)
 
 See [Course schedule](pdf/IntermediateMacroSummer2023/syllabus/syllabus.html#tentative-course-schedule)
 
-## Exam Reviews
+<!-- ## Exam Reviews -->
 
-- [Midterm Review](pdf/IntermediateMacroSummer2023/Midterm/midtermReview.pdf)
+<!-- - [Midterm Review](pdf/IntermediateMacroSummer2023/Midterm/midtermReview.pdf) -->
 
 ## Lecture Notes
 
