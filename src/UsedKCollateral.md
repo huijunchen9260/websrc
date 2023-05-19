@@ -1,7 +1,8 @@
 # Debt Financing, Used Capital Market and Capital Reallocation
 
 <!-- [slides: candidacy exam](pdf/UsedKCollateral/HJChen_UsedKCollateral_Apr_19_2022_CandExam.pdf) -->
-[slides](pdf/UsedKCollateral/20230331MEAPresentation.pdf)
+<!-- [slides](pdf/UsedKCollateral/20230331MEAPresentation.pdf) -->
+[slides](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
 
 I study how much do financial frictions and endogenous capital partial irreversibility explain aggregate investment volatility.
 I propose a heterogeneous firms model with real and financial frictions.
