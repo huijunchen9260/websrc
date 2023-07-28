@@ -91,7 +91,7 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 	$(RSYNC) data/* blog/; \
 	$(RSYNC) blog/ ../web/;
 
-deploy: clean build
+deploy: build
 	cd ../web; \
 	git add .; \
 	git commit -m "updateweb $(shell date "+%m/%d/%Y %H:%M:%S")"; \
