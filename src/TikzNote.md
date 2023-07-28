@@ -1,5 +1,19 @@
 # Note on Tikz
 
+<!-- vim-markdown-toc GFM -->
+
+* [Opinionated "Good" Habit when using Tikz](#opinionated-good-habit-when-using-tikz)
+* [Create a "bezier curve"](#create-a-bezier-curve)
+* [Define points on arbitrary curve](#define-points-on-arbitrary-curve)
+* [Get x and y coordinate of arbitrary point](#get-x-and-y-coordinate-of-arbitrary-point)
+* [Draw "tangent line" on curve](#draw-tangent-line-on-curve)
+* [Decoration: brace](#decoration-brace)
+* [Intersection between two curves](#intersection-between-two-curves)
+* [Change the font size of all node/label](#change-the-font-size-of-all-nodelabel)
+* [Calculation points](#calculation-points)
+
+<!-- vim-markdown-toc -->
+
 ## Opinionated "Good" Habit when using Tikz
 
 - We can separate the definition of the desired point from the label of the point, e.g.:
