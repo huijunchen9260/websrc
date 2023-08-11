@@ -2,7 +2,7 @@
 
 ECON 4002.01, The Ohio State University, Autumn 2023
 
-[Syllabus: pdf version](pdf/IntermediateMacroAutumn2023/syllabus/build/syllabus.pdf)
+[Syllabus: pdf version](pdf/IntermediateMacroAutumn2023/syllabus/syllabus.pdf)
 
 [Syllabus: html version](pdf/IntermediateMacroAutumn2023/syllabus/syllabus.html)
 
