@@ -40,6 +40,8 @@ See [Course schedule](pdf/IntermediateMacroAutumn2023/syllabus/syllabus.html#ten
     - Friedman critique:
         - [Wiki: the methodology of positive economics](https://en.wikipedia.org/wiki/Essays_in_Positive_Economics#The_Methodology_of_Positive_Economics)
         - [The methodology of positive economics](https://books.google.com/books?hl=en&lr=&id=NqNGaJBahWoC&oi=fnd&pg=PA180&dq=The+Methodology+of+Positive+Economics&ots=gLKnEx_kWX&sig=nWfE1bFegyceirvT_tWEEJzJtoU#v=onepage&q=The%20Methodology%20of%20Positive%20Economics&f=false)
+    - What is HP-filter:
+        - [Introduction - HP Filters](http://www.clementincastellano.com/Notebooks/static/HP%20Filter.html)
 - [Lecture 2: Economic Aggregates](pdf/IntermediateMacroAutumn2023/Lecture_02/Final/Lecture_02.pdf)
     - [Chain-weighing: The New Approach to Measuring GDP (Current Issues in Economics and Finance)](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci1-9.pdf)
     - Answering Question: [The Long-Run Effects of Federal Budget Deficitson National Saving and Private Domestic Investment](https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/workingpaper/45140-NSPDI_workingPaper_1.pdf)
