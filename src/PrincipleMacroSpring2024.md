@@ -2,7 +2,7 @@
 
 ECON 2002.01, The Ohio State University, Spring 2024
 
-[Syllabus: pdf version](pdf/PrincipleMacroSpring2024/syllabus/build/syllabus.pdf)
+[Syllabus: pdf version](pdf/PrincipleMacroSpring2024/syllabus/syllabus.pdf)
 
 [Syllabus: html version](pdf/PrincipleMacroSpring2024/syllabus/syllabus.html)
 
