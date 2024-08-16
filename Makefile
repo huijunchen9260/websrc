@@ -232,7 +232,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	} ; \
 	[ -n "$(WORKING)" ] && { \
 		first=true; \
- 		echo "<h2>Working</h2>" >> $@ ; \
+ 		echo "<h2>Working Papers</h2>" >> $@ ; \
 		envsubst < templates/article_list_header.html >> $@; \
 		for f in $(WORKING); do \
 			printf '%s ' "$$f"; \
