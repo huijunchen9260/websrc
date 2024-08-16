@@ -27,6 +27,7 @@ RSYNC := rsync -urtvzP
 
 ARTICLES := $(shell git ls-tree HEAD --name-only -- $(BLOG_SRC)/*.md 2>/dev/null)
 WORKING := $(shell grep -E "; *tags: .*Working.*" $(ARTICLES) | cut -d':' -f1)
+JobMarket := $(shell grep -E "; *tags: .*JobMarket.*" $(ARTICLES) | cut -d':' -f1)
 PUBLISH := $(shell grep -E "; *tags: .*Published.*" $(ARTICLES) | cut -d':' -f1)
 TEACHING := $(shell grep -E "; *tags: .*Teaching.*" $(ARTICLES) | cut -d':' -f1)
 
@@ -230,6 +231,23 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 		envsubst < templates/footer.html >> $@ ; \
 		exit ; \
 	} ; \
+	[ -n "$(JobMarket)" ] && { \
+		first=true; \
+ 		echo "<h2>Job Market Paper</h2>" >> $@ ; \
+		envsubst < templates/article_list_header.html >> $@; \
+		for f in $(JobMarket); do \
+			printf '%s ' "$$f"; \
+			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+			"$$first" || envsubst < templates/article_separator.html; \
+			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+			DATE="$$DATE" \
+			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+			envsubst < templates/article_entry.html; \
+			first=false; \
+		done >> $@; \
+		envsubst < templates/article_list_footer.html >> $@; \
+	};  \
 	[ -n "$(WORKING)" ] && { \
 		first=true; \
  		echo "<h2>Working Papers</h2>" >> $@ ; \

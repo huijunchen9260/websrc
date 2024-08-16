@@ -11,4 +11,4 @@ Increasing the threshold is 50% more effective than raising the bonus rate in st
 Although a higher bonus rate benefits more firms, unconstrained firms often distribute saved funds as dividends rather than reinvesting, diminishing policy efficacy per dollar of foregone government revenue.
 Conversely, raising the threshold empowers credit-constrained firms to overcome collateral limitations, thereby reducing capital misallocation due to financial frictions.
 
-;tags: Working
+;tags: JobMarket
