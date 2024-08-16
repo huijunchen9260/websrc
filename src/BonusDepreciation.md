@@ -1,4 +1,4 @@
-# Aggregate implication of corporate taxation over business cycle (Job Market Paper)
+# Aggregate implication of corporate taxation over business cycle
 
 [paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf)
 
