@@ -1,4 +1,4 @@
-# Aggregate implication of corporate taxation over business cycle
+# Aggregate Implication of Corporate Taxation over Business Cycle
 
 [paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf)
 
