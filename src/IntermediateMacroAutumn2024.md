@@ -50,6 +50,7 @@ See [Course schedule](pdf/IntermediateMacroAutumn2024/syllabus/syllabus.html#ten
         - [Correlation vs Beta: What is the difference and why does it matter?](https://www.mackenzieinvestments.com/content/dam/mackenzie/en/insights/wp-alts-correlation-vs-beta-en.pdf)
         - The concept of beta comes from the Capital Asset Pricing Model (CAPM), and this is a good review paper about it: [The Capital Asset Pricing Model](https://pubs.aeaweb.org/doi/pdfplus/10.1257/0895330042162340)
 - [Lecture 4: Representative Consumer, Preference and Constraints](pdf/IntermediateMacroAutumn2024/Lecture_04/Final/Lecture_04.pdf)
+    - [What Do You Want? - The Notebook (4/6) Movie CLIP (2004) HD](https://www.youtube.com/watch?v=E1I0hAxGFXw&)
 - [Lecture 5: Representative Consumer, Optimization and Application](pdf/IntermediateMacroAutumn2024/Lecture_05/Lecture_05.pdf)
 - [Lecture 6: Numerical Example](pdf/IntermediateMacroAutumn2024/Lecture_06/Lecture_06.pdf)
 - [Lecture 7: Representative Firm](pdf/IntermediateMacroAutumn2024/Lecture_07/Final/Lecture_07.pdf)
