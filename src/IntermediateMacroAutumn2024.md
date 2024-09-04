@@ -79,7 +79,6 @@ See [Course schedule](pdf/IntermediateMacroAutumn2024/syllabus/syllabus.html#ten
 
  - [Problem Set 1](pdf/IntermediateMacroAutumn2024/ProblemSet1/ProblemSet1.pdf)
  - [Problem Set 2](pdf/IntermediateMacroAutumn2024/ProblemSet2/ProblemSet2.pdf)
-     - [Problem Set 2 Answer Sheet](pdf/IntermediateMacroAutumn2024/ProblemSet2/PS2AnswerSheet.pdf)
  - [Problem Set 3](pdf/IntermediateMacroAutumn2024/ProblemSet3/Final/ProblemSet3.pdf)
  - [Problem Set 4](pdf/IntermediateMacroAutumn2024/ProblemSet4/Final/ProblemSet4.pdf)
 
