@@ -3,7 +3,7 @@
         <td align="center">
             <a href="pix/ChenHuiJun.webp"><img SRC="pix/ChenHuiJun.webp" style="max-height:300px; max-width=300px"></a>
         </td>
-        <td align="left">
+        <td align="center">
             <!--<b>Hui-Jun Chen</b><br>-->
             <!--<b>Ph.D. Candidate,</b><br>-->
             <!--<b><a href="https://economics.osu.edu/"> Department of Economics</a>, </b><br>-->
