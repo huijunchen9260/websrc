@@ -12,7 +12,9 @@
             <!--<b>307 Arps Hall, 1945 N High St </b><br>-->
             <!--<b>Columbus, Ohio, USA 43210</b>-->
             <p>I am on the job market in 2024-2025.</p>
-            <p>My research examines how corporate taxation distorts firms' investment decision and affects aggregate response to shocks.</p>
+            <p>My research examines how corporate taxation <br>
+               distorts firms' investment decision and affects  <br>
+               aggregate response to shocks.</p>
             <p><a href="pdf/HJChenCV/HJChen-CV.pdf">CV</a></p>
             <p><a href="research.html">Research</a></p>
             <p><a href="teaching.html">Teaching</a></p>
