@@ -15,10 +15,8 @@
             <p>My research examines how corporate  <br>
             taxation distorts firms' investment decision <br>
             and affects aggregate response to shocks.</p>
-            <p><a href="pdf/HJChenCV/HJChen-CV.pdf">CV</a></p>
-            <p><a href="research.html">Research</a></p>
-            <p><a href="teaching.html">Teaching</a></p>
-            <p><a href="blog.html">Blog</a></p>
+            <p><a href="pdf/HJChenCV/HJChen-CV.pdf">CV</a> &nbsp; &nbsp; &nbsp;<a href="research.html">Research</a></p>
+            <p><a href="teaching.html">Teaching</a>&nbsp; &nbsp; &nbsp;<a href="blog.html">Blog</a></p>
         </td>
     </tr>
 </table>
