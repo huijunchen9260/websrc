@@ -1,9 +1,9 @@
 <table border=0 width="100%" ID="Table2" style="margin: 20px;">
     <tr>
-        <td align="center">
+        <td align="lest">
             <a href="pix/ChenHuiJun.webp"><img SRC="pix/ChenHuiJun.webp" style="max-height:300px; max-width=300px"></a>
         </td>
-        <td align="center">
+        <td align="left">
             <!--<b>Hui-Jun Chen</b><br>-->
             <!--<b>Ph.D. Candidate,</b><br>-->
             <!--<b><a href="https://economics.osu.edu/"> Department of Economics</a>, </b><br>-->
