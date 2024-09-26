@@ -4,8 +4,8 @@
             <a href="pix/ChenHuiJun.webp"><img SRC="pix/ChenHuiJun.webp" style="max-height:300px; max-width=300px"></a>
         </td>
         <td align="left">
-            Welcome! I am a Ph.D. candidate in the Department of Economics at The Ohio State University.
-            My research examines how corporate taxation distorts firms' investment decision and affects aggregate response to shocks.
+            I am a Ph.D. candidate in the Department of Economics at The Ohio State University.
+            My research examines how corporate taxation distorts firms' investment decision and affects aggregate response to shocks.<br>
             <b>Hui-Jun Chen</b><br>
             <b>Ph.D. Candidate,</b><br>
             <b><a href="https://economics.osu.edu/"> Department of Economics</a>, </b><br>
