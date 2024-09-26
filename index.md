@@ -1,7 +1,8 @@
 <table border=0 width="100%" ID="Table2" style="margin: 10px;">
     <tr>
         <td align="center">
-            <a href="pix/ChenHuiJun.webp"><img SRC="pix/ChenHuiJun.webp" style="max-height:300px; max-width=300px"></a>
+            <!--<a href="pix/ChenHuiJun.webp"><img SRC="pix/ChenHuiJun.webp" style="max-height:300px; max-width=300px"></a>-->
+            <a href="pix/HJC_TER.jpg"><img SRC="pix/HJC_TER.jpg" style="max-height:300px; max-width=300px"></a>
         </td>
         <td align="left">
             <b>Hui-Jun Chen</b><br>
