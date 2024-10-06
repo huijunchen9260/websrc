@@ -4,7 +4,7 @@
 
 [slides](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)
 
-How do large corporate tax deduction affect firm investment, aggregate productivity, and the business cycle?
+How do large corporate tax deductions affect firm investment, aggregate productivity, and the business cycle?
 I answer this question by developing a novel dynamic stochastic general equilibrium model where firms face credit market imperfections and idiosyncratic productivity shocks.
 In my model, firms' investment decisions are distorted by collateralized borrowing and corporate taxation.
 Investment expenditures, however, can be deducted from taxable income through targeted or untargeted accelerated depreciation policies.
