@@ -1,6 +1,6 @@
 # Aggregate Implications of Corporate Taxation over the Business Cycle
 
-<!--[paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf)-->
+[paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf)
 
 [slides](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)
 
