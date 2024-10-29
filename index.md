@@ -11,7 +11,8 @@
             <b>Ph.D. Candidate,</b><br>
             <b><a href="https://economics.osu.edu/"> Department of Economics</a>, </b><br>
             <b><a href="http://www.osu.edu"> The Ohio State University</a>, </b><br>
-            <b><a href="mailto:chen.9260@buckeyemail.osu.edu">chen.9260@buckeyemail.osu.edu</a>. </b><br>
+            <!--<b><a href="mailto:chen.9260@buckeyemail.osu.edu">chen.9260@buckeyemail.osu.edu</a>. </b><br>-->
+            <b><a href="mailto:huijunchenecon@gmail.com">huijunchenecon@gmail.com</a>. </b><br>
             <!--<b>307 Arps Hall, 1945 N High St </b><br>-->
             <!--<b>Columbus, Ohio, USA 43210</b>-->
             <p>I am on the job market in 2024-2025.</p>
