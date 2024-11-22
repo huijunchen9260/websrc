@@ -84,7 +84,7 @@ help:
 # 	printf '' > templates/article_footer.html
 # 	printf 'blog\n' > .git/info/exclude
 
-build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) $(patsubst %,blog/%.xml,$(BLOG_FEEDS))
+build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagpages $(patsubst $(BLOG_SRC)/%.md,blog/%.html,$(ARTICLES)) blog/rss.xml blog/atom.xml
 	git add .; \
 	git commit -m "updatewebsrc $(shell date "+%m/%d/%Y %H:%M:%S")"; \
 	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc; \
