@@ -19,8 +19,30 @@
             <p>I am a macroeconomist who studies how <br>
             firm-level frictions distort firms' investment <br>
             and affects aggregate response to shocks.</p>
-            <p><a href="pdf/HJChenCV/HJChen-CV.pdf">CV</a> &nbsp; &nbsp; &nbsp;<a href="pdf/HJChenCV/HJChen-CV.html">CV (html)</a> &nbsp; &nbsp; &nbsp;<a href="BonusDepreciation.html">JMP</a></p>
-            <p><a href="research.html">Research</a> &nbsp;  &nbsp;  &nbsp; <a href="teaching.html">Teaching</a>&nbsp; &nbsp; &nbsp;<a href="blog.html">Blog</a></p>
+            <table border=0 width="100%" ID="Table2" style="margin: 10px;">
+                <tr>
+                    <td align="left">
+                        <a href="pdf/HJChenCV/HJChen-CV.pdf">CV</a>
+                    </td>
+                    <td align="left">
+                        <a href="pdf/HJChenCV/HJChen-CV.html">CV (html)</a>
+                    </td>
+                    <td align="left">
+                        <a href="BonusDepreciation.html">JMP</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <a href="research.html">Research</a>
+                    </td>
+                    <td align="left">
+                        <a href="teaching.html">Teaching</a>
+                    </td>
+                    <td align="left">
+                        <a href="blog.html">Blog</a>
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
