@@ -244,7 +244,8 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
-			printf '<p>%s</p>' "`grep 'Present' "\$$FILE"`"; \
+			PRESENT="`grep 'Present' "\$$FILE"`" \
+			printf '<p>%s</p>' "$$PRESENT"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
@@ -262,7 +263,6 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
-			printf '<p>%s</p>' "`grep 'Present' "\$$FILE"`"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
@@ -280,9 +280,6 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
-			[ -n "$("`grep 'Present at:' "\$$FILE"`")" ] && {
-				printf '<p>%s</p>' "`grep 'Present at:' "\$$FILE"`" \
-			}; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
