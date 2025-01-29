@@ -4,6 +4,8 @@
 
 [slides](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)
 
+Presented at: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed)
+
 Corporate tax deductions are widely employed as countercyclical policies, yet their impact on the business cycle and interactions with other policies remain largely understudied.
 I examine the cyclical implications of such deductions by developing a novel dynamic stochastic general equilibrium model in which firms face credit market imperfections and idiosyncratic productivity shocks.
 In my model, firms' investment decisions are distorted by collateralized borrowing and corporate taxation, and investment expenditures can be deducted from taxable income through targeted or untargeted accelerated depreciation policies.

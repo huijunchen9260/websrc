@@ -215,7 +215,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	mkdir -p blog; \
 	TITLE="$(BLOG_TITLE)"; \
 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
-	DATE_EDITED="$(shell for f in $(WORKING) $(PUBLISH) research.md; do \
+	DATE_EDITED="$(shell for f in $(WORKING) $(PUBLISH) $(JobMarket) research.md; do \
 					git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 					done | sort -rk2 | head -n 1)"; \
 	export TITLE; \
@@ -317,6 +317,7 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+			PRESENT="`grep -RIh 'Presented'`" \
 			envsubst < templates/article_entry.html; \
 			first=false; \
 		done >> $@; \
