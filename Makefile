@@ -240,11 +240,12 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
 			"$$first" || envsubst < templates/article_separator.html; \
-			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
-			DATE="$$DATE" \
-			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html"; \
+			DATE="$$DATE"; \
+			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`"; \
+			PRESENT="`grep -RIh 'Presented'`"; \
 			envsubst < templates/article_entry.html; \
-			printf '%s' "`grep -RIh 'Presented'`" \
+			envsubst < templates/research_detail.html; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
