@@ -244,7 +244,6 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE"; \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`"; \
 			envsubst < templates/article_entry.html; \
-			printf '<p>%s</p>' "`grep -RIh 'Presented' "\$$FILE" | sed -e 's;Presented at;<b>Presented at</b>;g'`"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
