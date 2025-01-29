@@ -244,6 +244,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
+			printf '<p>%s</p>' "`grep 'Present' "\$$FILE"`"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
@@ -318,7 +319,6 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
-			printf '<p>%s</p>' "`grep 'Present' "\$$FILE"`"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
