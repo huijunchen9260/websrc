@@ -245,7 +245,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
 			PRESENT="`grep 'Present at' "\$$FILE"`" \
-			printf '<p>%s</p>' "$$PRESENT"; \
+			printf '<p>%s</p>' "$$URL"; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
