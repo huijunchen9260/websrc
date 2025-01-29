@@ -2,8 +2,12 @@
 
 <!-- [slides: candidacy exam](pdf/UsedKCollateral/HJChen_UsedKCollateral_Apr_19_2022_CandExam.pdf) -->
 <!-- [slides](pdf/UsedKCollateral/20230331MEAPresentation.pdf) -->
-[paper](pdf/UsedKCollateral/UsedKCollateral.pdf)
-[slides](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
+
+[[paper]](pdf/UsedKCollateral/UsedKCollateral.pdf)
+
+[[slide]](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
+
+Present at: Midwest Economics Association Annual Meetings 2023, Midwest Macro Meeting 2023 (Clemson), Taiwan Economic Research 2023, 18th Economics Graduate Students’ Conference (WUSTL) 2023
 
 I study how much financial frictions and the endogeneity of partially irreversible
 capital explain the slow recovery of the Great Recession. I propose a heterogeneous
