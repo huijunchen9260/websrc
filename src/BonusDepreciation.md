@@ -2,7 +2,7 @@
 
 [[paper]](pdf/BonusDepreciation/bonusdepreciation_paper.pdf)
 
-[[slides]](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)
+[[slide]](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)
 
 Present at: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed)
 

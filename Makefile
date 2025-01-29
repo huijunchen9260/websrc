@@ -244,6 +244,8 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+			PAPER="`grep 'paper' "\$$FILE"`" \
+			SLIDE="`grep 'slide' "\$$FILE"`" \
 			envsubst < templates/research_entry.html; \
 			first=false; \
 		done >> $@; \
@@ -262,6 +264,8 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+			PAPER="`grep 'paper' "\$$FILE"`" \
+			SLIDE="`grep 'slide' "\$$FILE"`" \
 			envsubst < templates/research_entry.html; \
 			first=false; \
 		done >> $@; \
@@ -280,6 +284,8 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+			PAPER="`grep 'paper' "\$$FILE"`" \
+			SLIDE="`grep 'slide' "\$$FILE"`" \
 			envsubst < templates/research_entry.html; \
 			first=false; \
 		done >> $@; \
