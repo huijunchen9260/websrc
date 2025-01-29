@@ -243,7 +243,9 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+			PRESENT="grep -RIh 'Presented' "\$$FILE""; \
 			envsubst < templates/article_entry.html; \
+			envsubst < templates/research_detail.html; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
@@ -317,7 +319,6 @@ blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-			PRESENT="grep -RIh 'Presented' "\$$FILE""
 			envsubst < templates/article_entry.html; \
 			first=false; \
 		done >> $@; \
