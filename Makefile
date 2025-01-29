@@ -243,9 +243,8 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-			printf '<p>%s</p>' "$$URL"; \
-			envsubst < templates/article_entry.html; \
 			PRESENT="`grep 'Present at' "\$$FILE"`" \
+			envsubst < templates/research_entry.html; \
 			first=false; \
 		done >> $@; \
 		envsubst < templates/article_list_footer.html >> $@; \
