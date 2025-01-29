@@ -244,7 +244,7 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 			DATE="$$DATE" \
 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
 			envsubst < templates/article_entry.html; \
-			PRESENT="`grep 'Present' "\$$FILE"`" \
+			PRESENT="`grep 'Present at' "\$$FILE"`" \
 			printf '<p>%s</p>' "$$PRESENT"; \
 			first=false; \
 		done >> $@; \
