@@ -2,11 +2,11 @@
 
 Joint work with [Sungmin Park](https://www.sungminparkecon.com/)
 
-[paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908);
+<!--[paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908);-->
 <!--[slide: MEA annual meeting](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Mar2022.pdf);-->
 <!--[slide: NOE Workshop](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)-->
 
-Present at: Northeast Ohio Economics Workshop (Cleveland Fed) 2022, Midwest Economics Association Annual Meetings 2022
+<!--Present at: Northeast Ohio Economics Workshop (Cleveland Fed) 2022, Midwest Economics Association Annual Meetings 2022-->
 
 Loan-to-value ratio (LTV) ceiling is a government policy that puts a cap on households' mortgages relative to their house value, often intended to reduce booms in house prices.
 This paper studies the effects of this policy on house prices, using a simple two-period overlapping-generations model featuring within-generation inequality.

@@ -224,69 +224,86 @@ blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$
 	envsubst < templates/header.html > $@; \
 	envsubst < templates/research_header.html >> $@; \
 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < research.md >> $@; \
-	f1=true; f2=true; \
-	[ -z "$(WORKING)" ] && [ -z "$(PUBLISH)" ] && { \
-		echo "<h1>Under Construction</h1>" >> $@ ; \
-		envsubst < templates/research_footer.html >> $@ ; \
-		envsubst < templates/footer.html >> $@ ; \
-		exit ; \
-	} ; \
-	[ -n "$(JobMarket)" ] && { \
-		first=true; \
- 		echo "<h2>Job Market Paper</h2>" >> $@ ; \
-		envsubst < templates/article_list_header.html >> $@; \
-		for f in $(JobMarket); do \
-			printf '%s ' "$$f"; \
-			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
-			"$$first" || envsubst < templates/article_separator.html; \
-			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
-			DATE="$$DATE" \
-			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
-			envsubst < templates/research_entry.html; \
-			first=false; \
-		done >> $@; \
-		envsubst < templates/article_list_footer.html >> $@; \
-	};  \
-	[ -n "$(WORKING)" ] && { \
-		first=true; \
- 		echo "<h2>Working Papers</h2>" >> $@ ; \
-		envsubst < templates/article_list_header.html >> $@; \
-		for f in $(WORKING); do \
-			printf '%s ' "$$f"; \
-			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
-			"$$first" || envsubst < templates/article_separator.html; \
-			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
-			DATE="$$DATE" \
-			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
-			envsubst < templates/research_entry.html; \
-			first=false; \
-		done >> $@; \
-		envsubst < templates/article_list_footer.html >> $@; \
-	};  \
-	[ -n "$(PUBLISH)" ] && { \
-		first=true; \
- 		echo "<h2>Published</h2>" >> $@ ; \
-		envsubst < templates/article_list_header.html >> $@; \
-		for f in $(PUBLISH); do \
-			printf '%s ' "$$f"; \
-			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
-		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
-			"$$first" || envsubst < templates/article_separator.html; \
-			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
-			DATE="$$DATE" \
-			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
-			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
-			envsubst < templates/research_entry.html; \
-			first=false; \
-		done >> $@; \
-		envsubst < templates/article_list_footer.html >> $@; \
-	};  \
 	envsubst < templates/research_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@
+
+
+# blog/research.html: research.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header research_header article_list_header article_entry article_separator article_list_footer research_footer footer))
+# 	mkdir -p blog; \
+# 	TITLE="$(BLOG_TITLE)"; \
+# 	PAGE_TITLE="Research -- $(BLOG_TITLE)"; \
+# 	DATE_EDITED="$(shell for f in $(WORKING) $(PUBLISH) $(JobMarket) research.md; do \
+# 					git log -n 1 --date="format:$(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+# 					done | sort -rk2 | head -n 1)"; \
+# 	export TITLE; \
+# 	export PAGE_TITLE; \
+# 	export DATE_EDITED; \
+# 	envsubst < templates/header.html > $@; \
+# 	envsubst < templates/research_header.html >> $@; \
+# 	lowdown -thtml --html-no-skiphtml --html-no-escapehtml < research.md >> $@; \
+# 	f1=true; f2=true; \
+# 	[ -z "$(WORKING)" ] && [ -z "$(PUBLISH)" ] && { \
+# 		echo "<h1>Under Construction</h1>" >> $@ ; \
+# 		envsubst < templates/research_footer.html >> $@ ; \
+# 		envsubst < templates/footer.html >> $@ ; \
+# 		exit ; \
+# 	} ; \
+# 	[ -n "$(JobMarket)" ] && { \
+# 		first=true; \
+#  		echo "<h2>Job Market Paper</h2>" >> $@ ; \
+# 		envsubst < templates/article_list_header.html >> $@; \
+# 		for f in $(JobMarket); do \
+# 			printf '%s ' "$$f"; \
+# 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+# 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+# 			"$$first" || envsubst < templates/article_separator.html; \
+# 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+# 			DATE="$$DATE" \
+# 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+# 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+# 			envsubst < templates/research_entry.html; \
+# 			first=false; \
+# 		done >> $@; \
+# 		envsubst < templates/article_list_footer.html >> $@; \
+# 	};  \
+# 	[ -n "$(WORKING)" ] && { \
+# 		first=true; \
+#  		echo "<h2>Working Papers</h2>" >> $@ ; \
+# 		envsubst < templates/article_list_header.html >> $@; \
+# 		for f in $(WORKING); do \
+# 			printf '%s ' "$$f"; \
+# 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+# 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+# 			"$$first" || envsubst < templates/article_separator.html; \
+# 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+# 			DATE="$$DATE" \
+# 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+# 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+# 			envsubst < templates/research_entry.html; \
+# 			first=false; \
+# 		done >> $@; \
+# 		envsubst < templates/article_list_footer.html >> $@; \
+# 	};  \
+# 	[ -n "$(PUBLISH)" ] && { \
+# 		first=true; \
+#  		echo "<h2>Published</h2>" >> $@ ; \
+# 		envsubst < templates/article_list_header.html >> $@; \
+# 		for f in $(PUBLISH); do \
+# 			printf '%s ' "$$f"; \
+# 			git log -n 1 --date="format:%s $(BLOG_DATE_FORMAT_INDEX)" --pretty=format:'%ad%n' -- "$$f"; \
+# 		done | sort -rk2 | cut -d" " -f1,3- | while IFS=" " read -r FILE DATE; do \
+# 			"$$first" || envsubst < templates/article_separator.html; \
+# 			URL="`printf '%s' "\$$FILE" | sed 's,^$(BLOG_SRC)/\(.*\).md,\1,'`.html" \
+# 			DATE="$$DATE" \
+# 			TITLE="`head -n1 "\$$FILE" | sed -e 's/^# //g'`" \
+# 			PRESENT="`grep 'Present at' "\$$FILE" | sed -e 's;Present at;<b>Present at</b>;g'`" \
+# 			envsubst < templates/research_entry.html; \
+# 			first=false; \
+# 		done >> $@; \
+# 		envsubst < templates/article_list_footer.html >> $@; \
+# 	};  \
+# 	envsubst < templates/research_footer.html >> $@; \
+# 	envsubst < templates/footer.html >> $@
 
 blog/teaching.html: teaching.md $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header teaching_header article_list_header article_entry article_separator article_list_footer teaching_footer footer))
 	mkdir -p blog; \
