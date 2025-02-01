@@ -34,3 +34,5 @@ Create collapsible section in pure HTML elements.
   Hidden content here!
 </details>
 ```
+
+;tags: Miscellaneous
