@@ -13,6 +13,7 @@ ECON 4002.01, The Ohio State University, Spring 2025
 * [Course Schedule](#course-schedule)
 * [Lecture Notes](#lecture-notes)
 * [Problem Sets](#problem-sets)
+* [Some Videos](#some-videos)
 
 <!-- vim-markdown-toc -->
 
@@ -28,7 +29,7 @@ See [Course schedule](pdf/IntermediateMacroSpring2025/syllabus/syllabus.html#ten
 ## Lecture Notes
 
 - [Note on Julia](JuliaNote.html)
-- [Julia Syntax and Algorithm](pdf/IntermediateMacro/JuliaSyntax/build/JuliaSyntax.pdf)
+- [Julia Syntax and Algorithm](pdf/IntermediateMacro/JuliaSyntax/JuliaSyntax2.pdf)
 - [Review for Math](pdf/IntermediateMacro/math/Final/math.pdf)
 - [Lecture 1: Introduction](pdf/IntermediateMacro/Lecture_01/Final/Lecture_01.pdf)
     - Lucas critique:
@@ -77,5 +78,9 @@ See [Course schedule](pdf/IntermediateMacroSpring2025/syllabus/syllabus.html#ten
  - [Problem Set 2](pdf/IntermediateMacro/ProblemSet2/ProblemSet2.pdf)
  - [Problem Set 3](pdf/IntermediateMacro/ProblemSet3/Final/ProblemSet3.pdf)
  - [Problem Set 4](pdf/IntermediateMacro/ProblemSet4/Final/ProblemSet4.pdf)
+
+## Some Videos
+
+- [Terence Tao on how we measure the cosmos | Part 1](https://www.youtube.com/watch?v=YdOXS_9_P4U)
 
 ;tags: Teaching
