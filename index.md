@@ -27,9 +27,9 @@
                     <td align="left">
                         <a href="pdf/HJChenCV/HJChen-CV.html">CV (html)</a>
                     </td>
-                    <td align="left">
-                        <a href="BonusDepreciation.html">JMP</a>
-                    </td>
+                    <!--<td align="left">-->
+                    <!--    <a href="BonusDepreciation.html">JMP</a>-->
+                    <!--</td>-->
                 </tr>
                 <tr>
                     <td align="left">
@@ -38,9 +38,9 @@
                     <td align="left">
                         <a href="teaching.html">Teaching</a>
                     </td>
-                    <td align="left">
-                        <a href="blog.html">Blog</a>
-                    </td>
+                    <!--<td align="left">-->
+                    <!--    <a href="blog.html">Blog</a>-->
+                    <!--</td>-->
                 </tr>
             </table>
         </td>
