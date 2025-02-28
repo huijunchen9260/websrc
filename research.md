@@ -18,7 +18,8 @@
 
 ## Working Papers
 
-- <span style="color:#07568e">Debt Financing, Used Capital Market and Capital Reallocation</span> - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
+<!--- <span style="color:#07568e">Debt Financing, Used Capital Market and Capital Reallocation</span> - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)-->
+- *Debt Financing, Used Capital Market and Capital Reallocation* - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
 
     **Present at**: Midwest Economics Association Annual Meetings 2023, Midwest Macro Meeting 2023 (Clemson), Taiwan Economic Research 2023, 18th Economics Graduate Students’ Conference (WUSTL) 2023
 
@@ -37,7 +38,8 @@
         The main channel lies in the used capital market price, which acts as an automatic stabilizer during the credit crisis.
     </details>
 
-- <span style="color:#07568e">The Effects of Loan-to-value Ratio Ceilings on House Prices</span> - [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908), [Slide](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)
+<!--- <span style="color:#07568e">The Effects of Loan-to-value Ratio Ceilings on House Prices</span> - [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908), [Slide](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)-->
+- *The Effects of Loan-to-value Ratio Ceilings on House Prices* - [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908), [Slide](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)
 
     with [Sungmin Park](https://www.sungminparkecon.com/)
 
