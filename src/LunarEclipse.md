@@ -1,7 +1,21 @@
-## Lunar Eclipse
+# Lunar Eclipse
 
-![Lunar1](pix/LunarEclipse/Lunar1.webp)
+Date: March 14, 2025 at Upper Arlington, Columbus, Ohio
 
-![Lunar2](pix/LunarEclipse/Lunar2.webp)
+I stayed awake until 3 AM on March 14.
 
-![Lunar3](pix/LunarEclipse/Lunar3.webp)
+This is how it looks like in prediction.
+
+![Simulation](../data/pix/LunarEclipse/Lunar3AM.png)
+
+This is the pictures that I took, using my Google Pixel, zoomed in 5X.
+
+![Lunar1](pix/LunarEclipse/Lunar1.jpg)
+
+![Lunar2](pix/LunarEclipse/Lunar2.jpg)
+
+For some reason, if I did not zoom in, then I can see the light beside the moon, which is not visible by eyes, but can be captured by camera.
+
+![Lunar3](pix/LunarEclipse/Lunar3.jpg)
+
+;tags: Personal
