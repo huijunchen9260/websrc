@@ -6,7 +6,7 @@ I stayed awake until 3 AM on March 14.
 
 This is how it looks like in prediction.
 
-![Simulation](../data/pix/LunarEclipse/Lunar3AM.png)
+![Simulation](pix/LunarEclipse/Lunar3AM.png)
 
 This is the pictures that I took, using my Google Pixel, zoomed in 5X.
 
