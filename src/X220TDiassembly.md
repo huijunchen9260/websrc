@@ -50,4 +50,4 @@ Clean the fan, repaste, and reassembly everything, I successfully decrease the C
 
 It shows again that the importance of maintainence of the laptop and prevent it from overheating.
 
-;tags: Miscellaneous Technology
+;tags: Personal Miscellaneous Technology

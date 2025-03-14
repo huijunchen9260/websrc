@@ -1,6 +1,5 @@
 # Note on Website Creation
 
-
 ## `<dialog>`
 
 Useful popup windows using some javascript
