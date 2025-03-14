@@ -440,6 +440,21 @@ img {
 figure img {
     display: block;
 }
+img[alt="thefool"] {
+	max-width: 1.5em ;
+	max-height: 1.5em ;
+    vertical-align: middle;
+	display: inline ;
+}
+
+img[alt="thefoolflip"] {
+	max-width: 1.5em ;
+	max-height: 1.5em ;
+    vertical-align: middle;
+	display: inline ;
+    transform: scale(-1, 1);
+    transform-origin: center;
+}
 @media (max-width: 767px) {
     body {
         padding: 18px 0;
