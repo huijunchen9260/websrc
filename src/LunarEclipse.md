@@ -14,7 +14,7 @@ This is the pictures that I took, using my Google Pixel, zoomed in 5X.
 
 ![Lunar2](pix/LunarEclipse/Lunar2.jpg)
 
-For some reason, if I did not zoom in, then I can see the light beside the moon, which is not visible by eyes, but can be captured by camera.
+For some reason, if I don’t zoom in, I can see the light beside the moon, which isn’t visible to the naked eye but can be captured by the camera.
 
 ![Lunar3](pix/LunarEclipse/Lunar3.jpg)
 
