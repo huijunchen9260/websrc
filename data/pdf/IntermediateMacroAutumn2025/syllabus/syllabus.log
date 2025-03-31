@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=latex 2024.9.28)  25 OCT 2024 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=latex 2025.3.12)  31 MAR 2025 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,28 +1302,32 @@ Package hyperref Info: Link coloring ON on input line 3.
 --- file syllabus.css ---
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
-4.
+8.
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./syllabus.4ct)
+)
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-0.
+2.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
+)
 
-] [2] [3]
+Package hyperref Warning: Suppressing link with empty target on input line 75.
+
+[1
+
+] [2]
 \q=\skip84
-[4] [5]
+[3] [4]
 \bb=\skip85
 \qq=\skip86
 \rr=\skip87
 \pp=\skip88
-[6] [7] [8] [9] [10]
+[5] [6] [7] [8] [9]
 
-LaTeX Warning: Empty bibliography on input line 545.
+LaTeX Warning: Empty bibliography on input line 544.
 
-[11] (./syllabus.aux)
+[10] (./syllabus.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1333,12 +1337,12 @@ Package logreq Info: Writing requests to 'syllabus.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31713 strings out of 474117
- 575361 string characters out of 5750275
- 1954184 words of memory out of 5000000
- 53392 multiletter control sequences out of 15000+600000
- 567687 words of font info for 61 fonts, out of 8000000 for 9000
+ 31700 strings out of 474117
+ 575208 string characters out of 5750275
+ 1954184 words of memory out of 7999999
+ 53380 multiletter control sequences out of 15000+600000
+ 568220 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,131p,1951b,804s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on syllabus.dvi (11 pages, 78108 bytes).
+Output written on syllabus.dvi (10 pages, 76772 bytes).
