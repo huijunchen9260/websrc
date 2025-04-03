@@ -50,6 +50,10 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
 ## Discussion
 
+- [Did Program Support for the Poorest Areas Work? Evidence from Rural Viet Nam](pdf/Discussion/Dang_Deininger_Nguyen_2024_discussion.pdf) by Hai-Anh H. Dang, Klaus Deininger, and Cuong Viet Nguyen
+
+    Society of Government Economists 2025 Annual Conference
+
 - [Media Focus, Sentiments and Capital Allocation in Space](pdf/Discussion/MEA_Mar_31_2023/build/Discuss_Wang_Xu.pdf) by Yu Wang and Zebang Xu
 
     Midwest Economics Association Annual Meeting 2023
