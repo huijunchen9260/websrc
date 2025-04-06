@@ -3,7 +3,7 @@
 <!--- <span style="color:#07568e">Aggregate Implications of Corporate Taxation over the Business Cycle</span> - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)-->
 - *Aggregate Implications of Corporate Taxation over the Business Cycle* - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
 
-    **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed)
+    **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
 
     <details>
         <summary>Abstract</summary>
