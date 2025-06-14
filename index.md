@@ -21,8 +21,7 @@
             <p>I am a macroeconomist who studies how <br>
             firm-level frictions distort firms' investment <br>
             and affects aggregate response to shocks.</p>
-            <p>I expect to graduate in May 2025 <br>
-            and will be joining <a href="https://econ.site.nthu.edu.tw/?Lang=en">National Tsing Hua University</a> <br>
+            <p>I will be joining <a href="https://econ.site.nthu.edu.tw/?Lang=en">National Tsing Hua University</a> <br>
             as an Assistant Professor in August 2025.</p>
             <table border=0 width="100%" ID="Table2" style="margin: 10px;">
                 <tr>
