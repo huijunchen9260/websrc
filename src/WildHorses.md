@@ -16,18 +16,18 @@ We joked that the horses outside the fee area were the "Maneki-horses," inspired
 
 Eventually, on another loop through the ocean-side road, we stumbled upon a happy pony family. Here are the photos:
 
-![Horse1](../data/pix/WildHorse/Horse1.webp)
-![Horse2](../data/pix/WildHorse/Horse2.webp)
-![Horse3](../data/pix/WildHorse/Horse3.webp)
-![Horse4](../data/pix/WildHorse/Horse4.webp)
-![Horse5](../data/pix/WildHorse/Horse5.webp)
+![Horse1](pix/WildHorse/Horse1.webp)
+![Horse2](pix/WildHorse/Horse2.webp)
+![Horse3](pix/WildHorse/Horse3.webp)
+![Horse4](pix/WildHorse/Horse4.webp)
+![Horse5](pix/WildHorse/Horse5.webp)
 
-![Horse6](../data/pix/WildHorse/Horse6.webp)
-![Horse7](../data/pix/WildHorse/Horse7.webp)
-![Horse8](../data/pix/WildHorse/Horse8.webp)
-![Horse9](../data/pix/WildHorse/Horse9.webp)
-![Horse10](../data/pix/WildHorse/Horse10.webp)
-![Horse11](../data/pix/WildHorse/Horse11.webp)
-![Horse12](../data/pix/WildHorse/Horse12.webp)
+![Horse6](pix/WildHorse/Horse6.webp)
+![Horse7](pix/WildHorse/Horse7.webp)
+![Horse8](pix/WildHorse/Horse8.webp)
+![Horse9](pix/WildHorse/Horse9.webp)
+![Horse10](pix/WildHorse/Horse10.webp)
+![Horse11](pix/WildHorse/Horse11.webp)
+![Horse12](pix/WildHorse/Horse12.webp)
 
 ;tags: Personal
