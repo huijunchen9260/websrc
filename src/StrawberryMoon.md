@@ -17,3 +17,5 @@ And here's the same moon, not zoomed in:
 ![Wide shot of Strawberry Moon](pix/StrawberryMoon/StrawberryMoon1.webp)
 
 As it rises, the red slowly shifts to orange, then fades into white as the moon climbs higher in the sky.
+
+;tags: Personal
