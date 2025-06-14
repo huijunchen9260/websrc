@@ -10,9 +10,9 @@
     month={Mar},
     year={2025}
 }</p>
-  <button onclick="document.getElementById('myDialog').close()">Close</button>
+  <button onclick="document.getElementById('bibtex_JMP2025').close()">Close</button>
 </dialog>
-<button onclick="document.getElementById('myDialog').showModal()">Bibtex</button>
+<button onclick="document.getElementById('bibtex_JMP2025').showModal()">Bibtex</button>
 
     **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
 
