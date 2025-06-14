@@ -2,6 +2,17 @@
 
 <!--- <span style="color:#07568e">Aggregate Implications of Corporate Taxation over the Business Cycle</span> - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)-->
 - *Aggregate Implications of Corporate Taxation over the Business Cycle* - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
+<dialog id="bibtex_JMP2025">
+  <p>
+@unpublished{Chen_2025_WP,
+    author={Chen, Hui-Jun},
+    title={Aggregate Implications of Corporate Taxation over the Business Cycle},
+    month={Mar},
+    year={2025}
+}</p>
+  <button onclick="document.getElementById('myDialog').close()">Close</button>
+</dialog>
+<button onclick="document.getElementById('myDialog').showModal()">Bibtex</button>
 
     **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
 
