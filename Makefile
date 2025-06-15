@@ -88,7 +88,6 @@ build: blog/index.html blog/research.html blog/teaching.html blog/blog.html tagp
 	git add .; \
 	git commit -m "updatewebsrc $(shell date "+%m/%d/%Y %H:%M:%S")"; \
 	git push https://$(GIT_AUTH)@github.com/huijunchen9260/websrc; \
-	$(RSYNC) $$HOME/Documents/LaTeX/HJChenCV/build/HJChen-CV.pdf data/pdf/HJChen-CV.pdf; \
 	$(RSYNC) pdf/ blog/; \
 	$(RSYNC) pix/ blog/; \
 	$(RSYNC) css/ blog/; \
