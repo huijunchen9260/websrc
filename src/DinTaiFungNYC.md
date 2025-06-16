@@ -27,10 +27,17 @@ Even with reservation, it took us roughly 20 minutes from checking in to get a t
 ![DinTaiFung3](pix/DinTaiFung/DinTaiFung3.webp)
 ![DinTaiFung4](pix/DinTaiFung/DinTaiFung4.webp)
 
-
+There's a window that demonstrate or perform the process of making Xiao Long Bao.
 
 ![DinTaiFung8](pix/DinTaiFung/DinTaiFung8.webp)
+
+We ordered two cocktails, Peer Lychee margarita (the one with flower) and Yuzu Martini.
+Both of them are sweet and tasteful.
+
 ![DinTaiFung9](pix/DinTaiFung/DinTaiFung9.webp)
+
+
+
 ![DinTaiFung10](pix/DinTaiFung/DinTaiFung10.webp)
 ![DinTaiFung11](pix/DinTaiFung/DinTaiFung11.webp)
 ![DinTaiFung12](pix/DinTaiFung/DinTaiFung12.webp)
