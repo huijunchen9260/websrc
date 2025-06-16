@@ -15,9 +15,20 @@ As we can see in the following pictures, it is in traditional style of Taiwanese
 ![DinTaiFung7](pix/DinTaiFung/DinTaiFung7.webp)
 ![DinTaiFung1](pix/DinTaiFung/DinTaiFung1.webp)
 ![DinTaiFung2](pix/DinTaiFung/DinTaiFung2.webp)
+
+There is also a very cute Xiao Long Bao statue.
+
+![DinTaiFung5](pix/DinTaiFung/DinTaiFung5.webp)
+
+The restaurant is pack of people.
+You probably cannot dine in without reservation.
+Even with reservation, it took us roughly 20 minutes from checking in to get a table.
+
 ![DinTaiFung3](pix/DinTaiFung/DinTaiFung3.webp)
 ![DinTaiFung4](pix/DinTaiFung/DinTaiFung4.webp)
-![DinTaiFung5](pix/DinTaiFung/DinTaiFung5.webp)
+
+
+
 ![DinTaiFung8](pix/DinTaiFung/DinTaiFung8.webp)
 ![DinTaiFung9](pix/DinTaiFung/DinTaiFung9.webp)
 ![DinTaiFung10](pix/DinTaiFung/DinTaiFung10.webp)
