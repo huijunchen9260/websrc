@@ -2,7 +2,7 @@
 
 **Date:** June 12, 2025 — *Assateague Island National Park, Maryland*
 
-I still don't think I can pronounce *Assateague* correctly. Here is [how to pronounce it](https://www.howtopronounce.com/assateague)
+I still don't think I can pronounce *Assateague* correctly. Here is [how to pronounce it](https://www.howtopronounce.com/assateague).
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Assateague_people), the island is probably named after the Assateague people—a tribe that no longer exists.
 
