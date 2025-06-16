@@ -1,4 +1,4 @@
-# Din Tai Fung at New York City
+# Din Tai Fung in New York City
 
 **Date:** June 15, 2025 — *New York City, New York*
 
