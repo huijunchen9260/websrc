@@ -9,16 +9,12 @@ We found this place called **Matt’s Fish Camp**, and they had an amazing happy
 I’ve never seen prices like that before.
 So of course, we went there twice—once wasn’t enough. We went for both happy hour and dinner.
 
----
-
 ## Swordfish for Dinner
 
 We tried the swordfish as our main dish.
 It was meaty and lean. I personally liked it, but my partner wasn’t a fan.
 
 ![MattFI1](pix/MattFishCampFenwick/MattFI1.webp)
-
----
 
 ## Solving the "FI" Salmon Mystery
 
