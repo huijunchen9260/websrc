@@ -22,8 +22,8 @@
             firm-level frictions distort firms' investment <br>
             and affects aggregate response to shocks.</p>
             <p>I am an Assistant Professor of Economics at <br>
-                <a href="https://econ.site.nthu.edu.tw/?Lang=en">National Tsing Hua University</a> <br>
-            .</p>
+                <a href="https://econ.site.nthu.edu.tw/?Lang=en">National Tsing Hua University</a>.
+            </p>
             <table border=0 width="100%" ID="Table2" style="margin: 10px;">
                 <tr>
                     <td align="left">
