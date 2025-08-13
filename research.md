@@ -31,7 +31,7 @@
 ## Working Papers
 
 <!--- <span style="color:#07568e">Debt Financing, Used Capital Market and Capital Reallocation</span> - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)-->
-- *Debt Financing, Used Capital Markets and Capital Reallocation* - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)
+- *Debt Financing, Used Capital Markets and Capital Reallocation* - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/UsedK_slide.pdf)
 
     <dialog id="bibtex_UsedKWP2025">
     <pre>
