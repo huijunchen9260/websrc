@@ -1,4 +1,4 @@
-# Macroeconomics (I)
+# Macroeconomics (I), Autumn 2025
 
 Course number: 11410ECON309102
 
