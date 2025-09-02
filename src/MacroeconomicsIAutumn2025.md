@@ -34,7 +34,7 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Note on Julia](JuliaNote.html)
 - [Julia Syntax and Algorithm](pdf/NTHUMacroeconomics/JuliaSyntax/JuliaSyntax2.pdf)
 - [Review for Math](pdf/NTHUMacroeconomics/math/Final/math.pdf)
-- [Lecture 1: Introduction](pdf/NTHUMacroeconomics/Lecture_01/Final/Lecture_01.pdf)
+- [Lecture 1: Introduction](pdf/NTHUMacroeconomics/Lecture_01/Lecture_01.pdf)
     - Lucas critique:
         - [Wiki: Lucas critique](https://en.wikipedia.org/wiki/Lucas_critique)
     - Friedman critique:
