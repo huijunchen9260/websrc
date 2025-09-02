@@ -84,6 +84,8 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 
 ## Some Videos
 
+- [The Point of No Return' Ramin Karimloo & Sierra Boggess | The Phantom of The Opera](https://www.youtube.com/watch?v=6FpRjVPMOoM)
+- [Saint-Saëns: Melodie sans Paroles](https://www.youtube.com/watch?v=JAdj0pGFO7w)
 - [Terence Tao on how we measure the cosmos | Part 1](https://www.youtube.com/watch?v=YdOXS_9_P4U)
 
 ;tags: Teaching
