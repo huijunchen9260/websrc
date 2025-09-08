@@ -1,20 +1,25 @@
-# Note on Tikz
+# Note on Tikz and PGFplots
 
 <!-- vim-markdown-toc GFM -->
 
-* [Opinionated "Good" Habit when using Tikz](#opinionated-good-habit-when-using-tikz)
-* [Create a "bezier curve"](#create-a-bezier-curve)
-* [Define points on arbitrary curve](#define-points-on-arbitrary-curve)
-* [Get x and y coordinate of arbitrary point](#get-x-and-y-coordinate-of-arbitrary-point)
-* [Draw "tangent line" on curve](#draw-tangent-line-on-curve)
-* [Decoration: brace](#decoration-brace)
-* [Intersection between two curves](#intersection-between-two-curves)
-* [Change the font size of all node/label](#change-the-font-size-of-all-nodelabel)
-* [Calculation points](#calculation-points)
+* [Tikz related](#tikz-related)
+    * [Opinionated "Good" Habit when using Tikz](#opinionated-good-habit-when-using-tikz)
+    * [Create a "bezier curve"](#create-a-bezier-curve)
+    * [Define points on arbitrary curve](#define-points-on-arbitrary-curve)
+    * [Get x and y coordinate of arbitrary point](#get-x-and-y-coordinate-of-arbitrary-point)
+    * [Draw "tangent line" on curve](#draw-tangent-line-on-curve)
+    * [Decoration: brace](#decoration-brace)
+    * [Intersection between two curves](#intersection-between-two-curves)
+    * [Change the font size of all node/label](#change-the-font-size-of-all-nodelabel)
+    * [Calculation points](#calculation-points)
+* [PGFplots related](#pgfplots-related)
+    * [Get the dimension of the `axis` environment](#get-the-dimension-of-the-axis-environment)
 
 <!-- vim-markdown-toc -->
 
-## Opinionated "Good" Habit when using Tikz
+## Tikz related
+
+### Opinionated "Good" Habit when using Tikz
 
 - We can separate the definition of the desired point from the label of the point, e.g.:
 
@@ -36,7 +41,7 @@
     - Reason: You can directly use those named points to create paths.
 
 
-## Create a "bezier curve"
+### Create a "bezier curve"
 
 ```tex
 \draw (0, 0) to[bend right=40] (5, 5);
@@ -46,7 +51,7 @@ Can `bend right` or `bend left`, depends on from `(0, 0)` to `(5, 5)` or the oth
 
 `bend right=40` means the degree of bending.
 
-## Define points on arbitrary curve
+### Define points on arbitrary curve
 
 Here I use "bezier curve" as example.
 
@@ -59,7 +64,7 @@ Here I use "bezier curve" as example.
 The `pos` option in `node` defines what fraction of this curve should I put a point on it.
 This `node` is defined as `a`.
 
-## Get x and y coordinate of arbitrary point
+### Get x and y coordinate of arbitrary point
 
 Let the arbitrary be `a`.
 
@@ -75,7 +80,7 @@ Second, `\pgfgetlastxy` outputs the x-coordinate `\xcoord` and y-coordinate `\yc
 
 Finally, we can define the `a_x` and `a_y` points for the corresponding coordinate points.
 
-## Draw "tangent line" on curve
+### Draw "tangent line" on curve
 
 Here I use "bezier curve" as example.
 
@@ -93,7 +98,7 @@ Notice that I didn't draw the inner point at point `b`.
 
 When connecting two points, use negative number in `shorten` to actually extend the line out.
 
-## Decoration: brace
+### Decoration: brace
 
 Need to add `\usetikzlibrary{decorations.pathreplacing}` in preamble.
 
@@ -108,7 +113,7 @@ Need to add `\usetikzlibrary{decorations.pathreplacing}` in preamble.
 
 Need to modify `xshift` and `yshift` to micro-adjust the brace display.
 
-## Intersection between two curves
+### Intersection between two curves
 
 [Source](https://tex.stackexchange.com/a/531279)
 
@@ -133,7 +138,7 @@ Explanation:
 - Use `\path` to define the `name intersections`. `of` is to define the intersections between two paths, and `by` defines the name of the intersection.
 - Use `\node` to draw the point as `circle`. Can be other type.
 
-## Change the font size of all node/label
+### Change the font size of all node/label
 
 Simply use `\tikzstyle` is suffice:
 
@@ -144,7 +149,7 @@ Simply use `\tikzstyle` is suffice:
 \end{tikzpicture}
 ```
 
-## Calculation points
+### Calculation points
 
 Need to add `\usetikzlibrary{calc}`
 
@@ -201,6 +206,20 @@ The syntax of `calc` library is
 \end{tikzpicture}
 \end{document}
 ```
+## PGFplots related
 
+### Get the dimension of the `axis` environment
+
+This is useful to draw a vertical line or horizontal line in the `axis` environment.
+
+The code is `\pgfkeysvalueof{/pgfplots/variable}`. For example, `\pgfkeysvalueof{/pgfplots/xmin}` will give you the `xmin` variable value defined in `axis`.
+
+Examples:
+
+```tex
+\draw[color=blue, dashed] (1.0, \pgfkeysvalueof{/pgfplots/ymin}) -- (1.0, \pgfkeysvalueof{/pgfplots/ymax});
+```
+
+Will draw a blue dashed vertical line at $x = 1.0$.
 
 ;tags: Miscellaneous
