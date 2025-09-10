@@ -45,11 +45,11 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Lecture 2: Economic Aggregates](pdf/NTHUMacroeconomics/Lecture_02/Lecture_02.pdf)
     - [Chain-weighing: The New Approach to Measuring GDP (Current Issues in Economics and Finance)](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci1-9.pdf)
     - Answering Question: [The Long-Run Effects of Federal Budget Deficitson National Saving and Private Domestic Investment](https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/workingpaper/45140-NSPDI_workingPaper_1.pdf)
-- [Lecture 3: Business Cycle Measurement](pdf/NTHUMacroeconomics/Lecture_03/Final/Lecture_03.pdf)
+- [Lecture 3: Business Cycle Measurement](pdf/NTHUMacroeconomics/Lecture_03/Lecture_03.pdf)
     - Answering Question: What's the difference between correlation and beta in finance
         <!-- - [Correlation vs Beta: What is the difference and why does it matter?](https://www.mackenzieinvestments.com/content/dam/mackenzie/en/insights/wp-alts-correlation-vs-beta-en.pdf) -->
         - The concept of beta comes from the Capital Asset Pricing Model (CAPM), and this is a good review paper about it: [The Capital Asset Pricing Model](https://pubs.aeaweb.org/doi/pdfplus/10.1257/0895330042162340)
-- [Lecture 4: Representative Consumer, Preference and Constraints](pdf/NTHUMacroeconomics/Lecture_04/Final/Lecture_04.pdf)
+- [Lecture 4: Representative Consumer, Preference and Constraints](pdf/NTHUMacroeconomics/Lecture_04/Lecture_04.pdf)
     - [What Do You Want? - The Notebook (4/6) Movie CLIP (2004) HD](https://www.youtube.com/watch?v=E1I0hAxGFXw&)
 - [Lecture 5: Representative Consumer, Optimization and Application](pdf/NTHUMacroeconomics/Lecture_05/Lecture_05.pdf)
 - [Lecture 6: Numerical Example](pdf/NTHUMacroeconomics/Lecture_06/Lecture_06.pdf)
