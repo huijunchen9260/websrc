@@ -398,7 +398,7 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 
 blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header article_header tag_link_header tag_link tag_link_footer article_footer footer))
 	mkdir -p blog; \
-	TITLE="$(shell head -n1 $< | sed 's/^# \+//')"; \
+	TITLE="$(shell head -n1 $< | sed 's/^#\{1,\}[[:space:]]*//')"; \
 	export TITLE; \
 	PAGE_TITLE="$${TITLE} -- $(BLOG_TITLE)"; \
 	export PAGE_TITLE; \
