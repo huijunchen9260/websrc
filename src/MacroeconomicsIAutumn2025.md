@@ -14,12 +14,18 @@ Room: TSMC Building 224
 
 <!-- vim-markdown-toc Marked -->
 
+* [News](#news)
 * [Grade](#grade)
 * [Course Schedule](#course-schedule)
 * [Lecture Notes](#lecture-notes)
+* [Problem Sets](#problem-sets)
 * [Some Videos](#some-videos)
 
 <!-- vim-markdown-toc -->
+
+## News
+
+- September 11, 2025: Update Problem Set 1.
 
 ## Grade
 
@@ -75,9 +81,9 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 <!-- - [Final Review 1](pdf/NTHUMacroeconomics/finalreview_1.pdf) -->
 <!-- - [Final Review 2](pdf/NTHUMacroeconomics/finalreview_2.pdf) -->
 
-<!-- ## Problem Sets -->
-<!---->
-<!--  - [Problem Set 1](pdf/NTHUMacroeconomics/ProblemSet1/ProblemSet1.pdf) -->
+## Problem Sets
+
+ - [Problem Set 1](pdf/NTHUMacroeconomics/ProblemSet1/ProblemSet1_NTHU_Q.pdf)
 <!--  - [Problem Set 2](pdf/NTHUMacroeconomics/ProblemSet2/ProblemSet2.pdf) -->
 <!--  - [Problem Set 3](pdf/NTHUMacroeconomics/ProblemSet3/Final/ProblemSet3.pdf) -->
 <!--  - [Problem Set 4](pdf/NTHUMacroeconomics/ProblemSet4/Final/ProblemSet4.pdf) -->
