@@ -61,7 +61,7 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Lecture 6: Numerical Example](pdf/NTHUMacroeconomics/Lecture_06/Lecture_06.pdf)
 - [Lecture 7: Representative Firm](pdf/NTHUMacroeconomics/Lecture_07/Lecture_07.pdf)
 - [Lecture 8: Competitive Equilibrium, One-Period Model](pdf/NTHUMacroeconomics/Lecture_08/Lecture_08.pdf)
-- [Lecture 9: Social Planner's Problem](pdf/NTHUMacroeconomics/Lecture_09/Final/Lecture_09.pdf)
+- [Lecture 9: Social Planner's Problem](pdf/NTHUMacroeconomics/Lecture_09/Lecture_09.pdf)
 - [Lecture 10: Examples on Competitive Equilibrium and Social Planner's Problem](pdf/NTHUMacroeconomics/Lecture_10/Final/Lecture_10.pdf)
 - [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/NTHUMacroeconomics/Lecture_11/Final/Lecture_11.pdf)
 <!-- - [Midterm Review 1](pdf/NTHUMacroeconomics/midtermReview_1.pdf) -->
