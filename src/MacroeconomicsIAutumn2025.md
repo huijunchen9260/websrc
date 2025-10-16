@@ -63,7 +63,7 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Lecture 8: Competitive Equilibrium, One-Period Model](pdf/NTHUMacroeconomics/Lecture_08/Lecture_08.pdf)
 - [Lecture 9: Social Planner's Problem](pdf/NTHUMacroeconomics/Lecture_09/Lecture_09.pdf)
 - [Lecture 10: Examples on Competitive Equilibrium and Social Planner's Problem](pdf/NTHUMacroeconomics/Lecture_10/Lecture_10.pdf)
-- [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/NTHUMacroeconomics/Lecture_11/Final/Lecture_11.pdf)
+- [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/NTHUMacroeconomics/Lecture_11/Lecture_11.pdf)
 <!-- - [Midterm Review 1](pdf/NTHUMacroeconomics/midtermReview_1.pdf) -->
 <!-- - [Midterm Review 2](pdf/NTHUMacroeconomics/midtermReview_2.pdf) -->
 - [Lecture 12: Two-Period Consumer Problem](pdf/NTHUMacroeconomics/Lecture_12/Final/Lecture_12.pdf)
