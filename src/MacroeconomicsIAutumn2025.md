@@ -96,6 +96,7 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Oasis - Don’t Look Back In Anger](https://www.youtube.com/watch?v=cmpRLQZkTb8)
     - Ironically, and I quote, "Oasis broke up following a fight between Liam and Noel at the Rock en Seine festival near Paris on Aug. 28, 2009, which resulted in the show’s cancellation. That same day, Noel announced his departure from the band with a now-deleted statement on the Oasis website. "
     - [Reference](https://people.com/why-did-oasis-band-break-up-11768269#:~:text=Oasis%20broke%20up%20following%20a,statement%20on%20the%20Oasis%20website.)
+- [Jane Doe Cafe](https://www.youtube.com/watch?v=ewBHlFhocDA)
 - ["One Last Time" - Hamilton At The White House](https://www.youtube.com/watch?v=uV4UpCq2azs)
 - [Terence Tao on how we measure the cosmos | Part 1](https://www.youtube.com/watch?v=YdOXS_9_P4U)
 
