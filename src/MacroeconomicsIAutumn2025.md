@@ -66,9 +66,9 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 - [Lecture 11: Distorting Taxes and the Welfare Theorems](pdf/NTHUMacroeconomics/Lecture_11/Lecture_11.pdf)
 <!-- - [Midterm Review 1](pdf/NTHUMacroeconomics/midtermReview_1.pdf) -->
 <!-- - [Midterm Review 2](pdf/NTHUMacroeconomics/midtermReview_2.pdf) -->
-- [Lecture 12: Two-Period Consumer Problem](pdf/NTHUMacroeconomics/Lecture_12/Final/Lecture_12.pdf)
+- [Lecture 12: Two-Period Consumer Problem](pdf/NTHUMacroeconomics/Lecture_12/Lecture_12.pdf)
     - [Income taxes in Canada and the United States](https://www150.statcan.gc.ca/n1/en/pub/75-001-x/2000002/article/5071-eng.pdf?st=u5EgyaFN)
-- [Lecture 13: Competitive Equilibrium, Two-Period Model](pdf/NTHUMacroeconomics/Lecture_13/Final/Lecture_13.pdf)
+- [Lecture 13: Competitive Equilibrium, Two-Period Model](pdf/NTHUMacroeconomics/Lecture_13/Lecture_13.pdf)
 - [Lecture 14: The Real Business Cycle Model Part 1: Consumer](pdf/NTHUMacroeconomics/Lecture_14/Final/Lecture_14.pdf)
 - [Lecture 15: The Real Business Cycle Model Part 2: Firm](pdf/NTHUMacroeconomics/Lecture_15/Final/Lecture_15.pdf)
 - [Lecture 16: The Real Business Cycle Model Part 3: Competitive Equilibrium](pdf/NTHUMacroeconomics/Lecture_16/Lecture_16.pdf)
