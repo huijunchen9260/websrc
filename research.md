@@ -72,6 +72,12 @@ The rise in investment costs driven by financial shocks deepens the recessionary
         Taxes can only intensify the positive effect on house prices, although they can mitigate the adverse effects on welfare.
     </details>
 
+## Work in progress
+
+- *The Macroeconomics of Capital Durability*
+
+    with [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home), [Min Fang](https://www.minfang.info/), and [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home)
+
 ## Discussion
 
 - [Did Program Support for the Poorest Areas Work? Evidence from Rural Viet Nam](pdf/Discussion/Dang_Deininger_Nguyen_2024_discussion.pdf) by Hai-Anh H. Dang, Klaus Deininger, and Cuong Viet Nguyen
