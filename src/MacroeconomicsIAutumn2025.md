@@ -84,8 +84,8 @@ See [Course schedule](pdf/MacroeconomicsIAutumn2025/syllabus/syllabus.html#tenta
 ## Problem Sets
 
  - [Problem Set 1](pdf/NTHUMacroeconomics/ProblemSet1/ProblemSet1_NTHU_Q.pdf)
- - [Problem Set 2](../pdf/NTHUMacroeconomics/ProblemSet2/ProblemSet2_NTHU_Q.pdf)
-<!--  - [Problem Set 3](pdf/NTHUMacroeconomics/ProblemSet3/Final/ProblemSet3.pdf) -->
+ - [Problem Set 2](pdf/NTHUMacroeconomics/ProblemSet2/ProblemSet2_NTHU_Q.pdf)
+ - [Problem Set 3](pdf/NTHUMacroeconomics/ProblemSet3/ProblemSet3_NTHU_Q.pdf)
 <!--  - [Problem Set 4](pdf/NTHUMacroeconomics/ProblemSet4/Final/ProblemSet4.pdf) -->
 
 ## Some Videos
