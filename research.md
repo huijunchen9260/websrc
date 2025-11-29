@@ -80,6 +80,8 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
 ## Discussion
 
+- [Anti-corruption and Corporate Tax Avoidance: International Evidence](pdf/Discussion/Pan_2025_TEA_Discussion.pdf) by Wei-Fong Pan
+
 - [Did Program Support for the Poorest Areas Work? Evidence from Rural Viet Nam](pdf/Discussion/Dang_Deininger_Nguyen_2024_discussion.pdf) by Hai-Anh H. Dang, Klaus Deininger, and Cuong Viet Nguyen
 
     Society of Government Economists 2025 Annual Conference
