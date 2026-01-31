@@ -1,4 +1,5 @@
-## Job Market Paper
+<!-- ## Job Market Paper -->
+## Working Papers
 
 <!--- <span style="color:#07568e">Aggregate Implications of Corporate Taxation over the Business Cycle</span> - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)-->
 - *Aggregate Implications of Corporate Taxation over the Business Cycle* - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
@@ -28,7 +29,6 @@
         Furthermore, combining both policies reduces the overall effectiveness by 17 percent, revealing potential inefficiencies in current US tax policy implementation.
     </details>
 
-## Working Papers
 
 <!--- <span style="color:#07568e">Debt Financing, Used Capital Market and Capital Reallocation</span> - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)-->
 - *Debt Financing, Used Capital Markets and Capital Reallocation* - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/UsedK_slide.pdf)
@@ -76,7 +76,19 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
 - *The Macroeconomics of Capital Durability*
 
-    with [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home), [Min Fang](https://www.minfang.info/), and [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home)
+    <dialog id="bibtex_MacroDurability2026">
+    <pre>
+    @unpublished{MacroDurability2026,
+    author={Chen, Hui-Jun and Fang, Min and Gkikopoulos, Spyridon and Tsou, Chi-Yang},
+    title={The Macroeconomics of Capital Durability},
+    month={Jan},
+    year={2026}
+    }</pre>
+    <button onclick="document.getElementById('bibtex_MacroDurability2026').close()">Close</button>
+    </dialog>
+    <button onclick="document.getElementById('bibtex_MacroDurability2026').showModal()">Bibtex</button>
+
+    with [Min Fang](https://www.minfang.info/), [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home), and [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home)
 
 ## Discussion
 
