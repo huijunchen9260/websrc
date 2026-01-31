@@ -90,6 +90,10 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
     with [Min Fang](https://www.minfang.info/), [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home), and [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home)
 
+    **Conference**: The 4th Tokyo-Taipei-Seoul Macroeconomics Network Workshop
+
+    **Seminars**: University of Manchester Alliance Business School; Free University of Bozen-Bolzano (scheduled); Academia Sinica  (Scheduled)
+
 ## Discussion
 
 - [Anti-corruption and Corporate Tax Avoidance: International Evidence](pdf/Discussion/Pan_2025_TEA_Discussion.pdf) by Wei-Fong Pan
