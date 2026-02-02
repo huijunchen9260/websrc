@@ -58,6 +58,18 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 <!--- <span style="color:#07568e">The Effects of Loan-to-value Ratio Ceilings on House Prices</span> - [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908), [Slide](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)-->
 - *The Effects of Loan-to-value Ratio Ceilings on House Prices* - [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3943908), [Slide](pdf/LTVHousingPrice/Houseprice_slides_HJChen_SungminPark_Nov042022_NOEWorkshop.pdf)
 
+    <dialog id="bibtex_ChenPark_LTV_House_Price">
+    <pre>
+    @unpublished{ChenPark_LTV_House_Price,
+    author={Chen, Hui-Jun and Park, Sungmin},
+    title={The Effects of Loan-to-value Ratio Ceilings on House Prices},
+    month={July},
+    year={2025}
+    }</pre>
+    <button onclick="document.getElementById('bibtex_ChenPark_LTV_House_Price').close()">Close</button>
+    </dialog>
+    <button onclick="document.getElementById('bibtex_ChenPark_LTV_House_Price').showModal()">Bibtex</button>
+
     with [Sungmin Park](https://www.sungminparkecon.com/)
 
     **Present at**: Northeast Ohio Economics Workshop 2022 (Cleveland Fed), Midwest Economics Association Annual Meetings 2022
@@ -97,6 +109,8 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 ## Discussion
 
 - [Anti-corruption and Corporate Tax Avoidance: International Evidence](pdf/Discussion/Pan_2025_TEA_Discussion.pdf) by Wei-Fong Pan
+
+    Taiwan Economics Association Annual Meeting 2025
 
 - [Did Program Support for the Poorest Areas Work? Evidence from Rural Viet Nam](pdf/Discussion/Dang_Deininger_Nguyen_2024_discussion.pdf) by Hai-Anh H. Dang, Klaus Deininger, and Cuong Viet Nguyen
 
