@@ -86,7 +86,7 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
 ## Work in progress
 
-- *The Macroeconomics of Capital Durability*
+- *The Macroeconomics of Capital Durability* - [Slide](pdf/DurabilityPaper/Slide_Presentation_2026_HJ.pdf)
 
     <dialog id="bibtex_MacroDurability2026">
     <pre>
