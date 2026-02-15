@@ -1,4 +1,4 @@
-\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-10000}{QQ2-1-1}{EMPLOYMENT}}{1}\relax 
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-20000}{QQ2-1-2}{EDUCATION}}{1}\relax 
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-30000}{QQ2-1-3}{WORKING PAPER}}{1}\relax 
@@ -8,4 +8,3 @@
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-70000}{QQ2-1-7}{HONORS}}{2}\relax 
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-80000}{QQ2-1-8}{LANGUAGE AND SOFTWARE SKILLS}}{3}\relax 
 \doTocEntry\tocsection{0}{\csname a:TocLink\endcsname{1}{x1-90000}{QQ2-1-9}{REFERENCE}}{3}\relax 
-\par 
