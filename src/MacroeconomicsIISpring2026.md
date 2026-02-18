@@ -31,6 +31,11 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 
 ## Lecture Notes
 
+- [Inflation](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/698bcfb28df6d203ef980694/1770770354896/brunner_lecture.pdf)
+    - by John H. Cochrane, a main theme for this lecture. The structure is based on this book.
+- [Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
+- [Lecture 2](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
+
 
 ## Problem Sets
 
