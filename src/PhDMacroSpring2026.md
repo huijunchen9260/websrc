@@ -17,6 +17,7 @@ Room: TSMC Building 732
 * [Grade](#grade)
 * [Course Schedule](#course-schedule)
 * [Lecture Notes](#lecture-notes)
+* [Reference](#reference)
 * [Problem Sets](#problem-sets)
 
 <!-- vim-markdown-toc -->
@@ -34,6 +35,10 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 - [Lecture 1: Introduction](pdf/PhDMacroSlides/Lecture1/Lecture1.pdf)
 - [Lecture 2: Three representation](pdf/PhDMacroSlides/Lecture2/Lecture2.pdf)
 - [Lecture 3: Dynamic Programming](pdf/PhDMacroSlides/Lecture3/Lecture3.pdf)
+
+## Reference
+
+- Some of the Dynamic Programming notes come from Fatih Guvenen's [Computational Method](https://www.fatihguvenen.com/phd-computational-methods)
 
 ## Problem Sets
 
