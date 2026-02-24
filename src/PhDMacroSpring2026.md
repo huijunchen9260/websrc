@@ -1,7 +1,5 @@
 # Seminar on Macroeconomics, Spring 2026
 
-Course number: TBA
-
 Time: W3W4Wn
 
 Room: TSMC Building 732
