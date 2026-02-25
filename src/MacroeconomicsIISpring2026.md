@@ -31,6 +31,8 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 
 - [Inflation](https://www.johnhcochrane.com/research-all/inflation)
     - by John H. Cochrane, a main theme for this lecture. The structure is based on this book.
+- [The Fiscal Theory of the Price Level](https://www.johnhcochrane.com/research-all/the-fiscal-theory-of-the-price-level-1)
+    - by John H. Cochrane, should be the full-blown version of the [Inflation](https://www.johnhcochrane.com/research-all/inflation) book.
 - [Lecture 1: Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
 - [Lecture 2: From RBC to IS-LM](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
 
