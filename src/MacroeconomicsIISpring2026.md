@@ -29,7 +29,7 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 
 ## Lecture Notes
 
-- [Inflation](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/698bcfb28df6d203ef980694/1770770354896/brunner_lecture.pdf)
+- [Inflation](https://www.johnhcochrane.com/research-all/inflation)
     - by John H. Cochrane, a main theme for this lecture. The structure is based on this book.
 - [Lecture 1: Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
 - [Lecture 2: From RBC to IS-LM](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
