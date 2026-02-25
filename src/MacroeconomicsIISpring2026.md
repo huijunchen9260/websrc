@@ -1,7 +1,5 @@
 # Macroeconomics (II), Spring 2026
 
-Course number: TBA
-
 Time: R3R4Rn
 
 Room: TSMC Building 224
