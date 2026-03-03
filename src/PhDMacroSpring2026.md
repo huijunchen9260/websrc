@@ -33,6 +33,7 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 - [Lecture 1: Introduction](pdf/PhDMacroSlides/Lecture1/Lecture1.pdf)
 - [Lecture 2: Three representation](pdf/PhDMacroSlides/Lecture2/Lecture2.pdf)
 - [Lecture 3: Dynamic Programming](pdf/PhDMacroSlides/Lecture3/Lecture3.pdf)
+- [Lecture 4: One-side Labor Search Model](pdf/PhDMacroSlides/Lecture4/Lecture4.pdf)
 
 ## Reference
 
