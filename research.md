@@ -79,7 +79,7 @@ The rise in investment costs driven by financial shocks deepens the recessionary
     **Seminars**: University of Manchester Alliance Business School; Free University of Bozen-Bolzano (scheduled); Academia Sinica  (Scheduled)
 
 
-- *Tax Code and Fiscal Investment Frictions*
+- *Tax Code and Fiscal Investment Friction*
     - Previously circulated as "Aggregate Implications of Corporate Taxation over the Business Cycle"
     - [Old Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Old Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Old Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
 
@@ -87,7 +87,7 @@ The rise in investment costs driven by financial shocks deepens the recessionary
     <pre>
     @unpublished{ChenGkikopoulosFiscal2026,
     author={Chen, Hui-Jun and Gkikopoulos, Spyridon},
-    title={Tax Code and Fiscal Investment Frictions},
+    title={Tax Code and Fiscal Investment Friction},
     month={July},
     year={2026}
     }</pre>
