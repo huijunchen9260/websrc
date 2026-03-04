@@ -2,19 +2,25 @@
 ## Working Papers
 
 <!--- <span style="color:#07568e">Aggregate Implications of Corporate Taxation over the Business Cycle</span> - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)-->
-- *Aggregate Implications of Corporate Taxation over the Business Cycle* - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
+- *Tax Code and Fiscal Investment Frictions*
+    - Previously circulated as "Aggregate Implications of Corporate Taxation over the Business Cycle"
+    - [Old Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Old Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Old Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
 
-    <dialog id="bibtex_JMP2025">
+
+
+    <dialog id="bibtex_FiscalFriction2026">
     <pre>
-    @unpublished{ChenTaxation2025WP,
-    author={Chen, Hui-Jun},
-    title={Aggregate Implications of Corporate Taxation over the Business Cycle},
-    month={Mar},
-    year={2025}
+    @unpublished{ChenGkikopoulosFiscal2026,
+    author={Chen, Hui-Jun and Gkikopoulos, Spyridon},
+    title={Tax Code and Fiscal Investment Frictions},
+    month={July},
+    year={2026}
     }</pre>
     <button onclick="document.getElementById('bibtex_JMP2025').close()">Close</button>
     </dialog>
     <button onclick="document.getElementById('bibtex_JMP2025').showModal()">Bibtex</button>
+
+    with [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home)
 
     **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
 
