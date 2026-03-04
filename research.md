@@ -2,40 +2,6 @@
 ## Working Papers
 
 <!--- <span style="color:#07568e">Aggregate Implications of Corporate Taxation over the Business Cycle</span> - [Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf)-->
-- *Tax Code and Fiscal Investment Frictions*
-    - Previously circulated as "Aggregate Implications of Corporate Taxation over the Business Cycle"
-    - [Old Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Old Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Old Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
-
-
-
-    <dialog id="bibtex_FiscalFriction2026">
-    <pre>
-    @unpublished{ChenGkikopoulosFiscal2026,
-    author={Chen, Hui-Jun and Gkikopoulos, Spyridon},
-    title={Tax Code and Fiscal Investment Frictions},
-    month={July},
-    year={2026}
-    }</pre>
-    <button onclick="document.getElementById('bibtex_JMP2025').close()">Close</button>
-    </dialog>
-    <button onclick="document.getElementById('bibtex_JMP2025').showModal()">Bibtex</button>
-
-    with [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home)
-
-    **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
-
-    <details>
-        <summary>Abstract</summary>
-        Corporate tax deductions are widely employed as countercyclical policies, yet their impact on the business cycle and interactions with other policies remain largely understudied.
-        I examine the cyclical implications of such deductions by developing a novel dynamic stochastic general equilibrium model in which firms face credit market imperfections and idiosyncratic productivity shocks.
-        In my model, firms' investment decisions are distorted by collateralized borrowing and corporate taxation, and investment expenditures can be deducted from taxable income through targeted or untargeted accelerated depreciation policies.
-        My model quantitatively replicates empirical estimates of the distribution of short-run elasticities of investment across firm size to changes in deduction policies.
-        I show that raising deductions can reduce the severity and persistence of recessions by alleviating capital misallocation for productive firms.
-        Applying my model to the policies in the US 2017 Tax Cuts and Jobs Act, I find that the targeted policy is 30 percent more effective than the untargeted policy in stimulating aggregate output.
-        Furthermore, combining both policies reduces the overall effectiveness by 17 percent, revealing potential inefficiencies in current US tax policy implementation.
-    </details>
-
-
 <!--- <span style="color:#07568e">Debt Financing, Used Capital Market and Capital Reallocation</span> - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/20230519MMMPresentation.pdf)-->
 - *Debt Financing, Used Capital Markets and Capital Reallocation* - [Paper](pdf/UsedKCollateral/UsedKCollateral.pdf), [Slide](pdf/UsedKCollateral/UsedK_slide.pdf)
 
@@ -111,6 +77,40 @@ The rise in investment costs driven by financial shocks deepens the recessionary
     **Conference**: The 4th Tokyo-Taipei-Seoul Macroeconomics Network Workshop
 
     **Seminars**: University of Manchester Alliance Business School; Free University of Bozen-Bolzano (scheduled); Academia Sinica  (Scheduled)
+
+
+- *Tax Code and Fiscal Investment Frictions*
+    - Previously circulated as "Aggregate Implications of Corporate Taxation over the Business Cycle"
+    - [Old Paper](pdf/BonusDepreciation/bonusdepreciation_paper.pdf), [Old Slide](pdf/BonusDepreciation/bonusdepreciation_slide.pdf), [Old Short Slide](pdf/BonusDepreciation/bonusdepreciation_slide_short.pdf)
+
+    <dialog id="bibtex_FiscalFriction2026">
+    <pre>
+    @unpublished{ChenGkikopoulosFiscal2026,
+    author={Chen, Hui-Jun and Gkikopoulos, Spyridon},
+    title={Tax Code and Fiscal Investment Frictions},
+    month={July},
+    year={2026}
+    }</pre>
+    <button onclick="document.getElementById('bibtex_FiscalFriction2026').close()">Close</button>
+    </dialog>
+    <button onclick="document.getElementById('bibtex_FiscalFriction2026').showModal()">Bibtex</button>
+
+    with [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home)
+
+    **Present at**: CES North America Annual Conference 2024, Canadian Economics Association Annual Conference 2024, Taiwan Economics Research 2024, Midwest Macro Meeting 2024 (Purdue), Northeast Ohio Economics Workshop 2024 (Cleveland Fed), Society of Government Economists 2025 Annual Conference
+
+    <details>
+        <summary>Abstract</summary>
+        Corporate tax deductions are widely employed as countercyclical policies, yet their impact on the business cycle and interactions with other policies remain largely understudied.
+        I examine the cyclical implications of such deductions by developing a novel dynamic stochastic general equilibrium model in which firms face credit market imperfections and idiosyncratic productivity shocks.
+        In my model, firms' investment decisions are distorted by collateralized borrowing and corporate taxation, and investment expenditures can be deducted from taxable income through targeted or untargeted accelerated depreciation policies.
+        My model quantitatively replicates empirical estimates of the distribution of short-run elasticities of investment across firm size to changes in deduction policies.
+        I show that raising deductions can reduce the severity and persistence of recessions by alleviating capital misallocation for productive firms.
+        Applying my model to the policies in the US 2017 Tax Cuts and Jobs Act, I find that the targeted policy is 30 percent more effective than the untargeted policy in stimulating aggregate output.
+        Furthermore, combining both policies reduces the overall effectiveness by 17 percent, revealing potential inefficiencies in current US tax policy implementation.
+    </details>
+
+
 
 ## Discussion
 
