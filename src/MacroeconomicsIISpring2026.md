@@ -35,7 +35,7 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
     - by John H. Cochrane, should be the full-blown version of the [Inflation](https://www.johnhcochrane.com/research-all/inflation) book.
 - [Lecture 1: Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
 - [Lecture 2: From RBC to IS-LM](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
-- [Lecture 3: AS-AD](../pdf/NTHUMacroeconomicsII/Lecture3/Lecture3.pdf)
+- [Lecture 3: AS-AD](../pdf/NTHUMacroeconomicsII/Lecture3/Lecture3_ADAS.pdf)
 
 
 ## Problem Sets
