@@ -38,6 +38,7 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 ## Reference
 
 - Some of the Dynamic Programming notes come from Fatih Guvenen's [Computational Method](https://www.fatihguvenen.com/phd-computational-methods)
+- The models are adopted from the lecture slides by Julia Thomas.
 
 ## Problem Sets
 
