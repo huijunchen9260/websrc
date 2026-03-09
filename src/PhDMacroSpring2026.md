@@ -16,6 +16,7 @@ Room: TSMC Building 732
 * [Course Schedule](#course-schedule)
 * [Lecture Notes](#lecture-notes)
 * [Reference](#reference)
+* [Fun stuff](#fun-stuff)
 * [Problem Sets](#problem-sets)
 
 <!-- vim-markdown-toc -->
@@ -40,6 +41,11 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 
 - Some of the Dynamic Programming notes come from Fatih Guvenen's [Computational Method](https://www.fatihguvenen.com/phd-computational-methods)
 - The models are adopted from the lecture slides by Julia Thomas.
+
+## Fun stuff
+
+- [Do looks matter for an academic career in economics?](https://www.sciencedirect.com/science/article/pii/S016726812300344X)
+    - Yes, at least partially!
 
 ## Problem Sets
 
