@@ -36,10 +36,11 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 - [Lecture 1: Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
 - [Lecture 2: From RBC to IS-LM](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
 - [Lecture 3: AS-AD](../pdf/NTHUMacroeconomicsII/Lecture3/Lecture3_ADAS.pdf)
-
+- [Lecture 4: Old-Keynesian Inflation Dynamics](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_Inflation_Dynamics.pdf)
 
 ## Problem Sets
 
+- [Problem Set 1](../pdf/NTHUMacroeconomicsII/ProblemSet1/ProblemSet1_Q.pdf)
 
 ;tags: Teaching
 
