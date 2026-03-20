@@ -36,7 +36,9 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 - [Lecture 1: Introduction](../pdf/NTHUMacroeconomicsII/Introduction/Introduction.pdf)
 - [Lecture 2: From RBC to IS-LM](../pdf/NTHUMacroeconomicsII/Lecture2/Lecture2.pdf)
 - [Lecture 3: AS-AD](../pdf/NTHUMacroeconomicsII/Lecture3/Lecture3_ADAS.pdf)
-- [Lecture 4: Old-Keynesian Inflation Dynamics](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_Inflation_Dynamics.pdf)
+- [Lecture 4: Math Formulation of AS-AD](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_ADAS_Math.pdf)
+    - Formulated by John Richard Hicks, [Mr. Keynes and the "Classics"; A Suggested Interpretation](../pdf/NTHUMacroeconomicsII/Lecture4/Hicks.pdf)
+- [Lecture 6: Old-Keynesian Inflation Dynamics](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_Inflation_Dynamics.pdf)
 
 ## Problem Sets
 
