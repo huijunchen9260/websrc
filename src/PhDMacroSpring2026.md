@@ -35,6 +35,8 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 - [Lecture 2: Three representation](pdf/PhDMacroSlides/Lecture2/Lecture2.pdf)
 - [Lecture 3: Dynamic Programming](pdf/PhDMacroSlides/Lecture3/Lecture3.pdf)
 - [Lecture 4: One-side Labor Search Model](pdf/PhDMacroSlides/Lecture4/Lecture4.pdf)
+    - [The Blessings of Overparameterization: Applications in Solving Economic Models](https://www.sas.upenn.edu/~jesusfv/Blessings_JHU.pdf)
+        - Amazing Applications in using machine learning to solve the McCall Labor Search Model
 - [Lecture 5: Two-side Labor Search Model](pdf/PhDMacroSlides/Lecture5/Lecture5.pdf)
 
 ## Reference
