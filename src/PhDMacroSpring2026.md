@@ -38,6 +38,8 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
     - [The Blessings of Overparameterization: Applications in Solving Economic Models](https://www.sas.upenn.edu/~jesusfv/Blessings_JHU.pdf)
         - Amazing Applications in using machine learning to solve the McCall Labor Search Model
 - [Lecture 5: Two-side Labor Search Model](pdf/PhDMacroSlides/Lecture5/Lecture5.pdf)
+- [Lecture 6: Asset Pricing in Endowment Economy](pdf/PhDMacroSlides/AssetPricingEndowment/AssetPricingEndowment.pdf)
+- [Lecture 7: Asset Pricing in Production Economy](pdf/PhDMacroSlides/AssetPricingProduction/AssetPricingProduction.pdf)
 
 ## Reference
 
