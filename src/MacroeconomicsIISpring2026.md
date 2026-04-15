@@ -15,7 +15,6 @@ Room: TSMC Building 224
 * [Grade](#grade)
 * [Course Schedule](#course-schedule)
 * [Lecture Notes](#lecture-notes)
-* [- [Lecture 6: Analysis on IS-MP-PC Model (Old-Keynesian)](../pdf/PhDMacroSlides/Analysis_IS_MP_PC.pdf)](#--[lecture-6:-analysis-on-is-mp-pc-model-(old-keynesian)](../pdf/phdmacroslides/analysis_is_mp_pc.pdf))
 * [Reference](#reference)
 * [Problem Sets](#problem-sets)
 
@@ -42,7 +41,7 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
     - Formulated by John Richard Hicks, [Mr. Keynes and the "Classics"; A Suggested Interpretation](../pdf/NTHUMacroeconomicsII/Lecture4/Hicks.pdf)
 - [Lecture 5: Introduction to IS-MP-PC Model (Old-Keynesian)](pdf/PhDMacroSlides/Intro_IS_MP_PC.pdf)
 - [Lecture 6: Analysis on IS-MP-PC Model (Old-Keynesian)](../pdf/PhDMacroSlides/Analysis_IS_MP_PC.pdf)
--
+
 <!-- - [Lecture 6: Old-Keynesian Inflation Dynamics](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_Inflation_Dynamics.pdf) -->
 
 ## Reference
