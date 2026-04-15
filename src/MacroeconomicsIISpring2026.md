@@ -17,6 +17,7 @@ Room: TSMC Building 224
 * [Lecture Notes](#lecture-notes)
 * [Reference](#reference)
 * [Problem Sets](#problem-sets)
+* [Fun stuff](#fun-stuff)
 
 <!-- vim-markdown-toc -->
 
@@ -51,6 +52,10 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 ## Problem Sets
 
 - [Problem Set 1](../pdf/NTHUMacroeconomicsII/ProblemSet1/ProblemSet1_Q.pdf)
+
+## Fun stuff
+
+- [Il Mondo - Jimmy Fontana](https://www.youtube.com/watch?v=vu-iNE_xD9I&list=RDvu-iNE_xD9I&start_radio=1)
 
 ;tags: Teaching
 
