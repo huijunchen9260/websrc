@@ -40,8 +40,8 @@ See [Course schedule](pdf/MacroeconomicsIISpring2026/syllabus/syllabus.html#tent
 - [Lecture 3: AS-AD](../pdf/NTHUMacroeconomicsII/Lecture3/Lecture3_ADAS.pdf)
 - [Lecture 4: Math Formulation of AS-AD](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_ADAS_Math_ISMP.pdf)
     - Formulated by John Richard Hicks, [Mr. Keynes and the "Classics"; A Suggested Interpretation](../pdf/NTHUMacroeconomicsII/Lecture4/Hicks.pdf)
-- [Lecture 5: Introduction to IS-MP-PC Model (Old-Keynesian)](pdf/PhDMacroSlides/Intro_IS_MP_PC.pdf)
-- [Lecture 6: Analysis on IS-MP-PC Model (Old-Keynesian)](../pdf/PhDMacroSlides/Analysis_IS_MP_PC.pdf)
+- [Lecture 5: Introduction to IS-MP-PC Model (Old-Keynesian)](../pdf/NTHUMacroeconomicsII/Intro_IS_MP_PC.pdf)
+- [Lecture 6: Analysis on IS-MP-PC Model (Old-Keynesian)](../pdf/NTHUMacroeconomicsII/Analysis_IS_MP_PC.pdf)
 
 <!-- - [Lecture 6: Old-Keynesian Inflation Dynamics](../pdf/NTHUMacroeconomicsII/Lecture4/Lecture4_Inflation_Dynamics.pdf) -->
 
