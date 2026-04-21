@@ -40,6 +40,8 @@ See [Course schedule](pdf/PhDMacroSpring2026/syllabus/syllabus.html#tentative-co
 - [Lecture 5: Two-side Labor Search Model](pdf/PhDMacroSlides/Lecture5/Lecture5.pdf)
 - [Lecture 6: Asset Pricing in Endowment Economy](pdf/PhDMacroSlides/AssetPricingEndowment/AssetPricingEndowment.pdf)
 - [Lecture 7: Asset Pricing in Production Economy](pdf/PhDMacroSlides/AssetPricingProduction/AssetPricingProduction.pdf)
+- [Lecture 8: Real Business Cycle Facts and HP Filter](pdf/PhDMacroSlides/RBC/RBC_Topic1A_Facts_HP.pdf)
+- [Lecture 9: Real Business Cycle Model](pdf/PhDMacroSlides/RBC/RBC_Topic1BC_RBC_Intro_Growth.pdf)
 
 ## Reference
 
