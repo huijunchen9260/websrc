@@ -58,26 +58,26 @@ The rise in investment costs driven by financial shocks deepens the recessionary
 
 ## Work in progress
 
-- *The Macroeconomics of Capital Durability*
-<!-- - [Slide](pdf/DurabilityPaper/Slide_Presentation_2026_HJ.pdf) -->
+<!-- - *The Macroeconomics of Capital Durability* -->
+<!-- <!-1- - [Slide](pdf/DurabilityPaper/Slide_Presentation_2026_HJ.pdf) -1-> -->
 
-    <dialog id="bibtex_MacroDurability2026">
-    <pre>
-    @unpublished{MacroDurability2026,
-    author={Chen, Hui-Jun and Fang, Min and Gkikopoulos, Spyridon and Tsou, Chi-Yang},
-    title={The Macroeconomics of Capital Durability},
-    month={Jan},
-    year={2026}
-    }</pre>
-    <button onclick="document.getElementById('bibtex_MacroDurability2026').close()">Close</button>
-    </dialog>
-    <button onclick="document.getElementById('bibtex_MacroDurability2026').showModal()">Bibtex</button>
+<!--     <dialog id="bibtex_MacroDurability2026"> -->
+<!--     <pre> -->
+<!--     @unpublished{MacroDurability2026, -->
+<!--     author={Chen, Hui-Jun and Fang, Min and Gkikopoulos, Spyridon and Tsou, Chi-Yang}, -->
+<!--     title={The Macroeconomics of Capital Durability}, -->
+<!--     month={Jan}, -->
+<!--     year={2026} -->
+<!--     }</pre> -->
+<!--     <button onclick="document.getElementById('bibtex_MacroDurability2026').close()">Close</button> -->
+<!--     </dialog> -->
+<!--     <button onclick="document.getElementById('bibtex_MacroDurability2026').showModal()">Bibtex</button> -->
 
-    with [Min Fang](https://www.minfang.info/), [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home), and [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home)
+<!--     with [Min Fang](https://www.minfang.info/), [Spyridon Gkikopoulos](https://sites.google.com/view/spyridongkikopoulos/home), and [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home) -->
 
-    **Conference**: The 4th Tokyo-Taipei-Seoul Macroeconomics Network Workshop
+<!--     **Conference**: The 4th Tokyo-Taipei-Seoul Macroeconomics Network Workshop -->
 
-    **Seminars**: University of Manchester Alliance Business School; Free University of Bozen-Bolzano (scheduled); Academia Sinica  (Scheduled)
+<!--     **Seminars**: University of Manchester Alliance Business School; Free University of Bozen-Bolzano (scheduled); Academia Sinica  (Scheduled) -->
 
 
 - *Tax Code and Fiscal Investment Friction*
