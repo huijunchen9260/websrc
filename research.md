@@ -111,7 +111,9 @@ The rise in investment costs driven by financial shocks deepens the recessionary
         Furthermore, combining both policies reduces the overall effectiveness by 17 percent, revealing potential inefficiencies in current US tax policy implementation.
     </details>
 
+- *The Economics of Pollution Abatement Over the Life Cycle of Firms*
 
+    with [Min Fang](https://www.minfang.info/), [Po-Hsuan Hsu](https://oir.site.nthu.edu.tw/p/412-1487-18850.php), and [Chi-Yang Tsou](https://sites.google.com/view/chiyangtsou/home)
 
 ## Discussion
 
